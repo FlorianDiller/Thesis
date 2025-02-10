@@ -1,0 +1,198 @@
+\chapter{Omnipresent In-Situ Feedback for Motor Skill Training using AR \label{chap:omnipresent}}
+According to the World Confederation for Physical Therapy, 1,962,741 physical therapists practice worldwide. Europe in particular has the highest rate of physiotherapists with 13.5 per 10,000 people~\cite{worldphysiotherapy2023global}. This may be attributed to the fact that 20\% of people globally suffer from chronic pain \cite{treede2015classification}. With computer science advancing, technology can increasingly support therapists and clients during therapy. For instance, superimposing virtual content onto the user's perception, as common in mixed reality, can assist during physical therapy or exercise to facilitate the correct execution of motion \cite{brepohl2023virtual},\cite{campo2021immersive},\cite{diller2022vcb}.
+
+Throughout the literature, we see the use of head-mounted displays (HMDs) to provide feedback for physical therapy and exercise. On the one hand, these technologies present many challenges to overcome. For example, the first-person perspective of HMDs limits the user’s view of the user's body parts. On the other hand, HMDs offer solutions to problems that occur, when providing visual feedback during physical therapy and exercise. For instance, providing visual feedback in a manner that allows users to maintain a neutral head position is challenging. However, if the feedback can only be perceived on a wall-mounted display, users are forced to change their head position, and this --- in the worst case --- inhibits the execution of the correct movements. This can bear serious consequences, such as becoming accustomed to incorrect exercise movement, possibly even leading to injury. For instance, when executing squats correctly, the spine is meant to stay straight. Feedback provided on a room-mounted display (RMD) can force the user to bend or twist the neck (and with it the spine) to see the feedback. Therefore, the exercise becomes uncomfortable, the execution can become incorrect, and thus the risk of injury can rise --- especially when performing the exercise with free weights (e.g. barbell). Alternatively, if the exercise is executed correctly and securely, the feedback via RMD might not be in the user's field of view.
+
+When the motion feedback is provided on an HMD, the user can execute the movements in a way that is correct, comfortable, and non-injurious. Since the display is mounted on the head, the visual cues can adapt to the head position and the view direction and thus be omnipresent. In this chapter, we present the novel approach \emph{SkillAR} to provide such omnipresent, in-situ and corrective feedback (as specified for example by \cite{hattie:2007:Feedback} and \cite{Lysakowski:1982:Feedback}), which adapts to the user's movements, and hence can facilitate an organic and healthy exercise performance. Additionally, we present the results of a user study verifying that SkillAR has no additional disadvantages compared to a conventional screen.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{pictures/PointOfView.PNG}
+	\caption{A person exercising with a ball. Exocentric (left) and egocentric (right) view types with possible target movement (feedback) in transparent green and the actual movement in blue.\label{fig:omnipresent:POV}}
+\end{figure}
+
+\subsection{Point of View in Motor Feedback\label{sec:omnipresent:POV}}
+When considering motion feedback, the \emph{point of view} plays an important role. A first-person perspective (\autoref{fig:omnipresent:POV}, right) provides an immersive and natural viewpoint, as we usually experience the world from this angle. However, the foreshortening deriving from this perspective can make it difficult to perceive the spatial positioning of limbs. Furthermore, some body parts, like the back, can simply not be observed from this limited viewpoint. 
+Optical see-through HMDs --- as are used in this chapter --- always provide the natural first-person perspective in addition to any other feedback types, that are superimposed.
+
+Alternatively, a common way to display motion feedback is a third-person perspective (\autoref{fig:omnipresent:POV}, left). This gives the user an overview of his or her body in space. The relation of all limbs becomes clear and deviations from the correct form can be adjusted accordingly. Therefore, Rymal et al and Ste-Marie~\cite{rymal2009dsm} discovered that an exocentric view of an exercise can help athletes improve their ability to mentally visualize the motion, which can lead to learning new skills or improving performance~\cite{white1998ida}. Moreover, we discovered in a survey~\cite{diller2022vcb} that a third-person view is predominantly used in current literature when providing visual feedback for motor skills.
+
+\subsection{Common Visual Feedback Technologies} %Methods?
+The most common tool to obtain a full-body view (i.e. third person / exocentric as seen in \autoref{fig:omnipresent:POV} and explained in~\autoref{sec:omnipresent:POV}) is the mirror. Ballet dancers and their instructors have utilized mirrors to acquire simple visual feedback since the 19th century~\cite{desmond1997mim}. Likewise, mirrors are to be found in fitness studios and physiotherapy studios all over the world. Furthermore, it is possible to enhance the natural feedback of the mirror with technology. Such enhancements often lead to smart mirrors, which can assist with correct exercise execution (e.g. \cite{kim2020rtm}, \cite{park2021ued}). Moreover, some approaches use the mirror metaphor in a virtual reality (VR) setting to create an intuitive feedback system (e.g. \cite{waltemate2016tlp}, \cite{huelsmann2019ssp}). These so-called \emph{virtual mirrors} are additionally often used to increase the sense of embodiment \cite{inoue2021virtual}, \cite{gonzalesfranco2010contribution}.
+
+Equally important in recent research are conventional displays. Especially in connection with mobile devices or computers, displays are able to provide visual feedback for motor skill training. In some instances, RMDs mimic the function of mirrors. These approaches are commonly described as \emph{augmented mirrors}. For example, Anderson et al.~\cite{anderson2013youmove} visualize an actual avatar and a target avatar on a room-scale display in addition to a camera stream. Likewise, Trajkova et al.~\cite{trajkova2018ttb} provide feedback as a mirrored camera stream with superimposed feedback.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{pictures/HoloLensScreenshot.jpg}
+	\caption{Screenshot of the motor feedback provided by SkillAR via HMD. \label{fig:screen}}
+\end{figure}
+
+
+\section{Related Work}
+Several approaches addressed the limitations of the first-person perspective in HMDs as described in \autoref{sec:omnipresent:POV} when providing motion feedback. For example, Chua et al.\cite{chua2003tpt} provided feedback for tai chi displaying several redundant exocentric feedback avatars around the user. This solved the visibility issue when moving the head, i.e. changing the view direction in the first-person perspective in VR. Additionally, the approach explored different feedback methods, like a single teacher or superimposed wireframe feedback.
+
+Likewise, Han et al.\cite{han2017mtc} utilized multiple coaches fixed in space and oriented circularly around the user. However, they transferred the idea into AR. In addition to the redundant instructors, a drone was automatically navigated to record the user. This video stream was then displayed in AR, mimicking a mirror. As a result, the user could see a coach executing the target movement in every horizontal direction juxtaposed with the mirror image. However, while this approach might be well matched for the use case of tai chi, feedback would not be visible in exercises where the view is naturally directed to the ground (e.g. planks, push-ups) or the ceiling (e.g. sit-ups, bench press).
+
+Yan et al.~\cite{Yan2015oma} solved the issue of a limited first-person perspective by juxtaposing the HMD video pass-through with the video stream of an external camera. This image was cropped at the silhouette to blend with the surroundings and create a cohesive mixed reality experience. Although the approach provided an exocentric feedback of the body, the functionality was limited by the position and view direction of the physical camera.
+
+In contrast to the previously mentioned works, Kawasaki et al.~\cite{kawasaki2010cst} included the perspective of another person by superimposing the user's view with the video see-through stream of an HMD. As a result, the user could see if his or her motions corresponded with the instructor's. This enabled skill transmission in a user study. A similar approach was taken by Kasahara et al.~\cite{kasahara2016pe}, who also included another person's perspective in an HMD. In contrast to the previous work, the two perspectives were juxtaposed. The two approaches enhance the egocentric perspective, therefore they are well suited for skill training mostly involving the hands, like diabolo juggling~\cite{kawasaki2010cst} or drawing~\cite{kasahara2016pe}. However, they lack an exocentric perspective and hence an overview of the body, making feedback for whole-body exercises impossible.
+
+
+
+In addition, Ikeda et al. \cite{ikeda2018arb} displayed stationary small-scale (1:4) avatars in real-time during the motion and true-scale models during playback feedback. As the system was built specifically for golf swings and players look downwards during swings, the small-scale avatar could be seen during the exercise performance. Afterward, when replaying a recorded exercise, the view was no longer restricted by the exercise. Consequently, the avatar was displayed in true-scale. Although the avatar could be seen well when performing a golf swing, there are some exercises, for which providing feedback with this system would prove difficult. In particular, difficulties arise for exercises where rotating the view direction on the horizontal plane or an almost vertical view direction is necessary.
+
+Lastly, Hamanishi et al. \cite{Hamanishi2019avu} developed a system that enables the user to view his or her motions from all sides. This was achieved by giving the motion-captured avatar a fixed direction in space. Consequently, the user can walk around it, viewing it comprehensively. The two participants of the qualitative user study seemed to receive the system well. However, it might not be sufficient for all forms of exercise. For example, the feedback might irritate users during exercises where the view direction changes a lot (e.g. sit-ups, torso rotations). Furthermore, the system did not provide a target movement for the user to imitate. Hence, the system does not qualify as \emph{corrective feedback} (see \autoref{sec:intro}), which is the focus of the work at hand.
+
+\section{Omnipresent Feedback}
+This section will explain the SkillAR system in detail. First, \autoref{sec:overview} and \autoref{sec:register} will provide information about the hardware used and the nature of the feedback displayed. This should give the reader an understanding of the whole system. Our main contributions lie in the combination of methods found in \autoref{sec:transformation} to ensure the omnipresence of the feedback.
+
+\subsection{System Overview \label{sec:overview}}
+In order to provide visual feedback for motions and in particular exercises, it is necessary to capture the limb positions in space over time. For this reason, we used a 3D camera, which extracted joint coordinates from a recorded point cloud. Consequently, a skeleton-like avatar as seen in \autoref{fig:screen} could be constructed on the HMD, showing the executed motion in real-time. In addition to the current motion, we superimposed a recorded movement, which represents an ideal execution of the movement. As a result, the user can now correct the motion following the provided feedback. In addition to superimposition, there are further possibilities to display comparative visuals as analyzed by L'Yi et al.~\cite{lyi2021comparative}. However, as we do not intend to evaluate different visual cues in this chapter, we stick to this simple one.
+
+\begin{figure*}[h!]
+	\centering    \subfloat{\includegraphics[width=0.5\linewidth]{pictures/pelvisRegistration.png}\hfill}
+	\subfloat{\includegraphics[width=0.5\linewidth]{pictures/footRegistration.png}\hfill}
+	\caption{The reference (in green) is performing the ideal exercise --- in this case a squat --- while the actual avatar is neutrally standing. The result of registering at the pelvis (left) looks as if hovering and can potentially be irritating to the user. In this case, it might be preferable to register the avatars at the foot or the ground. \label{fig:registration}}
+\end{figure*}
+
+\subsection{Avatar Registration \label{sec:register}}
+To superimpose the actual and target pose avatars in relation to each other, in current literature, we often see that the pelvis is used for registration:  For instance, Hoang et al.~\cite{hoang2016onebody} register at the pelvis based on position and rotation, while Anderson et al.~\cite{anderson2013youmove} only utilize the position. In contrast to that, Naour et al.~\cite{naour2019superimpose} register the target avatar based on the position and rotation of the left foot. Depending on where both avatars are registered, the visualization can be irritating for the user. For instance, when a target avatar doing squats is registered using the pelvis position with a standing avatar, it seems as if the squatting avatar is hovering, as visualized in~\autoref{fig:registration}.
+
+\begin{figure*}[h!]
+	\centering
+	\subfloat[Standing]{\includegraphics[width=.13\linewidth]{pictures/Standing.png}\hfill}  
+	\subfloat[Jump. Jack]{\includegraphics[width=.15\linewidth]{pictures/JumpingJack.png}\hfill} 
+	\subfloat[Plank]{\includegraphics[width=.19\linewidth]{pictures/Plank.png}\hfill} 
+	\subfloat[Squat]{\includegraphics[width=.19\linewidth]{pictures/Squat.png}\hfill} 
+	\subfloat[Torso Rot.]{\includegraphics[width=.13\linewidth]{pictures/TorsoRotation.png}\hfill}
+	\subfloat[Warrior II]{\includegraphics[width=.22\linewidth]{pictures/WarriorII.png}\hfill} 
+	\caption{Example exercises with deviations as described in \autoref{sec:design}.}
+	\label{fig:exercises}
+\end{figure*}
+
+Consequently, in our work, we fixated the actual avatar and matched the horizontal position of the pelvises. For the vertical position of the target reference avatar, we matched the lowest position of the feet of both avatars, considering that it should be on the ground since we did not include exercises that involved jumping or hanging (see~\autoref{fig:exercises}), as we wanted the exercises to be feasible for a large group of people. Considering rotation, the orientation of the actual pelvis joint was transferred to the target pelvis joint. Additionally, the target avatar had to be scaled bone-wise to match the anatomy of the user. Otherwise, it would be impossible for the user to mimic certain poses, as limbs cannot be stretched or compressed. Furthermore, the avatars were mirrored horizontally, as this makes it easier to take the displayed pose and increases embodiment as stated, for example, by Raffe and Garcia~\cite{raffe2018combining}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{pictures/avatarPos.png}
+	\caption{The feedback avatar is positioned such that its pelvis lies on the intersection of the view direction $\vec{v}$ and the horizontal plane through the user's pelvis $P$.\label{fig:positioning}}
+\end{figure}
+
+\subsection{Feedback Transformation \label{sec:transformation}}
+Because SkillAR intends to provide omnipresent in-situ feedback, avatar transformation in space is crucial. Utilizing the orientation of the HMD in space and the information we have of the body and surroundings, we can transform the feedback to adapt to the head movement during different exercises and to facilitate a better understanding of the feedback itself.
+
+\textbf{Placement:}
+The stereoscopic display of the HMD makes it possible for the user to perceive the avatars in space. Consequently, placing the avatars in relation to the actual surroundings of the users helps enhance the interpretation of the feedback. For this purpose, we use the view direction $\vec{v}$ of the HMD to place the avatar. An intuitive way of placing would be to position the avatars' feet at the intersection of $\vec{v}$ with the floor plane. However, this would often lead to the avatar only taking up the upper half of the user's field of view. Instead, the avatars' pelvis represents predominantly a good approximation of the body center. Yet, we can not place the avatar such that its pelvis is at the height of the floor, as the feedback would appear too low (partially below ground) and hence be irritating. Instead, we constructed a plane $P$ horizontally through the pelvis. The avatars (registered as described in \autoref{sec:register}) were then positioned by placing the pelvises at the intersection of $\vec{v}$ and $P$ as seen in~\autoref{fig:positioning}. Using the pelvis orientation as an indicator for the forward direction of the avatar, the feedback was rotated around the vertical axis, so it faced the virtual camera and thus, the user. This supports the mirror metaphor and hence user guidance as described in~\autoref{sec:register}. The steps above ensure that the feedback is visible in any view direction, i.e. omnipresent.
+
+\textbf{Snapping:}
+While moving --- especially during exercises --- the head movement can be unstable, leading to an erratic feedback placement. Consequently, the visual feedback becomes irritating for the user. Therefore SkillAR only moves the feedback if the intersection of $\vec{v}$ with $P$ exceeds a certain distance $\Delta$ from the current avatar position as seen in~\autoref{fig:roundGrid}. The feedback is moved smoothly to its new position, which leads to a far more stable system behavior similar to snapping.
+
+\textbf{Scaling:}
+Moreover, the size of the feedback is scaled depending on the distance to the virtual camera to optimally utilize the HMD's field of view.  This is illustrated in~\autoref{fig:roundGrid}. Likewise, the snapping threshold $\Delta$ is scaled (also visible in~\autoref{fig:roundGrid}) to facilitate a consistent user interaction. Scaling the avatar results in slightly contradicting depth cues: The vergence changes with the distance but the size stays constant due to the scaling. Additionally, the avatars are still appropriately located in the scene, but they might no longer connect with the real floor plane. However, it is to be said, that our priority is to provide omnipresent in-situ feedback rather than creating a perfectly immersive experience. None of the users commented about the above-mentioned topics (see \autoref{sec:comments}).
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{pictures/gridRound.png}
+	\caption{The avatars move horizontally if the view direction deviates more than $\Delta$ from the center of the visualization, as indicated by the circles. The visualization is scaled up in the distance and down in proximity to the camera. The constant size always matches the field of view of the HMD and irritates the user less as if it were constantly changing.\label{fig:roundGrid}}
+\end{figure}
+
+\textbf{Top-Down Mode:}
+When looking down, the feedback positioning at pelvis height becomes hard to perceive as it appears too close. This would prevent the user from perceiving feedback when doing exercises that involve a downward head orientation like planks or push-ups. For this reason, when the angle $\gamma$ between the view direction $\vec{v}$ of the HMD and the vertical axis lies below 20° (see in~\autoref{fig:floor}), SkillAR displays the feedback in constant distance below the user (underneath the physical floor plane). In this top-down view, the avatars are facing the same way as the user and are not mirrored. This provides an overview of exercises facing down, allowing for an AR-supported execution of, for example, push-ups.
+
+
+\textbf{Free Mode:}
+Likewise, the feedback positioning mode changes when looking upwards. In this case, the avatars can not be placed at the intersection of $\vec{v}$ and $P$ as they no longer intersect. Consequently, the avatar positioning is then strictly bound to the view direction. The distance to the camera is constant and the avatar still faces the user. While the avatars relation to its environment is less clear in this mode, it allows for performing exercises with an upward-facing view direction like sit-ups or bench press.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{pictures/floorPos.png}
+	\caption{The feedback transitions to a \emph{top-down mode}, in which the avatars are shown below, if the angle $\gamma$ between the normal of the floor and the view direction is smaller than 20°. \label{fig:floor}}
+\end{figure}
+
+\section{Evaluation}
+SkillAR provides major advantages for viewing motor feedback: Users can view the ideal exercises while performing exercises without compromising comfort, good form, or safety. We conducted a user study to verify that SkillAR has no additional major disadvantages compared to a conventional RMD. This study was reviewed by the ethics committee and the data protection official of the University of Applied Sciences Worms and carried out following the appropriate guidelines and regulations. Consequently, the participants were informed upon invitation about the legal circumstances and anonymity of the study. Only the following data was recorded: Age, gender, vision deficiencies, and affiliation with the university. It is not feasible, that they lead to identifying a person's identity. Therefore, written consent was not necessary according to the ethics committee and data security office. There were USB drives and sunglasses offered as compensation.
+
+\subsection{Participants}
+For the user study, 32 individuals were recruited from an academic environment. Their age ranged from 22 to 61 (\(\mathrm{M} = 35.4, \mathrm{Mdn} = 30.5, \mathrm{SD} = 11.1\)). Their gender was evenly distributed among males and females with 16 (\(50.0\%\)) individuals each. They rated their prior XR experience on a scale from one to five, with one equaling no previous engagement in XR and five being an XR expert. The rating averaged out at 1.8 (\(\mathrm{M}=1.8, \mathrm{Mdn} = 1.75, \mathrm{SD} = 0.9\)) and their physical activity at 3.1 (\(\mathrm{M}=3.1, \mathrm{Mdn} = 3, \mathrm{SD} = 0.9\)) (one again representing no physical activity and five the maximum). As the visual capabilities of individuals play an important role in the study, the number of participants wearing glasses (\(\mathrm{n} = 17, \mathrm{i.e.}~53.1\%\)) was documented as well as visual impairments: Three participants (\(9.4\%\)) reported to have limited or missing spatial perception. One participant exhibited both red-green and blue-yellow color vision deficiency. Regarding gender, the participants' demographics match the population of Europe and the world well. The median age of the participants lies between the median age of Europe (\(41.7\)) and the world (\(30.0\)) as estimated by the UN in 2022~\cite{united2022world}. However, the educational background is expected to be higher than average in our user group, as the individuals were recruited in an academic environment.
+
+\subsection{Preparation}
+Previous to testing each participant there were several parameters to be assessed to ensure a uniform and standardized environment. For instance, the blinds in the room were closed to provide consistent lighting conditions for the participants. This is relevant for the legibility of the feedback on the optical see-through HMD since it is hard to perceive the visualization in intensely illuminated environments, as we discovered in preliminary tests. Subsequently, the exercises were explained to the participants. This was done with the intention, that the participants could estimate beforehand if they wanted to skip some exercises due to health concerns. Thereafter, the avatars, the visual feedback, and the study tasks were explained with the help of pictures.
+
+\subsection{Study Design \label{sec:design}}
+For the user study, we focused on a few different border case exercises, representing various body positions in space. In addition, deviations were chosen to be evaluated during the comparison task (see below) to evaluate the feedback interpretation. These deviations require different movements in various directions to correct: Bend vertically, tilt side-wards, raise or lower limbs, twist, etc. The following exercises were each represented by a still pose: Standing, jumping jack, plank, squat, torso rotations, and warrior II as found in yoga. These exercises can be seen including the deviations from the ideal in \autoref{fig:exercises}. The order of exercises, tasks, and devices was randomized to eliminate any learning bias. The intent of the study was not to evaluate how well an exercise was executed, but how well the feedback could be comprehended.
+
+In the \textbf{comparison} task, the user was asked to identify errors represented by an actual and a target avatar as seen in \autoref{fig:exercises}. The answers were documented and categorized, regarding the accuracy of the addressed body part and correction. With both --- the body part and the correction --- being able to be either correct or incorrect, this led to $2 \times 2$ categories. It was possible for answers to fall into several categories, as sometimes participants made contradicting remarks or answered both correctly and incorrectly sequentially. Additionally, the time to answer was measured. This task was carried out using the HMD and the RMD.
+
+The \textbf{imitation} task involved the users mimicking a pose they saw on the HMD or RMD. After adapting the pose, they gave a command, and the distances of joints, and the time elapsed since the display started showing the pose, were recorded. In between the exercises, no feedback was visible and the users could retake a neutral position and recover from the previous exercise. This should prevent impacting the following exercise performances in any way (e.g. adding time, because the participant has to stand up after an exercise on the ground). This task was carried out using the HMD and the RMD. The supplemental material provides a video of the juxtaposed exocentric and egocentric perspectives of a user imitating poses.
+
+Finally, the participants answered structured \textbf{questions} regarding their demographic including age, affiliation, XR experience, physical activity, optical deficiencies, gender, and potential comments.
+
+\section{Results}
+We suspected a dependency between RMD and HMD regarding the results of the same tasks. Additionally, we had no assumption which device would allow for more accuracy or a faster task completion time. Consequently, a dependent two-tailed t-test seemed most appropriate to evaluate the results. For this purpose, the results of one individual were averaged, so they were comparable during the test. One evaluation of the comparison task was discarded, as it was not suitable for evaluation due to technical difficulties leading to an incomplete recording. For the t-test, we assumed a significance level of \(\mathrm{\alpha} = 0.05\).
+
+\subsection{Completion Time Analysis}
+In each of the study tasks, the time to completion was measured. In particular, the time from the start of displaying the exercise to identifying the exercise or adopting the displayed pose. In the latter case, this was starting from a neutral standing pose.
+
+\begin{table}[h]
+	\caption{Time measurements for each task in the user study.}\label{tab:time}
+	\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccccc}
+		\toprule%
+		& \multicolumn{2}{@{}c@{}}{Comparison} & \multicolumn{2}{@{}c@{}}{Imitation} \\\cmidrule{2 - 3}\cmidrule{4-5}%
+		Device & RMD & SkillAR & RMD & SkillAR \\
+		\midrule
+		Mean  & 18.81 s & 19.01 s & 21.42 s & 22.95 s\\
+		Median & 14.70 s  & 17.95 s  & 19.94 s & 22.43 s\\
+		Standard Deviation  & 11.44 s & 8.17 s & 7.78 s & 7.80 s\\
+		\bottomrule
+	\end{tabular*}
+\end{table}
+
+Regarding the comparison task, SkillAR exhibits an insignificantly (\(\mathrm{p}=0.92\)) higher time to assess the feedback while featuring a lower standard deviation, as seen in \autoref{tab:time}. Likewise, the users required an insignificantly (\(\mathrm{p}=0.38\)) longer time to mimic the poses displayed with SkillAR compared to the RMD. The p-values for the completion time are much smaller than $\alpha$. This suggests that the null hypothesis (no effect) is more likely than a tendency for one system to facilitate a faster completion time.
+
+\subsection{Accuracy Analysis}
+In the comparison task, the percentage of right answers was recorded per user per device. When measuring the accuracy of the pose imitation, we recorded the distance of each joint to its counterpart in the ideal pose. These were then averaged to find the mean deviation of the user over the different exercises per device.
+
+\begin{table}[h!]
+	\caption{Accuracy for each task in the user study.}\label{tab:accuracy}
+	\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccccc}
+		\toprule%
+		& \multicolumn{2}{@{}c@{}}{Comparison} & \multicolumn{2}{@{}c@{}}{Imitation} \\\cmidrule{2 - 3}\cmidrule{4-5}%
+		Device & RMD & SkillAR & RMD & SkillAR \\
+		\midrule
+		Mean  & 75.27 \% & 92.71 \% & 10.71 cm & 11.14 cm\\
+		Median & 83.33 \% & 100.00 \% & 10.17 cm & 10.82 cm\\
+		Standard Deviation  & 11.88 \% & 12.46 \% & 2.56 cm & 3.33 cm\\
+		\bottomrule
+	\end{tabular*}
+\end{table}
+
+Assessing the accuracy in the comparison task between the RMD and the SkillAR, we see
+that the users could identify the corrections significantly (\(\mathrm{p}=6 \cdot 10^{-7}\)) more precisely with SkillAR in relation to a conventional RMD. As in this case, the p-value is far higher than $\alpha$, it seems likely that SkillAR facilitates a more precise interpretation of the given feedback. When imitating the poses, the precision was insignificantly (\(\mathrm{p}=0.37\)) higher using the RMD compared to SkillAR. For the imitation time, p is much smaller than $\alpha$, which suggests that none of the systems allows for a more precise execution.
+
+
+\section{Discussion}
+The statistical analysis shows that our system is equivalent to a conventional RMD regarding feedback comprehension. This was verified for identifying corrections as well as the time and accuracy when mimicking poses. However, our approach provides the major advantage of an independent viewing direction. This facilitates in-situ feedback in many situations where it otherwise would be inconvenient with a conventional RMD or impossible. Furthermore, the independent head direction enables the user to perform exercises optimally.
+
+Additionally, our evaluation shows that the participants identify the right feedback significantly more often with SkillAR compared to an RMD. The effect size is quite eminent, as the mean difference is large compared to the standard deviation. We attribute this mainly to the fact, that it is possible to perceive a 3D image of the feedback with the HMD. As a result, this improves depth perception and inevitably creates a better understanding of the spatial scene.
+
+\subsection{User Comments \label{sec:comments}}
+After the study, the users were asked if they had comments concerning the system. Eleven participants stated that it was easier to perceive the feedback and execute the poses with SkillAR. This happened without being prompted to compare the conventional RMD and SkillAR. The remarks match our findings when evaluating the accuracy with which the feedback was identified with SkillAR. Similarly, this could be attributed to the additional depth perception in AR. In contrast, only one person reported that it was easier to see the feedback on the RMD. Moreover, some users reported understanding the poses not until using SkillAR. This was never observed the other way around and also matches the previous findings.
+
+Additionally, three people reported that they recognized a discrepancy between how they remembered to do the exercise right and what they saw. One of these participants reported neglecting the experience with the exercise and relied completely on the visualization. This emphasizes the carefulness with which exercise feedback must be considered. If the visualization can override motor perception, it is crucial to ensure the feedback is safe for the user.
+
+Furthermore, the participants with limited spatial perception or color vision deficiency reported that they had no problems regarding their deficiencies when using the system.
+
+\subsection{Observable Behaviors \label{sec:behaviors}}
+In addition to the answers and comments of the users, there were interesting behaviors that could be observed multiple times during the study. For instance, where possible, some participants used the HMD like a conventional RMD, always looking at the same spot, although the view direction could be arbitrary. Additionally, many users did not utilize the \emph{top-down viewing mode} for the planks as explained in~\autoref{sec:transformation}. These observations led us to the conclusion that our system could be leveraged even more with more extensive instructions, explaining the full functionalities of SkillAR. Moreover, when adopting a pose, the users predominantly preferred to correct one limb after another --- in some cases, the lower and upper body separately. This could be important to consider in the future when providing visual feedback for several deviations at once. Additionally, the registration of the avatars as explained in~\autoref{sec:register} did not seem optimal in some cases. For example, the users tried to adapt their pose by rotating in space, although the avatar was always facing the (virtual) camera. We authored a paper that is currently under review regarding the optimal universal registration of two avatars.
+
+\subsection{Limitations}
+Although our system provides major advantages for in-situ motor feedback, some limitations must be mentioned. For instance, some exercises or sports are difficult to combine with an HMD. In particular, exercises where the head has to rest on the floor might be uncomfortable or impossible to do, due to the headset interfering. Similarly, the same is true for exercises that involve contact with the head (e.g. pulling on the head for neck stretching). Additionally, some sports might not be suited for an augmentation with an HMD or require technology tailored to the situation. For example, swimmers might require a special waterproof HMD to receive such feedback. Likewise, sports that require a helmet --- like American football or ice hockey --- could require a special HMD built into the helmet. Due to the limited robustness featured by standard HMDs, they might not be fit for a sport with such forces applied to the head area. Furthermore, the 3D camera we used to record the users' joint positions in space is not precise enough to detect very delicate movements. Therefore, it would be beneficial to assess the topic with a more precise camera in the future. Lastly, rotating the avatars to face the virtual camera as described in~\autoref{sec:transformation} removes motion parallax as a depth cue. This could limit the interpretation of the feedback. Especially individuals with limited spatial perception could be impaired by this, as they might not be able to profit from other depth cues.
+
+\section{Conclusion}
+The chapter at hand presents a novel method to provide omnipresent in-situ motor feedback. It does not only provide feedback where it would be otherwise not possible, but it also enables the user to perform exercises more correctly, more comfortably, and in a non-injurious manner. Additionally, we verified that SkillAR has no major disadvantages compared to a conventional RMD in a user study including 32 participants. The user study showed that SkillAR was equivalent in terms of identification, imitation time, and imitation accuracy. Moreover, the study showed that the users could identify the errors more accurately when receiving feedback via SkillAR. Thus, we can conclude that our method bears major advantages in contrast to feedback via a conventional RMD, as exercise execution and comfort are not compromised and feedback can be provided independently from the head position.
+
+\section{Future Work}
+As mentioned in~\autoref{sec:behaviors}, there are novel insights regarding avatar registration exceeding the methods explained in \autoref{sec:register}. It might be beneficial to implement these methods into SkillAR and see how that impacts the acceptance of users. Additionally, it could be interesting to repeat the experiments using more precise cameras. This could lead to minor effects being detectable, which exceeded the scope of this chapter.
+
+Furthermore, it is now possible to build upon the findings of the work at hand. It would be beneficial to see how much the system could be leveraged with users, explaining to them all the capabilities and using it in a more exhaustive training scenario. Now that we established the fundamentals, it will also be of interest to see how the system performs with further poses or when doing dynamic exercises.

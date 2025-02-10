@@ -1,0 +1,37 @@
+
+\usepackage{soul}
+
+%%%% OUR Commands
+\newcommand{\todo}[1]{\textcolor{white}{\colorbox{red}{ Noch zu %
+      tun:}}\ \ \textcolor{orange}{#1} \textcolor{red}{\colorbox{red}{I}}\ \ }
+
+\newcommand{\eg}{e.\,g.}
+\newcommand{\ie}{i.\,e.}
+\newcommand{\etal}{et~al.}
+\newcommand{\basedOn}[1]{{\textcolor{lightgray}{{\bfseries Der obige Text basiert auf folgenden Notizen:}\ \ #1 \ }}}
+\newcommand{\toWrite}[1]{{\textcolor{gray}{{\bfseries To write:}\ \ #1 \ }}}
+
+\usepackage[normalem]{ulem}
+\newcommand{\fd}[1]{\textcolor{cyan}{#1}}
+\newcommand{\fds}[1]{\marginpar{\tiny\textcolor{cyan}{{\bfseries Flo says}: ''#1''}}}
+\newcommand{\fdn}[2]{{\sethlcolor{cyan}\hl{#1}}\marginpar{\tiny\textcolor{blue}{\vskip-10mm{\bfseries Flo notes}: ''#2''}}}
+
+\newcommand{\ros}[1]{\marginpar{\tiny\textcolor{red}{{\bfseries Reviewer1}: ''#1''}}}
+\newcommand{\rts}[1]{\marginpar{\tiny\textcolor{red}{{\bfseries Reviewer2}: ''#1''}}}
+\newcommand{\rths}[1]{\marginpar{\tiny\textcolor{red}{{\bfseries Reviewer3}: ''#1''}}}
+\newcommand{\rss}[1]{\marginpar{\tiny\textcolor{green}{{\bfseries Reviewer3}: ''#1''}}}
+
+\newcommand{\aw}[1]{\textcolor{orange}{#1}}
+\newcommand{\awr}[2]{\textcolor{gray}{{\bf Reviewer#1:} #2}}
+\newcommand{\aws}[1]{\marginpar{\tiny\textcolor{orange}{{\bfseries Alex says}: ''#1''}}}
+\newcommand{\awn}[2]{{\sethlcolor{orange}\hl{#1}}\marginpar{\tiny\textcolor{orange}{\vskip-10mm{\bfseries Alex notes}: ''#2''}}}
+\newcommand{\awnb}[2]{{\textcolor{white}{\sethlcolor{blue}\hl{#1}}}\marginpar{\tiny\textcolor{blue}{{\bfseries Alex notes}: ''#2''}}}
+\newcommand{\awnr}[2]{{\hl{#1}}\marginpar{\tiny\textcolor{red}{{\bfseries Alex notes}: ''#2''}}}
+
+\newcommand{\on}[2]{{\color{red}{\st{#1}}}{{\color{blue}{\ul{#2}}}}}%on=old/new
+%\newcommand{\on}[2]{{#1}}%on=old/new
+
+\newcommand{\formulation}[1]{\uwave{#1}}
+
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
