@@ -7,13 +7,13 @@
 \contentsline {section}{\numberline {3.1}Related Work}{7}{section*.12}%
 \contentsline {section}{\numberline {3.2}OER - Terminology and Challenges }{9}{section*.13}%
 \contentsline {section}{\numberline {3.3}Topics Overview}{9}{section*.14}%
-\contentsline {section}{\numberline {3.4}Holistic Approach}{11}{section*.16}%
-\contentsline {subsection}{\numberline {3.4.1}Implementation}{13}{section*.19}%
+\contentsline {section}{\numberline {3.4}Holistic Approach}{10}{section*.16}%
+\contentsline {subsection}{\numberline {3.4.1}Implementation}{12}{section*.19}%
 \contentsline {subsection}{\numberline {3.4.2}Educational Modules}{13}{section*.20}%
-\contentsline {subsection}{\numberline {3.4.3}In-App Tasks and Challenges}{14}{section*.21}%
+\contentsline {subsection}{\numberline {3.4.3}In-App Tasks and Challenges}{13}{section*.21}%
 \contentsline {section}{\numberline {3.5}Publication}{14}{section*.23}%
 \contentsline {section}{\numberline {3.6}Evaluation}{14}{section*.24}%
-\contentsline {subsection}{\numberline {3.6.1}Teaching Staff Interviews}{15}{section*.25}%
+\contentsline {subsection}{\numberline {3.6.1}Teaching Staff Interviews}{14}{section*.25}%
 \contentsline {subsection}{\numberline {3.6.2}UX-Design Expert}{15}{section*.26}%
 \contentsline {subsection}{\numberline {3.6.3}Students}{16}{section*.27}%
 \contentsline {section}{\numberline {3.7}Conclusion}{17}{section*.28}%

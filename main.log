@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.29)  24 FEB 2025 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.29)  24 FEB 2025 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1616,7 +1616,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [8]
 
 [9]
-<pictures/userGuidance_Icons.png, id=413, 350.9913pt x 211.0284pt>
+<pictures/userGuidance_Icons.png, id=416, 350.9913pt x 211.0284pt>
 File: pictures/userGuidance_Icons.png Graphic file (type png)
 <use pictures/userGuidance_Icons.png>
 Package pdftex.def Info: pictures/userGuidance_Icons.png  used on input line 80.
@@ -1643,40 +1643,37 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 113.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [12]
 
 [13]
-<pictures/DDAScreen.png, id=467, 725.71124pt x 447.17062pt>
+<pictures/DDAScreen.png, id=468, 725.71124pt x 447.17062pt>
 File: pictures/DDAScreen.png Graphic file (type png)
 <use pictures/DDAScreen.png>
 Package pdftex.def Info: pictures/DDAScreen.png  used on input line 136.
 (pdftex.def)             Requested size: 130.49982pt x 80.41217pt.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <9> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 136.
-<pictures/fovScreen.png, id=468, 728.7225pt x 444.15938pt>
+<pictures/fovScreen.png, id=469, 728.7225pt x 444.15938pt>
 File: pictures/fovScreen.png Graphic file (type png)
 <use pictures/fovScreen.png>
 Package pdftex.def Info: pictures/fovScreen.png  used on input line 137.
 (pdftex.def)             Requested size: 130.49982pt x 79.53859pt.
-<pictures/RotationScreen.png, id=469, 730.98094pt x 444.15938pt>
+<pictures/RotationScreen.png, id=470, 730.98094pt x 444.15938pt>
 File: pictures/RotationScreen.png Graphic file (type png)
 <use pictures/RotationScreen.png>
 Package pdftex.def Info: pictures/RotationScreen.png  used on input line 138.
 (pdftex.def)             Requested size: 130.49982pt x 79.2946pt.
 
-Underfull \vbox (badness 1057) has occurred while \output is active []
-
-
 
 [14]
 
 [15]
+Underfull \vbox (badness 1173) has occurred while \output is active []
 
-[16]
+
+
+[16{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 186.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1686,8 +1683,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 ) (./content/survey.tex
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
-[17{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
+
+
+[17]
 
 [18]
 
@@ -1860,6 +1860,9 @@ Underfull \vbox (badness 1009) has occurred while \output is active []
 
 
 [41]
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
+
 
 [42]
 
@@ -1925,38 +1928,41 @@ Package pdftex.def Info: pictures/Gizmos.png  used on input line 28.
 [48 <./pictures/Gizmos.png>]
 
 [49]
-
-[50]
-<pictures/pushupPelvis.PNG, id=1070, 287.57437pt x 297.36093pt>
+<pictures/pushupPelvis.PNG, id=1064, 287.57437pt x 297.36093pt>
 File: pictures/pushupPelvis.PNG Graphic file (type png)
 <use pictures/pushupPelvis.PNG>
 Package pdftex.def Info: pictures/pushupPelvis.PNG  used on input line 63.
 (pdftex.def)             Requested size: 61.19101pt x 63.27373pt.
-<pictures/pushupRegistered.PNG, id=1071, 298.86656pt x 312.41719pt>
+<pictures/pushupRegistered.PNG, id=1065, 298.86656pt x 312.41719pt>
 File: pictures/pushupRegistered.PNG Graphic file (type png)
 <use pictures/pushupRegistered.PNG>
 Package pdftex.def Info: pictures/pushupRegistered.PNG  used on input line 64.
 (pdftex.def)             Requested size: 60.52925pt x 63.27373pt.
-<pictures/dipsPelvis.PNG, id=1072, 249.18094pt x 530.73282pt>
+<pictures/dipsPelvis.PNG, id=1066, 249.18094pt x 530.73282pt>
 File: pictures/dipsPelvis.PNG Graphic file (type png)
 <use pictures/dipsPelvis.PNG>
 Package pdftex.def Info: pictures/dipsPelvis.PNG  used on input line 65.
 (pdftex.def)             Requested size: 50.12807pt x 106.77367pt.
-<pictures/dipsRegistered.PNG, id=1073, 295.85532pt x 614.295pt>
+<pictures/dipsRegistered.PNG, id=1067, 295.85532pt x 614.295pt>
 File: pictures/dipsRegistered.PNG Graphic file (type png)
 <use pictures/dipsRegistered.PNG>
 Package pdftex.def Info: pictures/dipsRegistered.PNG  used on input line 66.
 (pdftex.def)             Requested size: 51.42332pt x 106.77367pt.
-<pictures/jumpFeet.PNG, id=1074, 358.33875pt x 452.4403pt>
+<pictures/jumpFeet.PNG, id=1068, 358.33875pt x 452.4403pt>
 File: pictures/jumpFeet.PNG Graphic file (type png)
 <use pictures/jumpFeet.PNG>
 Package pdftex.def Info: pictures/jumpFeet.PNG  used on input line 67.
 (pdftex.def)             Requested size: 84.56502pt x 106.77367pt.
-<pictures/jumpPelvis.PNG, id=1075, 359.09157pt x 435.87843pt>
+<pictures/jumpPelvis.PNG, id=1069, 359.09157pt x 435.87843pt>
 File: pictures/jumpPelvis.PNG Graphic file (type png)
 <use pictures/jumpPelvis.PNG>
 Package pdftex.def Info: pictures/jumpPelvis.PNG  used on input line 68.
 (pdftex.def)             Requested size: 87.95901pt x 106.77367pt.
+
+
+[50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 [51 <./pictures/pushupPelvis.PNG> <./pictures/pushupRegistered.PNG> <./pictures/dipsPelvis.PNG> <./pictures/dipsRegistered.PNG> <./pictures/jumpFeet.PNG> <./pictures/jumpPelvis.PNG>]
@@ -2052,7 +2058,7 @@ File: pictures/eigenvector.png Graphic file (type png)
 Package pdftex.def Info: pictures/eigenvector.png  used on input line 83.
 (pdftex.def)             Requested size: 197.7259pt x 141.97192pt.
 
-Underfull \vbox (badness 1917) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2156,6 +2162,9 @@ File: pictures/scale.png Graphic file (type png)
 <use pictures/scale.png>
 Package pdftex.def Info: pictures/scale.png  used on input line 195.
 (pdftex.def)             Requested size: 16.21367pt x 91.8778pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 [65]
@@ -2286,10 +2295,16 @@ File: pictures/bicepsSequence8.png Graphic file (type png)
 Package pdftex.def Info: pictures/bicepsSequence8.png  used on input line 255.
 (pdftex.def)             Requested size: 43.49994pt x 96.37712pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 [67 <./pictures/jmoSequence1.png> <./pictures/jmoSequence2.png> <./pictures/jmoSequence3.png> <./pictures/jmoSequence4.png> <./pictures/jmoSequence5.png> <./pictures/jmoSequence6.png> <./pictures/jmoSequence7.png> <./pictures/jmoSequence8.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2623,13 +2638,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  42469 strings out of 473207
  830746 string characters out of 5720461
- 2030176 words of memory out of 5000000
+ 2030156 words of memory out of 5000000
  63827 multiletter control sequences out of 15000+600000
  741940 words of font info for 528 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,14n,131p,10905b,3078s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/bookman/ubkli8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (124 pages, 14173641 bytes).
+Output written on main.pdf (124 pages, 14173812 bytes).
 PDF statistics:
  2771 PDF objects out of 2984 (max. 8388607)
  2406 compressed objects within 25 object streams

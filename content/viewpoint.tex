@@ -89,11 +89,11 @@ In \autoref{eq:viewpoint}, the factor \(\Delta_n\) (minus the threshold \(\delta
 
 The view direction optimized for the skeleton \(\vec{v}_S\) is weighted with the constant \(w\) to adjust optimization between the skeleton and feedback. Values of \(\delta_0 = 50\) and \(w = 3\delta_0 = 150\) showed the best empirical outcomes for our use case. This holds several implications:
 \begin{itemize}
-	\item The eigenvectors resulting from the PCA, and therefore the view direction vectors, are normalized, i.e. they have a length of 1. In the virtual 3D space, we applied a scale of \(1\ unit = 1\ mm\). Consequently, the deviation threshold \(\delta_0\) corresponds to \(50\ mm\).
-	\item To have the same impact as the skeleton-optimized view direction \(\vec{v}_S\), the feedback-optimized view direction \(\vec{v}_{Fn}\) of a single joint would need to have a deviation of 200 mm, consisting of a 50 mm minimal threshold plus 150 mm of weight.
-	\item The deviations of several joints together can exceed 150 mm (plus threshold) to have the same impact on the resulting view direction as the skeleton as a whole.
-	\item If multiple joints do not exceed the 50 mm minimal threshold, the skeleton has 100\% impact, thus the viewpoint is optimized for just the skeleton.
-	\item Because we consider the absolute deviation (instead of relative to the parent), the deviations of lower hierarchy joints and their parent joints are dependent. This results in a hierarchical drill-down mechanism, as explained in \autoref{sec:considerations}, where the joints closer to the body center have a higher impact on the view direction.
+	\vspace{-0.3cm}\item The eigenvectors resulting from the PCA, and therefore the view direction vectors, are normalized, i.e. they have a length of 1. In the virtual 3D space, we applied a scale of \(1\ unit = 1\ mm\). Consequently, the deviation threshold \(\delta_0\) corresponds to \(50\ mm\).
+	\vspace{-0.3cm}\item To have the same impact as the skeleton-optimized view direction \(\vec{v}_S\), the feedback-optimized view direction \(\vec{v}_{Fn}\) of a single joint would need to have a deviation of 200 mm, consisting of a 50 mm minimal threshold plus 150 mm of weight.
+	\vspace{-0.3cm}\item The deviations of several joints together can exceed 150 mm (plus threshold) to have the same impact on the resulting view direction as the skeleton as a whole.
+	\vspace{-0.3cm}\item If multiple joints do not exceed the 50 mm minimal threshold, the skeleton has 100\% impact, thus the viewpoint is optimized for just the skeleton.
+	\vspace{-0.3cm}\item Because we consider the absolute deviation (instead of relative to the parent), the deviations of lower hierarchy joints and their parent joints are dependent. This results in a hierarchical drill-down mechanism, as explained in \autoref{sec:considerations}, where the joints closer to the body center have a higher impact on the view direction.
 \end{itemize}
 
 To calculate the viewpoint for the virtual camera, we subtract the normalized view direction \(\vec{v}_d\) from the location of the focus point, which will be centered in the rendered frame (in our case, the joint representing the pelvis location, since it is a good representation of the body's center). The distance to the focused point can be set by multiplying a constant. The digital distance corresponding to 2 m yielded the best results for us, as all exercises were in frame at this distance. However, this highly depends on the settings (e.g., focal length) of the virtual camera chosen.
@@ -155,22 +155,22 @@ A skeleton-like avatar successively showed four static poses of exercises: bench
 
 The different methods used for viewpoint selection are:
 \begin{itemize}
-	\item Ishara et al.~\cite{ishara2015mra}, who chose the viewpoint according to the \emph{JMO}, the biggest sum of angles between all joints and the potential viewpoint (see \autoref{fig:jmo}).
-	\item The method of Kwon et al.~\cite{kwon2020ocp} involves the sum of displayed limb lengths, a 2D, and 3D bounding box. As their best resulting method is computationally intensive and not capable of real-time, we chose their second-best algorithm variant without weights.
-	\item Our algorithm, as described in \autoref{sec:methViewCalc}.
-	\item  To compare the methods to a neutral position, we included a viewpoint as it is used in \emph{isometric projection} (rotated 45° horizontally and 35.264° vertically).
+	\vspace{-0.3cm}\item Ishara et al.~\cite{ishara2015mra}, who chose the viewpoint according to the \emph{JMO}, the biggest sum of angles between all joints and the potential viewpoint (see \autoref{fig:jmo}).
+	\vspace{-0.3cm}\item The method of Kwon et al.~\cite{kwon2020ocp} involves the sum of displayed limb lengths, a 2D, and 3D bounding box. As their best resulting method is computationally intensive and not capable of real-time, we chose their second-best algorithm variant without weights.
+	\vspace{-0.3cm}\item Our algorithm, as described in \autoref{sec:methViewCalc}.
+	\vspace{-0.3cm}\item  To compare the methods to a neutral position, we included a viewpoint as it is used in \emph{isometric projection} (rotated 45° horizontally and 35.264° vertically).
 \end{itemize}
 For more detail on the methods mentioned in this section, see \autoref{sec:relView}.
 
 \textbf{Questionnaire:} Finally, the third task asked participants to provide more details about their prior experience with the topic and to share their opinions. The first four questions were answered using a Likert scale, while the last two were answered with free-text responses:
 
 \begin{itemize}
-	\item How often do you exercise?
-	\item How often are you involved in strength training?
-	\item How often do you receive physiotherapy? 
-	\item How often do you consider movements?
-	\item What options would you have liked to see?
-	\item What stood out to you?
+	\vspace{-0.3cm}\item How often do you exercise?
+	\vspace{-0.3cm}\item How often are you involved in strength training?
+	\vspace{-0.3cm}\item How often do you receive physiotherapy? 
+	\vspace{-0.3cm}\item How often do you consider movements?
+	\vspace{-0.3cm}\item What options would you have liked to see?
+	\vspace{-0.3cm}\item What stood out to you?
 \end{itemize} 
 
 \subsection{Viewpoint Benchmark \label{sec:benchmark}}
