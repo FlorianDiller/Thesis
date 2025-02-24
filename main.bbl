@@ -399,6 +399,54 @@
     \field{year}{2015}
   \endentry
 
+  \entry{asad2021virtual}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=AMM}{%
+         family={Asad},
+         familyi={A\bibinitperiod},
+         given={Muhammad\bibnamedelima Mujtaba},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Naz},
+         familyi={N\bibinitperiod},
+         given={Aisha},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Churi},
+         familyi={C\bibinitperiod},
+         given={Prathamesh},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TMM}{%
+         family={Tahanzadeh},
+         familyi={T\bibinitperiod},
+         given={Mohammad\bibnamedelima Mehdi},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{AMM+1}
+    \strng{fullhash}{AMMNACPTMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1155/2021/7061623
+    \endverb
+    \field{number}{1}
+    \field{pages}{7061623}
+    \field{title}{Virtual reality as pedagogical tool to enhance experiential
+  learning: a systematic literature review}
+    \field{volume}{2021}
+    \field{journaltitle}{Education Research International}
+    \field{year}{2021}
+  \endentry
+
   \entry{assa2008moh}{article}{}{}
     \name{author}{4}{}{%
       {{hash=AJ}{%
@@ -1866,8 +1914,11 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \field{title}{SkillAR: Omnipresent In-Situ Feedback for Motor Skill
-  Training using AR}
+    \verb{doi}
+    \verb 10.1007/s10055-025-01108-1
+    \endverb
+    \field{title}{SkillAR: omnipresent in-situ feedback for motor skill
+  training using AR}
     \field{year}{2024}
   \endentry
 
@@ -1913,6 +1964,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{D}
     \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.2312/eged.20241002
+    \endverb
     \field{title}{Holistic Approach to Modular Open Educational Resources for
   Computer Graphics}
     \field{year}{2024}
@@ -3900,10 +3954,6 @@
     \list{publisher}{1}{%
       {Prentice Hall}%
     }
-    \keyw{Lernen / Development | Kybernetik / Systemtheorie /dynamische Systeme
-  | Lernen | Erfahrung | Konstruktvismus | Wissen | Kolb, David A. | Piaget,
-  Jean | Dewey, John | Adaptation | Theorienkonstruktion | knowledge
-  construction |}
     \strng{namehash}{KD1}
     \strng{fullhash}{KD1}
     \field{labelnamesource}{author}
@@ -3912,10 +3962,6 @@
     \field{sortinithash}{K}
     \field{title}{Experiential learning: experience as the source of learning
   and development}
-    \verb{url}
-    \verb http://www.learningfromexperience.com/images/uploads/process-of-exper
-    \verb iential-learning.pdf (date of download: 31.05.2006)
-    \endverb
     \list{location}{1}{%
       {Englewood Cliffs, NJ}%
     }
@@ -4609,6 +4655,35 @@
   Healthcare 6. Virtual Reality in Psychotherapy, Rehabilitation, and
   Assessment}
     \field{year}{2011}
+  \endentry
+
+  \entry{majgaard2020virtual}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=MG}{%
+         family={Majgaard},
+         familyi={M\bibinitperiod},
+         given={Gunver},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Weitze},
+         familyi={W\bibinitperiod},
+         given={Charlotte},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGWC1}
+    \strng{fullhash}{MGWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{Proceedings of the 14th European Conference on Game Based
+  Learning, ECGBL}
+    \field{pages}{372\bibrangedash 379}
+    \field{title}{Virtual experiential learning, learning design and
+  interaction in extended reality simulations}
+    \field{year}{2020}
   \endentry
 
   \entry{marti2019evl}{misc}{}{}
@@ -8556,6 +8631,30 @@
     \field{volume}{35}
     \field{journaltitle}{The Visual Computer}
     \field{year}{2019}
+  \endentry
+
+  \entry{wang2007experiential}{inproceedings}{}{}
+    \name{author}{1}{}{%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xiangyu},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WX1}
+    \strng{fullhash}{WX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{booktitle}{Proceedings of the 41st Australia and New Zealand Annual
+  Conference of the Architectural Science Association (ANZAScA). Deadkin
+  University, Geelong, Australia}
+    \field{pages}{272\bibrangedash 277}
+    \field{title}{Experiential mixed reality learning environments for design
+  education}
+    \field{year}{2007}
   \endentry
 
   \entry{ware2020wo2}{article}{}{}
