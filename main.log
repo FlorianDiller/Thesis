@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.29)  24 FEB 2025 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.29)  24 FEB 2025 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -746,4 +746,1877 @@ Package biblatex Info: ... and expl3
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+)) (c:/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box57
+\beforetitleunit=\skip105
+\aftertitleunit=\skip106
+\ttl@plus=\dimen169
+\ttl@minus=\dimen170
+\ttl@toksa=\toks36
+\titlewidth=\dimen171
+\titlewidthlast=\dimen172
+\titlewidthfirst=\dimen173
+) (c:/texlive/2024/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip107
+\cftbeforetoctitleskip=\skip108
+\cftaftertoctitleskip=\skip109
+\cftbeforepartskip=\skip110
+\cftpartnumwidth=\skip111
+\cftpartindent=\skip112
+\cftbeforechapskip=\skip113
+\cftchapindent=\skip114
+\cftchapnumwidth=\skip115
+\cftbeforesecskip=\skip116
+\cftsecindent=\skip117
+\cftsecnumwidth=\skip118
+\cftbeforesubsecskip=\skip119
+\cftsubsecindent=\skip120
+\cftsubsecnumwidth=\skip121
+\cftbeforesubsubsecskip=\skip122
+\cftsubsubsecindent=\skip123
+\cftsubsubsecnumwidth=\skip124
+\cftbeforeparaskip=\skip125
+\cftparaindent=\skip126
+\cftparanumwidth=\skip127
+\cftbeforesubparaskip=\skip128
+\cftsubparaindent=\skip129
+\cftsubparanumwidth=\skip130
+\cftbeforeloftitleskip=\skip131
+\cftafterloftitleskip=\skip132
+\cftbeforefigskip=\skip133
+\cftfigindent=\skip134
+\cftfignumwidth=\skip135
+\c@lofdepth=\count457
+\c@lotdepth=\count458
+\cftbeforelottitleskip=\skip136
+\cftafterlottitleskip=\skip137
+\cftbeforetabskip=\skip138
+\cfttabindent=\skip139
+\cfttabnumwidth=\skip140
+)) (c:/texlive/2024/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count459
+\sf@farskip=\skip141
+\sf@captopadj=\dimen174
+\sf@capskip=\skip142
+\sf@nearskip=\skip143
+\c@subfigure=\count460
+\c@subfigure@save=\count461
+\c@subtable=\count462
+\c@subtable@save=\count463
+\sf@top=\skip144
+\sf@bottom=\skip145
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count464
+\rotFPtop=\skip146
+\rotFPbot=\skip147
+\rot@float@box=\box58
+\rot@mess@toks=\toks37
+) (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip148
+\multirow@cntb=\count465
+\multirow@dima=\skip149
+\bigstrutjot=\dimen175
+) (c:/texlive/2024/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+ (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box59
+\extrarowheight=\dimen177
+\NC@list=\toks38
+\extratabsurround=\skip150
+\backup@length=\skip151
+\ar@cellbox=\box60
+) (c:/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box61
+\sift@deathcycles=\count466
+\@vwid@loff=\dimen178
+\@vwid@roff=\dimen179
+)
+\c@taburow=\count467
+\tabu@nbcols=\count468
+\tabu@cnt=\count469
+\tabu@Xcol=\count470
+\tabu@alloc=\count471
+\tabu@nested=\count472
+\tabu@target=\dimen180
+\tabu@spreadtarget=\dimen181
+\tabu@naturalX=\dimen182
+\tabucolX=\dimen183
+\tabu@Xsum=\dimen184
+\extrarowdepth=\dimen185
+\abovetabulinesep=\dimen186
+\belowtabulinesep=\dimen187
+\tabustrutrule=\dimen188
+\tabu@thebody=\toks39
+\tabu@footnotes=\toks40
+\tabu@box=\box62
+\tabu@arstrutbox=\box63
+\tabu@hleads=\box64
+\tabu@vleads=\box65
+\tabu@cellskip=\skip152
+) (c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen189
+\lightrulewidth=\dimen190
+\cmidrulewidth=\dimen191
+\belowrulesep=\dimen192
+\belowbottomsep=\dimen193
+\aboverulesep=\dimen194
+\abovetopsep=\dimen195
+\cmidrulesep=\dimen196
+\cmidrulekern=\dimen197
+\defaultaddspace=\dimen198
+\@cmidla=\count473
+\@cmidlb=\count474
+\@aboverulesep=\dimen199
+\@belowrulesep=\dimen256
+\@thisruleclass=\count475
+\@lastruleclass=\count476
+\@thisrulewidth=\dimen257
+)
+
+LaTeX Warning: \include should only be used after \begin{document} on input line 88.
+
+(./dg_macros.tex (c:/texlive/2024/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/soul/soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks41
+\SOUL@lasttoken=\toks42
+\SOUL@syllable=\toks43
+\SOUL@cmds=\toks44
+\SOUL@buffer=\toks45
+\SOUL@token=\toks46
+\SOUL@syllgoal=\dimen258
+\SOUL@syllwidth=\dimen259
+\SOUL@charkern=\dimen260
+\SOUL@hyphkern=\dimen261
+\SOUL@dimen=\dimen262
+\SOUL@dimeni=\dimen263
+\SOUL@minus=\count477
+\SOUL@comma=\count478
+\SOUL@apo=\count479
+\SOUL@grave=\count480
+\SOUL@spaceskip=\skip153
+\SOUL@ttwidth=\dimen264
+\SOUL@uldp=\dimen265
+\SOUL@ulht=\dimen266
+) (c:/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (c:/texlive/2024/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box66
+\UL@hyphenbox=\box67
+\UL@skip=\skip154
+\UL@hook=\toks47
+\UL@height=\dimen267
+\UL@pe=\count481
+\UL@pixel=\dimen268
+\ULC@box=\box68
+Package: ulem 2019/11/18
+\ULdepth=\dimen269
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks48
+\pgfutil@tempdima=\dimen270
+\pgfutil@tempdimb=\dimen271
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box69
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks49
+\pgfkeys@temptoks=\toks50
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks51
+))
+\pgf@x=\dimen272
+\pgf@y=\dimen273
+\pgf@xa=\dimen274
+\pgf@ya=\dimen275
+\pgf@xb=\dimen276
+\pgf@yb=\dimen277
+\pgf@xc=\dimen278
+\pgf@yc=\dimen279
+\pgf@xd=\dimen280
+\pgf@yd=\dimen281
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count482
+\c@pgf@countb=\count483
+\c@pgf@countc=\count484
+\c@pgf@countd=\count485
+\t@pgf@toka=\toks52
+\t@pgf@tokb=\toks53
+\t@pgf@tokc=\toks54
+\pgf@sys@id@count=\count486
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count487
+\pgfsyssoftpath@bigbuffer@items=\count488
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen282
+\pgfmath@count=\count489
+\pgfmath@box=\box70
+\pgfmath@toks=\toks55
+\pgfmath@stack@operand=\toks56
+\pgfmath@stack@operation=\toks57
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count490
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen283
+\pgf@picmaxx=\dimen284
+\pgf@picminy=\dimen285
+\pgf@picmaxy=\dimen286
+\pgf@pathminx=\dimen287
+\pgf@pathmaxx=\dimen288
+\pgf@pathminy=\dimen289
+\pgf@pathmaxy=\dimen290
+\pgf@xx=\dimen291
+\pgf@xy=\dimen292
+\pgf@yx=\dimen293
+\pgf@yy=\dimen294
+\pgf@zx=\dimen295
+\pgf@zy=\dimen296
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen297
+\pgf@path@lasty=\dimen298
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen299
+\pgf@shorten@start@additional=\dimen300
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box71
+\pgf@hbox=\box72
+\pgf@layerbox@main=\box73
+\pgf@picture@serial@count=\count491
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen301
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen302
+\pgf@pt@y=\dimen303
+\pgf@pt@temp=\dimen304
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen305
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen306
+\pgf@sys@shading@range@num=\count492
+\pgf@shadingcount=\count493
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box74
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box75
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen307
+\pgf@nodesepend=\dimen308
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen309
+\pgffor@skip=\dimen310
+\pgffor@stack=\toks58
+\pgffor@toks=\toks59
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count494
+\pgfplotmarksize=\dimen311
+)
+\tikz@lastx=\dimen312
+\tikz@lasty=\dimen313
+\tikz@lastxsaved=\dimen314
+\tikz@lastysaved=\dimen315
+\tikz@lastmovetox=\dimen316
+\tikz@lastmovetoy=\dimen317
+\tikzleveldistance=\dimen318
+\tikzsiblingdistance=\dimen319
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count495
+\tikznumberofchildren=\count496
+\tikznumberofcurrentchild=\count497
+\tikz@fig@count=\count498
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count499
+\pgfmatrixcurrentcolumn=\count500
+\pgf@matrix@numberofcolumns=\count501
+)
+\tikz@expandcount=\count502
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))) (c:/texlive/2024/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 2024-04-10 v6.00 eXternal References (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write5
+ Excluding comment 'comment')
+Package hyperref Info: Option `plainpages' set `false' on input line 102.
+Package hyperref Info: Option `colorlinks' set `false' on input line 102.
+Package hyperref Info: Option `breaklinks' set `true' on input line 102.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 102.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 102.
+LaTeX Font Info:    Trying to load font information for T1+bch on input line 107.
+ (c:/texlive/2024/texmf-dist/tex/latex/psnfss/t1bch.fd
+File: t1bch.fd 2004/10/18 font definitions for T1/bch.
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+Package scrbase Info: activating english \abstractname on input line 107.
+Package scrbase Info: activating english \partname on input line 107.
+Package scrbase Info: activating english \chaptername on input line 107.
+Package scrbase Info: activating english \appendixname on input line 107.
+Package scrbase Info: activating english \figurename on input line 107.
+Package scrbase Info: activating english \tablename on input line 107.
+Package scrbase Info: activating english \contentsname on input line 107.
+Package scrbase Info: activating english \listfigurename on input line 107.
+Package scrbase Info: activating english \listtablename on input line 107.
+Package scrbase Info: activating english \bibname on input line 107.
+Package scrbase Info: activating english \indexname on input line 107.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count503
+\scratchdimen=\dimen320
+\scratchbox=\box80
+\nofMPsegments=\count504
+\nofMParguments=\count505
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count506
+\MPscratchDim=\dimen321
+\MPnumerator=\count507
+\makeMPintoPDFobject=\count508
+\everyMPtoPDFconversion=\toks61
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package microtype Info: Patching varwidth to enable character protrusion.
+\MT@vwid@leftmargin=\dimen322
+\MT@vwid@rightmargin=\dimen323
+LaTeX Info: Redefining \microtypecontext on input line 107.
+Package microtype Info: Applying patch `item' on input line 107.
+Package microtype Info: Applying patch `toc' on input line 107.
+Package microtype Info: Applying patch `eqnum' on input line 107.
+Package microtype Info: Applying patch `footnote' on input line 107.
+Package microtype Info: Applying patch `verbatim' on input line 107.
+LaTeX Info: Redefining \microtypesetup on input line 107.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 107.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (c:/texlive/2024/texmf-dist/tex/latex/microtype/mt-bch.cfg
+File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
+)
+Package hyperref Info: Link coloring OFF on input line 107.
+ (./main.out) (./main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+Class scrreprt Info: loading recommended package `bookmark'.
+(scrreprt)           Using `bookmark' together with `hyperref' is recommended,
+(scrreprt)           because of handling of possible bookmark level gaps.
+(scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
+(scrreprt)           `bookmarkpackage=false' before \begin{document} and
+(scrreprt)           you can avoid this message adding:
+(scrreprt)             \usepackage{bookmark}
+(scrreprt)           before \begin{document} on input line 107.
+ (c:/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+ (c:/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count509
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.22636pt
+* modes: includefoot includemp twoside 
+* h-part:(L,W,R)=(106.69783pt, 455.24413pt, 21.33955pt)
+* v-part:(T,H,B)=(64.01869pt, 738.34903pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=395.45181pt
+* \textheight=681.44353pt
+* \oddsidemargin=48.6542pt
+* \evensidemargin=8.86188pt
+* \topmargin=-8.2513pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=56.9055pt
+* \marginparwidth=49.79231pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `main-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'anderson2013youmove':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'angel:2017:interactive':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'figueiredo:2003:cgems':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'hoang2016onebody':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Lobb:2016:cg-tool':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'ridge:2019:ecosystem':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Singleton_Charlton_2019':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 107.
+Package biblatex Info: Reference segment=0 on input line 107.
+Package scrbase Info: activating english \figurename on input line 113.
+Package scrbase Info: activating english \tablename on input line 114.
+ (./content/titlepages.tex
+
+[1
+
+
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+
+[2
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 21.
+ (c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `qhv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+pdfTeX warning: pdflatex.exe (file ./gfx/HS_Worms_Logo_farbig_RGB.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<gfx/HS_Worms_Logo_farbig_RGB.pdf, id=19, 501.875pt x 301.125pt>
+File: gfx/HS_Worms_Logo_farbig_RGB.pdf Graphic file (type pdf)
+<use gfx/HS_Worms_Logo_farbig_RGB.pdf>
+Package pdftex.def Info: gfx/HS_Worms_Logo_farbig_RGB.pdf  used on input line 25.
+(pdftex.def)             Requested size: 170.71652pt x 102.43167pt.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 26.
+(c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./gfx/HS_Worms_Logo_farbig_RGB.pdf>])
+
+[4] (./content/abstract.tex
+
+Package xr Warning: 
+No file content/survey.aux
+LABELS NOT IMPORTED.
+ on input line 4.
+
+
+Package xr Warning: 
+No file content/registration.aux
+LABELS NOT IMPORTED.
+ on input line 5.
+
+
+Package xr Warning: 
+No file content/viewpoint.aux
+LABELS NOT IMPORTED.
+ on input line 6.
+
+
+Package xr Warning: 
+No file content/ExGOER.aux
+LABELS NOT IMPORTED.
+ on input line 7.
+
+
+Package xr Warning: 
+No file content/omnipresent.aux
+LABELS NOT IMPORTED.
+ on input line 8.
+
+
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 9.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+[5
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Overfull \hbox (1.4313pt too wide) in paragraph at lines 27--28
+\T1/bch/m/n/10.95 (-20) Kontinuum dargestellt wird ^^U bi-etet eine end-lose Vielfalt faszinieren-der Möglichkeiten
+ []
+
+
+
+[6])
+
+[7]
+
+[8
+
+
+] (./content/acknowledgement.tex
+
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 15.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1bch.fd
+File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
+))
+
+[9
+
+
+]
+
+[10
+
+
+]
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <20.74> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 132.
+ (./main.toc
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 2.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (c:/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 2.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 2.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 2.
+
+
+[11]
+
+[12])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+
+
+[13]
+
+[14
+
+
+] (./content/chapter-introduction.tex
+
+Package xr Warning: 
+No file content/survey.aux
+LABELS NOT IMPORTED.
+ on input line 4.
+
+
+Package xr Warning: 
+No file content/registration.aux
+LABELS NOT IMPORTED.
+ on input line 5.
+
+
+Package xr Warning: 
+No file content/viewpoint.aux
+LABELS NOT IMPORTED.
+ on input line 6.
+
+
+Package xr Warning: 
+No file content/ExGOER.aux
+LABELS NOT IMPORTED.
+ on input line 7.
+
+
+Package xr Warning: 
+No file content/omnipresent.aux
+LABELS NOT IMPORTED.
+ on input line 8.
+
+chapter 1.
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+LaTeX Font Info:    Trying to load font information for T1+pbk on input line 11.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/t1pbk.fd
+File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
+)
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <11> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 11.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pbk' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <75> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <75> not available
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 11.
+ Excluding 'comment' comment.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[1
+
+
+]) (./content/chapter-concepts.tex
+
+[2]
+chapter 2.
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+<pictures/ExperientialLearningCycle2.png, id=296, 815.29594pt x 318.43968pt>
+File: pictures/ExperientialLearningCycle2.png Graphic file (type png)
+<use pictures/ExperientialLearningCycle2.png>
+Package pdftex.def Info: pictures/ExperientialLearningCycle2.png  used on input line 19.
+(pdftex.def)             Requested size: 355.9042pt x 139.0109pt.
+
+
+[3
+
+
+ <./pictures/ExperientialLearningCycle2.png>]) (./content/ExGOER.tex
+
+[4]
+chapter 3.
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+
+
+[5
+
+
+]
+<pictures/ExGoerContents.png, id=342, 1026.83624pt x 529.98pt>
+File: pictures/ExGoerContents.png Graphic file (type png)
+<use pictures/ExGoerContents.png>
+Package pdftex.def Info: pictures/ExGoerContents.png  used on input line 16.
+(pdftex.def)             Requested size: 395.45181pt x 204.10356pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[6 <./pictures/ExGoerContents.png>]
+
+[7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[8]
+
+[9]
+
+[10]
+<pictures/userGuidance_Icons.png, id=451, 350.9913pt x 211.0284pt>
+File: pictures/userGuidance_Icons.png Graphic file (type png)
+<use pictures/userGuidance_Icons.png>
+Package pdftex.def Info: pictures/userGuidance_Icons.png  used on input line 97.
+(pdftex.def)             Requested size: 237.2735pt x 142.65698pt.
+
+
+[11]
+<pictures/unityPrefabs.png, id=461, 833.1125pt x 723.70375pt>
+File: pictures/unityPrefabs.png Graphic file (type png)
+<use pictures/unityPrefabs.png>
+Package pdftex.def Info: pictures/unityPrefabs.png  used on input line 109.
+(pdftex.def)             Requested size: 197.7259pt x 171.7489pt.
+
+
+[12 <./pictures/userGuidance_Icons.png> <./pictures/unityPrefabs.png (PNG copy)>]
+<pictures/modularApproach.png, id=471, 2072.74374pt x 652.4375pt>
+File: pictures/modularApproach.png Graphic file (type png)
+<use pictures/modularApproach.png>
+Package pdftex.def Info: pictures/modularApproach.png  used on input line 123.
+(pdftex.def)             Requested size: 395.45181pt x 124.47214pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 125.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 125.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 125.
+
+
+[13{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./pictures/modularApproach.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[14]
+<pictures/DDAScreen.png, id=494, 725.71124pt x 447.17062pt>
+File: pictures/DDAScreen.png Graphic file (type png)
+<use pictures/DDAScreen.png>
+Package pdftex.def Info: pictures/DDAScreen.png  used on input line 150.
+(pdftex.def)             Requested size: 130.49982pt x 80.41217pt.
+<pictures/fovScreen.png, id=495, 728.7225pt x 444.15938pt>
+File: pictures/fovScreen.png Graphic file (type png)
+<use pictures/fovScreen.png>
+Package pdftex.def Info: pictures/fovScreen.png  used on input line 151.
+(pdftex.def)             Requested size: 130.49982pt x 79.53859pt.
+<pictures/RotationScreen.png, id=496, 730.98094pt x 444.15938pt>
+File: pictures/RotationScreen.png Graphic file (type png)
+<use pictures/RotationScreen.png>
+Package pdftex.def Info: pictures/RotationScreen.png  used on input line 152.
+(pdftex.def)             Requested size: 130.49982pt x 79.2946pt.
+
+Underfull \vbox (badness 7796) has occurred while \output is active []
+
+
+
+[15 <./pictures/DDAScreen.png> <./pictures/fovScreen.png> <./pictures/RotationScreen.png>]
+Underfull \vbox (badness 2529) has occurred while \output is active []
+
+
+
+[16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[17]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 195.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) (./content/survey.tex
+
+[18]
+chapter 4.
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+<pictures/feedbackloop.pdf, id=532, 448.84181pt x 145.10905pt>
+File: pictures/feedbackloop.pdf Graphic file (type pdf)
+<use pictures/feedbackloop.pdf>
+Package pdftex.def Info: pictures/feedbackloop.pdf  used on input line 15.
+(pdftex.def)             Requested size: 395.45181pt x 127.85577pt.
+
+
+[19
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[20 <./pictures/feedbackloop.pdf>]
+
+[21]
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]|\T1/bch/m/n/10.95 (+20) Performance seems un-con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[]|\T1/bch/m/n/10.95 (+20) Automatic
+ []
+
+
+Overfull \hbox (4.07164pt too wide) in paragraph at lines 68--82
+[][]
+ []
+
+
+
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[24]
+Underfull \vbox (badness 2635) has occurred while \output is active []
+
+
+
+[25]
+
+[26]
+
+[27]
+<pictures/PointOfView.PNG, id=728, 980.16188pt x 357.58594pt>
+File: pictures/PointOfView.PNG Graphic file (type png)
+<use pictures/PointOfView.PNG>
+Package pdftex.def Info: pictures/PointOfView.PNG  used on input line 137.
+(pdftex.def)             Requested size: 395.45181pt x 144.27042pt.
+
+
+[28 <./pictures/PointOfView.PNG>]
+<pictures/CueMatrix.PNG, id=743, 865.43324pt x 516.7305pt>
+File: pictures/CueMatrix.PNG Graphic file (type png)
+<use pictures/CueMatrix.PNG>
+Package pdftex.def Info: pictures/CueMatrix.PNG  used on input line 160.
+(pdftex.def)             Requested size: 395.45181pt x 236.12198pt.
+
+
+[29]
+Underfull \vbox (badness 3942) has occurred while \output is active []
+
+
+
+[30 <./pictures/CueMatrix.png>]
+
+[31]
+
+[32]
+Overfull \hbox (0.56703pt too wide) in paragraph at lines 245--245
+ []\T1/bch/m/n/6 (-20) Abstraction 
+ []
+
+
+Overfull \hbox (93.72728pt too wide) in paragraph at lines 230--284
+ [][] 
+ []
+
+<pictures/Oka.PNG, id=868, 810.02625pt x 588.69937pt>
+File: pictures/Oka.PNG Graphic file (type png)
+<use pictures/Oka.PNG>
+Package pdftex.def Info: pictures/Oka.PNG  used on input line 294.
+(pdftex.def)             Requested size: 395.45181pt x 287.40524pt.
+
+
+[33]
+
+[34{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+<pictures/Barioni.png, id=903, 515.67656pt x 414.04688pt>
+File: pictures/Barioni.png Graphic file (type png)
+<use pictures/Barioni.png>
+Package pdftex.def Info: pictures/Barioni.png  used on input line 302.
+(pdftex.def)             Requested size: 395.45181pt x 317.52191pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[35 <./pictures/Oka.PNG>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[36 <./pictures/Barioni.png>]
+<pictures/Shiro.png, id=922, 387.69844pt x 496.10344pt>
+File: pictures/Shiro.png Graphic file (type png)
+<use pictures/Shiro.png>
+Package pdftex.def Info: pictures/Shiro.png  used on input line 314.
+(pdftex.def)             Requested size: 395.45181pt x 506.03395pt.
+<pictures/Vidal.png, id=926, 523.9575pt x 372.64218pt>
+File: pictures/Vidal.png Graphic file (type png)
+<use pictures/Vidal.png>
+Package pdftex.def Info: pictures/Vidal.png  used on input line 321.
+(pdftex.def)             Requested size: 395.45181pt x 281.25499pt.
+
+Underfull \vbox (badness 2809) has occurred while \output is active []
+
+
+
+[37]
+
+[38]
+<pictures/CueHistogram.PNG, id=944, 420.3705pt x 336.0555pt>
+File: pictures/CueHistogram.PNG Graphic file (type png)
+<use pictures/CueHistogram.PNG>
+Package pdftex.def Info: pictures/CueHistogram.PNG  used on input line 355.
+(pdftex.def)             Requested size: 395.45181pt x 316.15372pt.
+
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+
+
+[39]
+
+[40]
+
+[41]) (./content/registration.tex
+
+Package xr Warning: 
+No file content/viewpoint.aux
+LABELS NOT IMPORTED.
+ on input line 2.
+
+
+
+[42]
+
+[43 <./pictures/Shiro.png>]
+
+[44 <./pictures/Vidal.png> <./pictures/CueHistogram.png>]
+chapter 5.
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+<pictures/pelvisReg.png, id=1018, 718.685pt x 843.15pt>
+File: pictures/pelvisReg.png Graphic file (type png)
+<use pictures/pelvisReg.png>
+Package pdftex.def Info: pictures/pelvisReg.png  used on input line 6.
+(pdftex.def)             Requested size: 117.97476pt x 138.41054pt.
+<pictures/pelvisRegSide.png, id=1019, 337.26pt x 949.5475pt>
+File: pictures/pelvisRegSide.png Graphic file (type png)
+<use pictures/pelvisRegSide.png>
+Package pdftex.def Info: pictures/pelvisRegSide.png  used on input line 6.
+(pdftex.def)             Requested size: 49.16132pt x 138.41054pt.
+<pictures/footReg.png, id=1020, 711.65875pt x 829.0975pt>
+File: pictures/footReg.png Graphic file (type png)
+<use pictures/footReg.png>
+Package pdftex.def Info: pictures/footReg.png  used on input line 8.
+(pdftex.def)             Requested size: 118.79771pt x 138.41054pt.
+<pictures/footRegSide.png, id=1021, 258.9675pt x 970.62625pt>
+File: pictures/footRegSide.png Graphic file (type png)
+<use pictures/footRegSide.png>
+Package pdftex.def Info: pictures/footRegSide.png  used on input line 8.
+(pdftex.def)             Requested size: 36.92696pt x 138.41054pt.
+
+
+[45
+
+
+ <./pictures/pelvisReg.png> <./pictures/pelvisRegSide.png> <./pictures/footReg.png> <./pictures/footRegSide.png>]
+<pictures/Gizmos.png, id=1051, 1927.2pt x 1927.2pt>
+File: pictures/Gizmos.png Graphic file (type png)
+<use pictures/Gizmos.png>
+Package pdftex.def Info: pictures/Gizmos.png  used on input line 28.
+(pdftex.def)             Requested size: 197.7259pt x 197.70102pt.
+
+
+[46 <./pictures/Gizmos.png>]
+
+[47]
+
+[48]
+<pictures/pushupPelvis.PNG, id=1077, 287.57437pt x 297.36093pt>
+File: pictures/pushupPelvis.PNG Graphic file (type png)
+<use pictures/pushupPelvis.PNG>
+Package pdftex.def Info: pictures/pushupPelvis.PNG  used on input line 64.
+(pdftex.def)             Requested size: 61.19101pt x 63.27373pt.
+<pictures/pushupRegistered.PNG, id=1078, 298.86656pt x 312.41719pt>
+File: pictures/pushupRegistered.PNG Graphic file (type png)
+<use pictures/pushupRegistered.PNG>
+Package pdftex.def Info: pictures/pushupRegistered.PNG  used on input line 65.
+(pdftex.def)             Requested size: 60.52925pt x 63.27373pt.
+<pictures/dipsPelvis.PNG, id=1079, 249.18094pt x 530.73282pt>
+File: pictures/dipsPelvis.PNG Graphic file (type png)
+<use pictures/dipsPelvis.PNG>
+Package pdftex.def Info: pictures/dipsPelvis.PNG  used on input line 66.
+(pdftex.def)             Requested size: 50.12807pt x 106.77367pt.
+<pictures/dipsRegistered.PNG, id=1080, 295.85532pt x 614.295pt>
+File: pictures/dipsRegistered.PNG Graphic file (type png)
+<use pictures/dipsRegistered.PNG>
+Package pdftex.def Info: pictures/dipsRegistered.PNG  used on input line 67.
+(pdftex.def)             Requested size: 51.42332pt x 106.77367pt.
+<pictures/jumpFeet.PNG, id=1081, 358.33875pt x 452.4403pt>
+File: pictures/jumpFeet.PNG Graphic file (type png)
+<use pictures/jumpFeet.PNG>
+Package pdftex.def Info: pictures/jumpFeet.PNG  used on input line 68.
+(pdftex.def)             Requested size: 84.56502pt x 106.77367pt.
+<pictures/jumpPelvis.PNG, id=1082, 359.09157pt x 435.87843pt>
+File: pictures/jumpPelvis.PNG Graphic file (type png)
+<use pictures/jumpPelvis.PNG>
+Package pdftex.def Info: pictures/jumpPelvis.PNG  used on input line 69.
+(pdftex.def)             Requested size: 87.95901pt x 106.77367pt.
+
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+
+
+[49 <./pictures/pushupPelvis.PNG> <./pictures/pushupRegistered.PNG> <./pictures/dipsPelvis.PNG> <./pictures/dipsRegistered.PNG> <./pictures/jumpFeet.PNG> <./pictures/jumpPelvis.PNG>]
+Overfull \hbox (3.41675pt too wide) in alignment at lines 88--103
+[] [] [] [] [] [] [] 
+ []
+
+) (./content/viewpoint.tex
+
+Package xr Warning: 
+No file content/registration.aux
+LABELS NOT IMPORTED.
+ on input line 2.
+
+
+
+[50]
+chapter 6.
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+
+
+[51
+
+
+]
+<pictures/skeleton_E_occ.png, id=1138, 592.33058pt x 476.13176pt>
+File: pictures/skeleton_E_occ.png Graphic file (type png)
+<use pictures/skeleton_E_occ.png>
+Package pdftex.def Info: pictures/skeleton_E_occ.png  used on input line 16.
+(pdftex.def)             Requested size: 197.7259pt x 158.93298pt.
+
+
+[52 <./pictures/skeleton_E_occ.png>]
+<pictures/projection_normal.png, id=1172, 1027.84pt x 423.5825pt>
+File: pictures/projection_normal.png Graphic file (type png)
+<use pictures/projection_normal.png>
+Package pdftex.def Info: pictures/projection_normal.png  used on input line 37.
+(pdftex.def)             Requested size: 395.45181pt x 162.97311pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[53]
+<pictures/projection_feedback.png, id=1195, 1027.84pt x 578.16pt>
+File: pictures/projection_feedback.png Graphic file (type png)
+<use pictures/projection_feedback.png>
+Package pdftex.def Info: pictures/projection_feedback.png  used on input line 48.
+(pdftex.def)             Requested size: 193.77356pt x 108.9958pt.
+<pictures/projection_feedback_arrow.png, id=1196, 1027.84pt x 578.16pt>
+File: pictures/projection_feedback_arrow.png Graphic file (type png)
+<use pictures/projection_feedback_arrow.png>
+Package pdftex.def Info: pictures/projection_feedback_arrow.png  used on input line 49.
+(pdftex.def)             Requested size: 193.77356pt x 108.9958pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[54 <./pictures/projection_normal.png> <./pictures/projection_feedback.png> <./pictures/projection_feedback_arrow.png>]
+<pictures/feedbackFront.png, id=1208, 825.0825pt x 963.6pt>
+File: pictures/feedbackFront.png Graphic file (type png)
+<use pictures/feedbackFront.png>
+Package pdftex.def Info: pictures/feedbackFront.png  used on input line 58.
+(pdftex.def)             Requested size: 193.77356pt x 226.299pt.
+<pictures/feedbackSide.png, id=1209, 825.0825pt x 1027.84pt>
+File: pictures/feedbackSide.png Graphic file (type png)
+<use pictures/feedbackSide.png>
+Package pdftex.def Info: pictures/feedbackSide.png  used on input line 59.
+(pdftex.def)             Requested size: 193.77356pt x 241.38559pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[55 <./pictures/feedbackFront.png> <./pictures/feedbackSide.png>]
+
+[56{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+<pictures/eigenvector.png, id=1233, 230.66174pt x 165.61874pt>
+File: pictures/eigenvector.png Graphic file (type png)
+<use pictures/eigenvector.png>
+Package pdftex.def Info: pictures/eigenvector.png  used on input line 83.
+(pdftex.def)             Requested size: 197.7259pt x 141.97192pt.
+
+Underfull \vbox (badness 1917) has occurred while \output is active []
+
+
+
+[57 <./pictures/eigenvector.png>]
+
+[58]
+
+[59]
+<pictures/bench.png, id=1269, 199.34476pt x 223.43475pt>
+File: pictures/bench.png Graphic file (type png)
+<use pictures/bench.png>
+Package pdftex.def Info: pictures/bench.png  used on input line 128.
+(pdftex.def)             Requested size: 71.17842pt x 79.77844pt.
+<pictures/curlA.png, id=1270, 159.59625pt x 220.4235pt>
+File: pictures/curlA.png Graphic file (type png)
+<use pictures/curlA.png>
+Package pdftex.def Info: pictures/curlA.png  used on input line 129.
+(pdftex.def)             Requested size: 55.363pt x 76.46324pt.
+<pictures/lateral.png, id=1271, 230.66174pt x 165.61874pt>
+File: pictures/lateral.png Graphic file (type png)
+<use pictures/lateral.png>
+Package pdftex.def Info: pictures/lateral.png  used on input line 130.
+(pdftex.def)             Requested size: 71.17842pt x 51.10625pt.
+<pictures/shoulder.png, id=1272, 191.5155pt x 215.00325pt>
+File: pictures/shoulder.png Graphic file (type png)
+<use pictures/shoulder.png>
+Package pdftex.def Info: pictures/shoulder.png  used on input line 131.
+(pdftex.def)             Requested size: 71.17842pt x 79.91083pt.
+<pictures/rows.png, id=1273, 157.7895pt x 181.27725pt>
+File: pictures/rows.png Graphic file (type png)
+<use pictures/rows.png>
+Package pdftex.def Info: pictures/rows.png  used on input line 132.
+(pdftex.def)             Requested size: 71.17842pt x 81.77316pt.
+<pictures/curlB.png, id=1274, 172.84575pt x 206.57175pt>
+File: pictures/curlB.png Graphic file (type png)
+<use pictures/curlB.png>
+Package pdftex.def Info: pictures/curlB.png  used on input line 133.
+(pdftex.def)             Requested size: 55.363pt x 66.16418pt.
+
+
+[60 <./pictures/bench.png> <./pictures/curlA.png> <./pictures/lateral.png> <./pictures/shoulder.png> <./pictures/rows.png> <./pictures/curlB.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[61]
+
+[62]
+<pictures/transverseBench.png, id=1333, 245.718pt x 244.9953pt>
+File: pictures/transverseBench.png Graphic file (type png)
+<use pictures/transverseBench.png>
+Package pdftex.def Info: pictures/transverseBench.png  used on input line 191.
+(pdftex.def)             Requested size: 94.9106pt x 94.63188pt.
+<pictures/transverseSquat.png, id=1334, 245.718pt x 244.9953pt>
+File: pictures/transverseSquat.png Graphic file (type png)
+<use pictures/transverseSquat.png>
+Package pdftex.def Info: pictures/transverseSquat.png  used on input line 192.
+(pdftex.def)             Requested size: 94.9106pt x 94.63188pt.
+<pictures/transverseBend.png, id=1335, 245.718pt x 244.9953pt>
+File: pictures/transverseBend.png Graphic file (type png)
+<use pictures/transverseBend.png>
+Package pdftex.def Info: pictures/transverseBend.png  used on input line 193.
+(pdftex.def)             Requested size: 94.9106pt x 94.63188pt.
+<pictures/transverseStand.png, id=1336, 245.718pt x 244.9953pt>
+File: pictures/transverseStand.png Graphic file (type png)
+<use pictures/transverseStand.png>
+Package pdftex.def Info: pictures/transverseStand.png  used on input line 194.
+(pdftex.def)             Requested size: 94.9106pt x 94.63188pt.
+<pictures/whitePixel.png, id=1337, 0.60225pt x 0.60225pt>
+File: pictures/whitePixel.png Graphic file (type png)
+<use pictures/whitePixel.png>
+Package pdftex.def Info: pictures/whitePixel.png  used on input line 194.
+(pdftex.def)             Requested size: 16.21367pt x 16.23175pt.
+<pictures/medianBench.png, id=1338, 244.9953pt x 245.718pt>
+File: pictures/medianBench.png Graphic file (type png)
+<use pictures/medianBench.png>
+Package pdftex.def Info: pictures/medianBench.png  used on input line 195.
+(pdftex.def)             Requested size: 94.9106pt x 95.18849pt.
+<pictures/medianSquat.png, id=1339, 244.9953pt x 245.718pt>
+File: pictures/medianSquat.png Graphic file (type png)
+<use pictures/medianSquat.png>
+Package pdftex.def Info: pictures/medianSquat.png  used on input line 196.
+(pdftex.def)             Requested size: 94.9106pt x 95.18849pt.
+<pictures/medianBend.png, id=1340, 244.9953pt x 245.718pt>
+File: pictures/medianBend.png Graphic file (type png)
+<use pictures/medianBend.png>
+Package pdftex.def Info: pictures/medianBend.png  used on input line 197.
+(pdftex.def)             Requested size: 94.9106pt x 95.18849pt.
+<pictures/medianStand.png, id=1341, 244.9953pt x 245.718pt>
+File: pictures/medianStand.png Graphic file (type png)
+<use pictures/medianStand.png>
+Package pdftex.def Info: pictures/medianStand.png  used on input line 198.
+(pdftex.def)             Requested size: 94.9106pt x 95.18849pt.
+<pictures/scale.png, id=1342, 36.135pt x 204.765pt>
+File: pictures/scale.png Graphic file (type png)
+<use pictures/scale.png>
+Package pdftex.def Info: pictures/scale.png  used on input line 198.
+(pdftex.def)             Requested size: 16.21367pt x 91.8778pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[63]
+
+[64 <./pictures/transverseBench.png> <./pictures/transverseSquat.png> <./pictures/transverseBend.png> <./pictures/transverseStand.png> <./pictures/whitePixel.png> <./pictures/medianBench.png> <./pictures/medianSquat.png> <./pictures/medianBend.png> <./pictures/medianStand.png> <./pictures/scale.png>]
+<pictures/jmoSequence1.png, id=1392, 109.6095pt x 221.02576pt>
+File: pictures/jmoSequence1.png Graphic file (type png)
+<use pictures/jmoSequence1.png>
+Package pdftex.def Info: pictures/jmoSequence1.png  used on input line 217.
+(pdftex.def)             Requested size: 43.49994pt x 87.71735pt.
+<pictures/jmoSequence2.png, id=1393, 131.2905pt x 228.855pt>
+File: pictures/jmoSequence2.png Graphic file (type png)
+<use pictures/jmoSequence2.png>
+Package pdftex.def Info: pictures/jmoSequence2.png  used on input line 218.
+(pdftex.def)             Requested size: 47.45229pt x 82.7125pt.
+<pictures/jmoSequence3.png, id=1394, 115.632pt x 211.38976pt>
+File: pictures/jmoSequence3.png Graphic file (type png)
+<use pictures/jmoSequence3.png>
+Package pdftex.def Info: pictures/jmoSequence3.png  used on input line 219.
+(pdftex.def)             Requested size: 47.45229pt x 86.74776pt.
+<pictures/jmoSequence4.png, id=1395, 97.5645pt x 211.38976pt>
+File: pictures/jmoSequence4.png Graphic file (type png)
+<use pictures/jmoSequence4.png>
+Package pdftex.def Info: pictures/jmoSequence4.png  used on input line 220.
+(pdftex.def)             Requested size: 39.54759pt x 85.68655pt.
+<pictures/jmoSequence5.png, id=1396, 133.09724pt x 229.45724pt>
+File: pictures/jmoSequence5.png Graphic file (type png)
+<use pictures/jmoSequence5.png>
+Package pdftex.def Info: pictures/jmoSequence5.png  used on input line 221.
+(pdftex.def)             Requested size: 47.45229pt x 81.80624pt.
+<pictures/jmoSequence6.png, id=1397, 126.4725pt x 224.037pt>
+File: pictures/jmoSequence6.png Graphic file (type png)
+<use pictures/jmoSequence6.png>
+Package pdftex.def Info: pictures/jmoSequence6.png  used on input line 222.
+(pdftex.def)             Requested size: 47.45229pt x 84.05809pt.
+<pictures/jmoSequence7.png, id=1398, 124.66576pt x 221.628pt>
+File: pictures/jmoSequence7.png Graphic file (type png)
+<use pictures/jmoSequence7.png>
+Package pdftex.def Info: pictures/jmoSequence7.png  used on input line 223.
+(pdftex.def)             Requested size: 47.45229pt x 84.35815pt.
+<pictures/jmoSequence8.png, id=1399, 125.268pt x 222.8325pt>
+File: pictures/jmoSequence8.png Graphic file (type png)
+<use pictures/jmoSequence8.png>
+Package pdftex.def Info: pictures/jmoSequence8.png  used on input line 224.
+(pdftex.def)             Requested size: 47.45229pt x 84.40862pt.
+<pictures/kwonSequence1.png, id=1405, 89.133pt x 221.628pt>
+File: pictures/kwonSequence1.png Graphic file (type png)
+<use pictures/kwonSequence1.png>
+Package pdftex.def Info: pictures/kwonSequence1.png  used on input line 234.
+(pdftex.def)             Requested size: 43.49994pt x 108.1658pt.
+<pictures/kwonSequence2.png, id=1406, 99.9735pt x 221.02576pt>
+File: pictures/kwonSequence2.png Graphic file (type png)
+<use pictures/kwonSequence2.png>
+Package pdftex.def Info: pictures/kwonSequence2.png  used on input line 235.
+(pdftex.def)             Requested size: 47.45229pt x 104.90738pt.
+<pictures/kwonSequence3.png, id=1407, 101.178pt x 221.02576pt>
+File: pictures/kwonSequence3.png Graphic file (type png)
+<use pictures/kwonSequence3.png>
+Package pdftex.def Info: pictures/kwonSequence3.png  used on input line 236.
+(pdftex.def)             Requested size: 47.45229pt x 103.65952pt.
+<pictures/kwonSequence4.png, id=1408, 101.178pt x 226.446pt>
+File: pictures/kwonSequence4.png Graphic file (type png)
+<use pictures/kwonSequence4.png>
+Package pdftex.def Info: pictures/kwonSequence4.png  used on input line 237.
+(pdftex.def)             Requested size: 47.45229pt x 106.20157pt.
+<pictures/kwonSequence5.png, id=1409, 105.996pt x 224.037pt>
+File: pictures/kwonSequence5.png Graphic file (type png)
+<use pictures/kwonSequence5.png>
+Package pdftex.def Info: pictures/kwonSequence5.png  used on input line 238.
+(pdftex.def)             Requested size: 47.45229pt x 100.29951pt.
+<pictures/kwonSequence6.png, id=1410, 103.587pt x 230.0595pt>
+File: pictures/kwonSequence6.png Graphic file (type png)
+<use pictures/kwonSequence6.png>
+Package pdftex.def Info: pictures/kwonSequence6.png  used on input line 239.
+(pdftex.def)             Requested size: 47.45229pt x 105.38634pt.
+<pictures/kwonSequence7.png, id=1411, 106.59825pt x 224.037pt>
+File: pictures/kwonSequence7.png Graphic file (type png)
+<use pictures/kwonSequence7.png>
+Package pdftex.def Info: pictures/kwonSequence7.png  used on input line 240.
+(pdftex.def)             Requested size: 47.45229pt x 99.72862pt.
+<pictures/kwonSequence8.png, id=1412, 102.98476pt x 224.037pt>
+File: pictures/kwonSequence8.png Graphic file (type png)
+<use pictures/kwonSequence8.png>
+Package pdftex.def Info: pictures/kwonSequence8.png  used on input line 241.
+(pdftex.def)             Requested size: 45.47913pt x 98.93552pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pictures/bicepsSequence1.png, id=1416, 107.2005pt x 211.992pt>
+File: pictures/bicepsSequence1.png Graphic file (type png)
+<use pictures/bicepsSequence1.png>
+Package pdftex.def Info: pictures/bicepsSequence1.png  used on input line 251.
+(pdftex.def)             Requested size: 45.47913pt x 89.93527pt.
+<pictures/bicepsSequence2.png, id=1417, 118.041pt x 213.79875pt>
+File: pictures/bicepsSequence2.png Graphic file (type png)
+<use pictures/bicepsSequence2.png>
+Package pdftex.def Info: pictures/bicepsSequence2.png  used on input line 252.
+(pdftex.def)             Requested size: 51.41066pt x 93.11588pt.
+<pictures/bicepsSequence3.png, id=1418, 118.64325pt x 221.02576pt>
+File: pictures/bicepsSequence3.png Graphic file (type png)
+<use pictures/bicepsSequence3.png>
+Package pdftex.def Info: pictures/bicepsSequence3.png  used on input line 253.
+(pdftex.def)             Requested size: 49.43147pt x 92.08821pt.
+<pictures/bicepsSequence4.png, id=1419, 121.6545pt x 223.43475pt>
+File: pictures/bicepsSequence4.png Graphic file (type png)
+<use pictures/bicepsSequence4.png>
+Package pdftex.def Info: pictures/bicepsSequence4.png  used on input line 254.
+(pdftex.def)             Requested size: 49.43147pt x 90.78719pt.
+<pictures/bicepsSequence5.png, id=1420, 117.43875pt x 227.04825pt>
+File: pictures/bicepsSequence5.png Graphic file (type png)
+<use pictures/bicepsSequence5.png>
+Package pdftex.def Info: pictures/bicepsSequence5.png  used on input line 255.
+(pdftex.def)             Requested size: 47.45229pt x 91.73923pt.
+<pictures/bicepsSequence6.png, id=1421, 112.62074pt x 228.855pt>
+File: pictures/bicepsSequence6.png Graphic file (type png)
+<use pictures/bicepsSequence6.png>
+Package pdftex.def Info: pictures/bicepsSequence6.png  used on input line 256.
+(pdftex.def)             Requested size: 45.47913pt x 92.41687pt.
+<pictures/bicepsSequence7.png, id=1422, 106.59825pt x 227.6505pt>
+File: pictures/bicepsSequence7.png Graphic file (type png)
+<use pictures/bicepsSequence7.png>
+Package pdftex.def Info: pictures/bicepsSequence7.png  used on input line 257.
+(pdftex.def)             Requested size: 43.49994pt x 92.89615pt.
+<pictures/bicepsSequence8.png, id=1423, 100.57574pt x 222.8325pt>
+File: pictures/bicepsSequence8.png Graphic file (type png)
+<use pictures/bicepsSequence8.png>
+Package pdftex.def Info: pictures/bicepsSequence8.png  used on input line 258.
+(pdftex.def)             Requested size: 43.49994pt x 96.37712pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[65 <./pictures/jmoSequence1.png> <./pictures/jmoSequence2.png> <./pictures/jmoSequence3.png> <./pictures/jmoSequence4.png> <./pictures/jmoSequence5.png> <./pictures/jmoSequence6.png> <./pictures/jmoSequence7.png> <./pictures/jmoSequence8.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[66 <./pictures/kwonSequence1.png> <./pictures/kwonSequence2.png> <./pictures/kwonSequence3.png> <./pictures/kwonSequence4.png> <./pictures/kwonSequence5.png> <./pictures/kwonSequence6.png> <./pictures/kwonSequence7.png> <./pictures/kwonSequence8.png> <./pictures/bicepsSequence1.png> <./pictures/bicepsSequence2.png> <./pictures/bicepsSequence3.png> <./pictures/bicepsSequence4.png> <./pictures/bicepsSequence5.png> <./pictures/bicepsSequence6.png> <./pictures/bicepsSequence7.png> <./pictures/bicepsSequence8.png>]
+Underfull \vbox (badness 1789) has occurred while \output is active []
+
+
+
+[67]) (./content/omnipresent.tex
+Underfull \vbox (badness 4859) has occurred while \output is active []
+
+
+
+[68]
+
+[69]
+
+[70
+
+
+]
+chapter 7.
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+
+
+[71]
+File: pictures/PointOfView.PNG Graphic file (type png)
+<use pictures/PointOfView.PNG>
+Package pdftex.def Info: pictures/PointOfView.PNG  used on input line 10.
+(pdftex.def)             Requested size: 395.45181pt x 144.27042pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[72]
+<pictures/HoloLensScreenshot.jpg, id=1536, 3918.64pt x 2204.235pt>
+File: pictures/HoloLensScreenshot.jpg Graphic file (type jpg)
+<use pictures/HoloLensScreenshot.jpg>
+Package pdftex.def Info: pictures/HoloLensScreenshot.jpg  used on input line 27.
+(pdftex.def)             Requested size: 395.45181pt x 222.4208pt.
+
+
+[73 <./pictures/HoloLensScreenshot.jpg>]
+
+[74]
+<pictures/pelvisRegistration.png, id=1572, 825.0825pt x 1027.84pt>
+File: pictures/pelvisRegistration.png Graphic file (type png)
+<use pictures/pelvisRegistration.png>
+Package pdftex.def Info: pictures/pelvisRegistration.png  used on input line 54.
+(pdftex.def)             Requested size: 197.7259pt x 246.31023pt.
+<pictures/footRegistration.png, id=1573, 825.0825pt x 1027.84pt>
+File: pictures/footRegistration.png Graphic file (type png)
+<use pictures/footRegistration.png>
+Package pdftex.def Info: pictures/footRegistration.png  used on input line 55.
+(pdftex.def)             Requested size: 197.7259pt x 246.31023pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[75]
+<pictures/Standing.png, id=1589, 237.88875pt x 432.11438pt>
+File: pictures/Standing.png Graphic file (type png)
+<use pictures/Standing.png>
+Package pdftex.def Info: pictures/Standing.png  used on input line 64.
+(pdftex.def)             Requested size: 51.41066pt x 93.3841pt.
+<pictures/JumpingJack.png, id=1590, 371.88937pt x 584.93532pt>
+File: pictures/JumpingJack.png Graphic file (type png)
+<use pictures/JumpingJack.png>
+Package pdftex.def Info: pictures/JumpingJack.png  used on input line 65.
+(pdftex.def)             Requested size: 59.31535pt x 93.28809pt.
+<pictures/Plank.png, id=1591, 286.82156pt x 342.5297pt>
+File: pictures/Plank.png Graphic file (type png)
+<use pictures/Plank.png>
+Package pdftex.def Info: pictures/Plank.png  used on input line 66.
+(pdftex.def)             Requested size: 75.1368pt x 89.72984pt.
+<pictures/Squat.png, id=1592, 274.02374pt x 362.85562pt>
+File: pictures/Squat.png Graphic file (type png)
+<use pictures/Squat.png>
+Package pdftex.def Info: pictures/Squat.png  used on input line 67.
+(pdftex.def)             Requested size: 75.1368pt x 99.49492pt.
+<pictures/TorsoRotation.png, id=1593, 279.29344pt x 508.90125pt>
+File: pictures/TorsoRotation.png Graphic file (type png)
+<use pictures/TorsoRotation.png>
+Package pdftex.def Info: pictures/TorsoRotation.png  used on input line 68.
+(pdftex.def)             Requested size: 51.41066pt x 93.67157pt.
+<pictures/WarriorII.png, id=1594, 529.98pt x 593.21625pt>
+File: pictures/WarriorII.png Graphic file (type png)
+<use pictures/WarriorII.png>
+Package pdftex.def Info: pictures/WarriorII.png  used on input line 69.
+(pdftex.def)             Requested size: 86.99988pt x 97.3786pt.
+
+Overfull \hbox (3.95833pt too wide) in paragraph at lines 64--70
+ [][][][][][][][][][][][] 
+ []
+
+
+
+[76 <./pictures/pelvisRegistration.png> <./pictures/footRegistration.png> <./pictures/Standing.png> <./pictures/JumpingJack.png> <./pictures/Plank.png> <./pictures/Squat.png> <./pictures/TorsoRotation.png> <./pictures/WarriorII.png>]
+<pictures/avatarPos.png, id=1621, 1927.2pt x 1084.05pt>
+File: pictures/avatarPos.png Graphic file (type png)
+<use pictures/avatarPos.png>
+Package pdftex.def Info: pictures/avatarPos.png  used on input line 78.
+(pdftex.def)             Requested size: 395.45181pt x 222.43018pt.
+
+
+[77 <./pictures/avatarPos.png>]
+<pictures/gridRound.png, id=1637, 1927.2pt x 980.66376pt>
+File: pictures/gridRound.png Graphic file (type png)
+<use pictures/gridRound.png>
+Package pdftex.def Info: pictures/gridRound.png  used on input line 96.
+(pdftex.def)             Requested size: 395.45181pt x 201.21693pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pictures/floorPos.png, id=1639, 1927.2pt x 1084.05pt>
+File: pictures/floorPos.png Graphic file (type png)
+<use pictures/floorPos.png>
+Package pdftex.def Info: pictures/floorPos.png  used on input line 109.
+(pdftex.def)             Requested size: 395.45181pt x 222.43018pt.
+
+
+[78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[79 <./pictures/gridRound.png> <./pictures/floorPos.png>]
+
+[80]
+Underfull \vbox (badness 4479) has occurred while \output is active []
+
+
+
+[81]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[82]
+
+[83]
+
+[84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[85])
+
+[86]
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+chapter without number
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+
+
+[87
+
+
+
+
+]
+
+[88]
+
+[89]
+
+[90]
+
+[91]
+
+[92]
+
+[93]
+
+[94]
+
+[95]
+
+[96]
+Overfull \hbox (58.56473pt too wide) in paragraph at lines 162--162
+\T1/bch/m/it/10 (-20) Biome-chan-i-cal En-gi-neer-ing \T1/bch/m/n/10 (-20) 143.5 (Feb. 2021), p. 054501. eprint: []$\T1/lmtt/m/n/10 https : / / asmedigitalcollection .
+ []
+
+
+
+[97]
+
+[98]
+
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+
+
+[99]
+
+[100] (./main.lof
+Overfull \hbox (138.55006pt too wide) in paragraph at lines 17--17
+ \T1/bch/m/n/10.95 (-20) Limb an-gles. Im-ages from [[]25[]],[[]116[]],[[]55[]],[[]162[]],[[]157[]],[[]65[]],[[]155[]],[[]49[]],[[]169[]],[[]107[]],[[]29[]],[[]143[]],[[]34[]]. 
+ []
+
+
+Underfull \vbox (badness 2150) has occurred while \output is active []
+
+
+
+[101
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[102])
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+
+Underfull \vbox (badness 4193) has occurred while \output is active []
+
+
+
+[103]
+
+[104] (./main.lot)
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
+
+
+[105
+
+
+]
+
+[106
+
+
+] (./content/colophon.tex)
+
+[107]
+
+[108
+
+
+] (./content/declaration.tex
+
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+)
+
+[109
+
+
+]
+
+[110
+
+] (./main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 42487 strings out of 473207
+ 831224 string characters out of 5720461
+ 2031659 words of memory out of 5000000
+ 63835 multiletter control sequences out of 15000+600000
+ 740546 words of font info for 531 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 108i,14n,131p,10905b,3078s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/bookman/ubkli8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (124 pages, 14175725 bytes).
+PDF statistics:
+ 2782 PDF objects out of 2984 (max. 8388607)
+ 2417 compressed objects within 25 object streams
+ 569 named destinations out of 1000 (max. 500000)
+ 88672 words of extra memory for PDF output out of 89155 (max. 10000000)
+

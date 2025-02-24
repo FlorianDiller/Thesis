@@ -77,13 +77,6 @@ As already mentioned before, we developed educational modules for 14 different C
 	\item \textbf{Mesh Simplification:} Animated example of a grid-based mesh simplification algorithm with clickable cells allowing to initiate specific simplification steps
 \end{enumerate}
 All modules are publicly available as described in~\autoref{sec:publication}.
-\begin{figure}[b!th]
-	\centering
-	\includegraphics[width=\linewidth]{pictures/userGuidance_Icons.png}
-	\captionsetup{labelfont=bf,textfont=it}
-	\caption{The icons in the scene hierarchy let the user quickly identify possibilities to contribute. The \emph{pen} icon indicates editable objects, the \emph{plus} icon marks where new objects can be added.\label{fig:userGuidance}}
-\end{figure}
-
 
 \section{Holistic Approach}
 In this section, we describe the details of the design and development of our educational modules. As mentioned before, they each include an application, presentation slides, and a quiz (see~\autoref{fig:contents}), and each of the modules is focused on a specific topic. Key features of the educational modules include consistency, modularity, and expandability to ensure a coherent and customizable learning and teaching experience. The following section systematically introduces these features, providing brief explanations of their relevance to our work, followed by a more detailed exploration in subsequent sub-sections, clarifying where these features manifest within the implementation, educational modules, in-app tasks, and challenges.
@@ -99,27 +92,38 @@ Modularity is a foundational element in our approach, allowing the creation of i
 \textbf{Expandability:}
 Expandability is an essential part of our intention to create continuous improvement and adaptability. The following aspects establish easy expansion and updating: The open-source character of our OER combined with the modular approach in development, extensive documentation, annotation of the provided templates, the use of freely editable file formats (e.g. H5P~\cite{Singleton_Charlton_2019} for quizzes), and the use of a development environment (here game engine) in widespread use. This ensures that our content remains dynamic and offers educators the opportunity to improve existing modules or create new ones as technology and with it educational needs evolve. This adaptability contributes to the longevity and relevance of our educational resources.
 
+\begin{figure}[h!tb]
+	\centering
+	\includegraphics[width=0.6\linewidth]{pictures/userGuidance_Icons.png}
+	\captionsetup{labelfont=bf,textfont=it}
+	\caption{The icons in the scene hierarchy let the user quickly identify possibilities to contribute. The \emph{pen} icon indicates editable objects, the \emph{plus} icon marks where new objects can be added.\label{fig:userGuidance}}
+\end{figure}
+
 \textbf{User Guidance:}
 Icons (see~\autoref{fig:userGuidance}) and documentation in the provided templates make it clear where the resources can be used and adapted effectively. This user guidance is designed to help teachers and developers make changes exactly where they are needed without unnecessary complications. This guided tailoring of resources to individual needs increases the accessibility, usability, and overall effectiveness of our education system.
-\begin{figure}[b]
+
+These key aspects collectively represent the concept of our overall design, which is not only technologically sophisticated but --- more importantly --- learning process-oriented. They form the backbone of an ecosystem where connectivity, adaptability, and accessibility come together to create a dynamic and enriching learning and teaching experience for students and teachers alike.
+
+\begin{figure}[h!tb]
 	\centering
-	\includegraphics[width=\linewidth]{pictures/unityPrefabs.png}
+	\includegraphics[width=0.5\linewidth]{pictures/unityPrefabs.png}
 	\captionsetup{labelfont=bf,textfont=it}
 	\caption{Template objects (so-called \emph{prefabs}) enable the user to easily create customized scenes fit for their needs. \label{fig:unityPrefabs}}
 \end{figure}
-These key aspects collectively represent the concept of our overall design, which is not only technologically sophisticated but --- more importantly --- learning process-oriented. They form the backbone of an ecosystem where connectivity, adaptability, and accessibility come together to create a dynamic and enriching learning and teaching experience for students and teachers alike.
-\begin{figure*}[t!bh]
-	\centering
-	\includegraphics[width=\linewidth]{pictures/modularApproach.png}
-	\captionsetup{labelfont=bf,textfont=it}
-	\caption{Systematic overview of our educational approach and how to implement it in education schedules. We provide $n=14$ modules that are based on shared templates, which give them a consistent look and feel. By using the templates to create new modules, reusing or modifying existing modules, or replacing parts, other educators can create their own modules tailored to their individual teaching schedules.\label{fig:modularApproach}}
-\end{figure*}
+
 \subsection{Implementation}
 %\textcolor{blue}{Modular., Expand, User Guidance (UI)} How do the above key points show in the implementation?
 
 Our application comes with a framework of prefabs and scenes in the game engine Unity that follows a modular design approach. These components can be flexibly combined to create different applications within the educational package as visualized in \autoref{fig:unityPrefabs}. The provided Unity scenes are easy to use for certain control types. For example, developers can choose between a 2D or a 3D scene that is already equipped with the appropriate controls, user interface (UI), and camera. In addition, the provided prefabs make it easier to expand the UI by enabling the integration of useful elements such as buttons or tutorials. This modular structure not only increases the adaptability of the package but also facilitates the creation of customized educational experiences.
 The pre-built UI is designed to support additional features to meet different educational needs. Users can easily expand the UI with features such as buttons and panels, providing a platform for the creation of advanced and customized learning applications.
 Cues within the Unity framework, such as icons for editable or extensible components in the \emph{hierarchy}, provide clear visual guidance for user interaction (see~\autoref{fig:userGuidance}). These indicators, combined with detailed technical information presented in the comprehensive documentation, allow users, i.e. developers, to navigate the development environment with confidence.
+
+\begin{figure*}[h!tb]
+	\centering
+	\includegraphics[width=\linewidth]{pictures/modularApproach.png}
+	\captionsetup{labelfont=bf,textfont=it}
+	\caption{Systematic overview of our educational approach and how to implement it in education schedules. We provide $n=14$ modules that are based on shared templates, which give them a consistent look and feel. By using the templates to create new modules, reusing or modifying existing modules, or replacing parts, other educators can create their own modules tailored to their individual teaching schedules.\label{fig:modularApproach}}
+\end{figure*}
 
 \subsection{Educational Modules} %Teaching Bundles?
 %\textcolor{blue}{Interconn., Modular (Folien,Quiz), Expand (Educational), User Guidance (Docu)} How does the above key points show in the framework?
@@ -134,8 +138,14 @@ This gamification approach not only increases motivation but also fosters a sens
 
 In summary, our holistic approach allows us to provide a cohesive, adaptable, and user-friendly learning experience. The incorporation of consistency, modularity, expandability, and user guidance forms a versatile foundation. Moreover, the integration of in-app tasks and challenges elevates the learning experience, turning it into an engaging process for both teachers and learners.
 
+Our learning modules are available on the project website (\href{https://openedu-rlp.de/edu-sharing/components/collections?id=fd3957ef-80aa-4440-8956-c1d0d738c629}{https://www.openedu-rlp.de}). It includes the materials needed for forming individual learning schedules as seen in~\autoref{fig:modularApproach}. Additionally, there can be found the source files and documentation to use and build upon our materials, or create new exploratories. Furthermore, the materials can be found via other services, which refer to the project website. %The repository is publicly available at \url{https://gitlab.rlp.net/exgoer/exploratories.git}. 
+
+\section{Evaluation}
+%The integration of Open Educational Resources (OER) into education has earned increased attention in recent years, aligning with the ongoing trend of making educational content more open and accessible.
+The following subsections describe the three different methods how we evaluated our newly developed overall concept and the specific educational modules. The aim is not only to assess the effectiveness of this concept and the modules but also to examine its pedagogical significance and potential challenges for educators and learners alike. The first two subsections explore the expert knowledge of a small number of individuals, while the third subsection provides insights into the interaction with a larger number of learners.
+
 \captionsetup{labelfont={bf,color=black},textfont=it}
-\begin{figure*}[t!b]
+\begin{figure*}[h!tb]
 	\centering
 	\subfloat[DDA Line Drawing\label{fig:DDA}]{\includegraphics[width=0.33\linewidth]{pictures/DDAScreen.png}\hfill}
 	\subfloat[Field of View]{\includegraphics[width=0.33\linewidth]{pictures/fovScreen.png}\hfill}
@@ -145,11 +155,6 @@ In summary, our holistic approach allows us to provide a cohesive, adaptable, an
 	\label{fig:uxEval}
 \end{figure*}
 \section{Publication\label{sec:publication}}
-Our learning modules are available on the project website (\href{https://openedu-rlp.de/edu-sharing/components/collections?id=fd3957ef-80aa-4440-8956-c1d0d738c629}{https://www.openedu-rlp.de}). It includes the materials needed for forming individual learning schedules as seen in~\autoref{fig:modularApproach}. Additionally, there can be found the source files and documentation to use and build upon our materials, or create new exploratories. Furthermore, the materials can be found via other services, which refer to the project website. %The repository is publicly available at \url{https://gitlab.rlp.net/exgoer/exploratories.git}. 
-
-\section{Evaluation}
-%The integration of Open Educational Resources (OER) into education has earned increased attention in recent years, aligning with the ongoing trend of making educational content more open and accessible.
-The following subsections describe the three different methods how we evaluated our newly developed overall concept and the specific educational modules. The aim is not only to assess the effectiveness of this concept and the modules but also to examine its pedagogical significance and potential challenges for educators and learners alike. The first two subsections explore the expert knowledge of a small number of individuals, while the third subsection provides insights into the interaction with a larger number of learners.
 
 \subsection{Teaching Staff Interviews}%Julian Stockemer
 This subsection examines the willingness to use the concept and the impact of its integration on teaching practice. This survey, involving five participants, was conducted during a university event focused on OER. The participants were introduced to our teaching concept, had the opportunity to experience the exploratories \emph{Field of View}, \emph{Backface Culling}, and \emph{Light Sources}, and posed questions. Subsequently, they completed a questionnaire.
