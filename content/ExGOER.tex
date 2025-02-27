@@ -13,7 +13,7 @@ In contrast to Püschel's study~\cite{pueschel:2013:MRCG}, our research has comp
 
 \begin{figure}[b!th]
 	\centering
-	\includegraphics[width=\linewidth]{pictures/ExGoerContents.png}
+	\includegraphics[width=0.8\linewidth]{pictures/ExGoerContents.png}
 	\captionsetup{labelfont=bf,textfont=it}
 	\caption{Each of our educational modules consists of an exploratory, slides, and a quiz.\label{fig:contents}}
 \end{figure}
@@ -104,12 +104,6 @@ Icons (see~\autoref{fig:userGuidance}) and documentation in the provided templat
 
 These key aspects collectively represent the concept of our overall design, which is not only technologically sophisticated but --- more importantly --- learning process-oriented. They form the backbone of an ecosystem where connectivity, adaptability, and accessibility come together to create a dynamic and enriching learning and teaching experience for students and teachers alike.
 
-\begin{figure}[h!tb]
-	\centering
-	\includegraphics[width=0.5\linewidth]{pictures/unityPrefabs.png}
-	\captionsetup{labelfont=bf,textfont=it}
-	\caption{Template objects (so-called \emph{prefabs}) enable the user to easily create customized scenes fit for their needs. \label{fig:unityPrefabs}}
-\end{figure}
 
 \subsection{Implementation}
 %\textcolor{blue}{Modular., Expand, User Guidance (UI)} How do the above key points show in the implementation?
@@ -118,18 +112,23 @@ Our application comes with a framework of prefabs and scenes in the game engine 
 The pre-built UI is designed to support additional features to meet different educational needs. Users can easily expand the UI with features such as buttons and panels, providing a platform for the creation of advanced and customized learning applications.
 Cues within the Unity framework, such as icons for editable or extensible components in the \emph{hierarchy}, provide clear visual guidance for user interaction (see~\autoref{fig:userGuidance}). These indicators, combined with detailed technical information presented in the comprehensive documentation, allow users, i.e. developers, to navigate the development environment with confidence.
 
-\begin{figure*}[h!tb]
+\begin{figure}[h!tb]
 	\centering
-	\includegraphics[width=\linewidth]{pictures/modularApproach.png}
+	\includegraphics[width=0.6\linewidth]{pictures/unityPrefabs.png}
 	\captionsetup{labelfont=bf,textfont=it}
-	\caption{Systematic overview of our educational approach and how to implement it in education schedules. We provide $n=14$ modules that are based on shared templates, which give them a consistent look and feel. By using the templates to create new modules, reusing or modifying existing modules, or replacing parts, other educators can create their own modules tailored to their individual teaching schedules.\label{fig:modularApproach}}
-\end{figure*}
+	\caption{Template objects (so-called \emph{prefabs}) enable the user to easily create customized scenes fit for their needs. \label{fig:unityPrefabs}}
+\end{figure}
 
 \subsection{Educational Modules} %Teaching Bundles?
 %\textcolor{blue}{Interconn., Modular (Folien,Quiz), Expand (Educational), User Guidance (Docu)} How does the above key points show in the framework?
 The digital educational content has been carefully designed to flow seamlessly together and ensure a consistent visual identity. Each exploratory includes multiple recognizable graphical elements and details that reappear in the presentation slides and H5P quiz modules, creating a cohesive look and feel that enhances understanding of the topic. This can be seen, for example, in the screenshots of \autoref{fig:contents}.
 The concept of modularity and expandability in our project is manifested through the deliberate design of multiple self-contained topics. Each learning unit operates as an independent module. This design allows for seamless integration and interchangeability of these units within an overall educational framework, e.g. in a lecture as visualized in \autoref{fig:modularApproach}. Whether educators wish to modify the sequence, introduce new content, or adapt existing modules, the modularity and expandability of our project allow them to do so effortlessly. This approach not only enhances the adaptability of the educational content but also facilitates a dynamic learning environment where each unit serves as a building block for teaching material fitting the educators' needs and a learning experience tailored to individual student groups. In addition, the widespread formats of the educational materials enable effortless integration within existing learning management systems (in our test scenarios, \emph{Moodle} and \emph{OLAT} were used) to deploy them among students and to evaluate the learning progress.
-
+\begin{figure*}[h!bt]
+	\centering
+	\includegraphics[width=\linewidth]{pictures/modularApproach.png}
+	\captionsetup{labelfont=bf,textfont=it}
+	\caption{Systematic overview of our educational approach and how to implement it in education schedules. We provide $n=14$ modules that are based on shared templates, which give them a consistent look and feel. By using the templates to create new modules, reusing or modifying existing modules, or replacing parts, other educators can create their own modules tailored to their individual teaching schedules.\label{fig:modularApproach}}
+\end{figure*}
 \subsection{In-App Tasks and Challenges}
 %\textcolor{blue}{exploratories zum erkunden (FOV, Transform), gamification (DDA)}
 In-app tasks serve as catalysts for active learning. These tasks are designed to motivate students to delve deeper into the subject matter and encourage them to apply theoretical concepts in a hands-on environment. By linking theoretical learning with practical tasks, we aim to promote a deeper understanding of the content. Another approach taken by us is inspired by gamification, bringing elements of competition and achievement into the learning process (see e.g. subfigure~\ref{fig:DDA}).

@@ -6,7 +6,7 @@
 		\includegraphics[height=0.35\linewidth]{pictures/pelvisRegSide.png}}
 	\subfloat[Superimposition registered at feet]{\includegraphics[height=0.35\linewidth]{pictures/footReg.png}
 		\includegraphics[height=0.35\linewidth]{pictures/footRegSide.png}}
-	\caption{Highlighting the importance of registration: When registered at the pelvis (a), the squatting target avatar (in green) seems to be floating. Registering at the feet seems to provide more intuitive feedback, connected to the environment.}
+	\caption{Highlighting the importance of registration: When registered at the pelvis (a), the squatting target avatar (in green) seems to be floating. Registering at the feet (b) seems to provide more intuitive feedback, connected to the environment.}
 	\label{fig:registrationComparison}
 \end{figure}
 
@@ -61,13 +61,13 @@ Furthermore, scaling the target avatar eliminates most inconsistencies in a bone
 \begin{figure*}[h]
 	\centering
 	\captionsetup[subfigure]{labelformat=empty}
-	\subfloat[Push-up (P)]{\includegraphics[height=.16\linewidth]{pictures/pushupPelvis.PNG}\hfill}  
-	\subfloat[Push-up (R)]{\includegraphics[height=.16\linewidth]{pictures/pushupRegistered.PNG}\hfill} 
-	\subfloat[Dip (P)]{\includegraphics[height=.27\linewidth]{pictures/dipsPelvis.PNG}\hfill} 
-	\subfloat[Dip (R)]{\includegraphics[height=.27\linewidth]{pictures/dipsRegistered.PNG}\hfill} 
-	\subfloat[Jump (F)]{\includegraphics[height=.27\linewidth]{pictures/jumpFeet.PNG}\hfill}
-	\subfloat[Jump (R)]{\includegraphics[height=.27\linewidth]{pictures/jumpPelvis.PNG}\hfill} 
-	\caption{Start and execution position of exercise examples registered according to the registration methods in \autoref{sec:optimalReg} (R), the feet (F) and only the pelvis (P). The exercises and registration parameters can be found in \autoref{tab:regExamples}.}
+	\subfloat[\centering Push-up (P)]{\includegraphics[height=.16\linewidth]{pictures/pushupPelvis.PNG}\hfill}  
+	\subfloat[\centering Push-up (R)]{\includegraphics[height=.16\linewidth]{pictures/pushupRegistered.PNG}\hfill} 
+	\subfloat[\centering Dip (P)]{\includegraphics[height=.27\linewidth]{pictures/dipsPelvis.PNG}\hfill} 
+	\subfloat[\centering Dip (R)]{\includegraphics[height=.27\linewidth]{pictures/dipsRegistered.PNG}\hfill} 
+	\subfloat[\centering Jump (F)]{\includegraphics[height=.27\linewidth]{pictures/jumpFeet.PNG}\hfill}
+	\subfloat[\centering Jump (R)]{\includegraphics[height=.27\linewidth]{pictures/jumpPelvis.PNG}\hfill} 
+	\caption{Start and execution position of exercise examples registered according to our registration methods explained in \autoref{sec:optimalReg} (R), the feet (F) and only the pelvis (P). The exercises and registration parameters can be found in \autoref{tab:regExamples}.}
 	\label{fig:regExamples}
 \end{figure*}
 
@@ -77,14 +77,9 @@ To establish an understanding of the methods explained in \autoref{sec:optimalRe
 \textbf{Connection to floor:}
 Exercises that connect with the feet on the floor (like squats and warrior II), and those that involve lying down (like leg raises, plank, and push-ups) both profit from the same registration. Here, the pelvis was used to align the avatars on the horizontal plane. As a result, the torsos and therefore, the body's center were registered quite well. The avatars were vertically placed by aligning the lowest joint of each. Consequently, the avatars were intuitively placed on the floor, even if the movement of the actual avatar did not (yet) follow the target avatar (see \autoref{fig:regExamples} and \autoref{fig:registrationComparison}). Concerning rotation, the pitch and roll rotations, as depicted in \autoref{fig:6dof}, were fixated as in the recorded exercise. As already stated in \autoref{sec:optimalReg}, the pitch and roll rotations seem inherent to the exercise, as altering them can falsify the execution. However, the yaw rotation was based on the same joint used for horizontal alignment: The pelvis. This aligns the main orientations of the avatars.
 
-\textbf{Connection to equipment:}
-Alternatively, during an exercise, the individual could connect with the environment on a piece of equipment. For example, this is the case when doing dips or pull-ups where the individual is either supported or suspended by the arms, as seen in \autoref{fig:regExamples}. As a joint for both, horizontal alignment as well as yaw alignment, the base of the neck (i.e. center between shoulders) was chosen. Here, this provides a more intuitive registration point than the pelvis, as the arms connect to the environment. For the same reason, the hands were chosen as the base for a vertical alignment. Since the bars for dips or pull-ups represent the connection to the environment, registration at the hands appears stable and intuitive.
-
-\textbf{No connection to the environment:}
-Lastly, some exercises require no connection to the environment (like jumping or swimming). Still, it is possible to register avatars in these cases. To do so, the pelvis is chosen as the center of the body, as seen in \autoref{fig:regExamples}. The pitch and roll rotations are again fixated on the target avatar from how the exercise was recorded. The remaining alignments (i.e. up/down, left/right, forward/backward, yaw) are all done according to the pelvis.
-
 \begin{table}[h]
 	\caption{Exercise examples with corresponding joints for each of the six degrees of freedom to match for an optimized registration as described in \autoref{sec:optimalReg}.\label{tab:regExamples}}
+	\footnotesize
 	\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccccc}
 		\toprule%
 		& \multicolumn{3}{@{}c@{}}{Translation along} & \multicolumn{3}{@{}c@{}}{Rotation around} \\\cmidrule{2-4}\cmidrule{5-7}
@@ -102,3 +97,9 @@ Lastly, some exercises require no connection to the environment (like jumping or
 		\bottomrule
 	\end{tabular*}
 \end{table}
+
+\textbf{Connection to equipment:}
+Alternatively, during an exercise, the individual could connect with the environment on a piece of equipment. For example, this is the case when doing dips or pull-ups where the individual is either supported or suspended by the arms, as seen in \autoref{fig:regExamples}. As a joint for both, horizontal alignment as well as yaw alignment, the base of the neck (i.e. center between shoulders) was chosen. Here, this provides a more intuitive registration point than the pelvis, as the arms connect to the environment. For the same reason, the hands were chosen as the base for a vertical alignment. Since the bars for dips or pull-ups represent the connection to the environment, registration at the hands appears stable and intuitive.
+
+\textbf{No connection to the environment:}
+Lastly, some exercises require no connection to the environment (like jumping or swimming). Still, it is possible to register avatars in these cases. To do so, the pelvis is chosen as the center of the body, as seen in \autoref{fig:regExamples}. The pitch and roll rotations are again fixated on the target avatar from how the exercise was recorded. The remaining alignments (i.e. up/down, left/right, forward/backward, yaw) are all done according to the pelvis.
