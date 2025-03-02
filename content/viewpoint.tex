@@ -1,8 +1,8 @@
 \externaldocument{content/registration}
 \chapter{Automatic Viewpoint Selection for Interactive Motor Feedback Using Principle Component Analysis\label{chap:viewpoint}}
-In modern society, skill training is crucial across various areas, including recreational sports, physical therapy, and professional environments. Enhancing the learning process through interactive technology is becoming increasingly important. Specifically, in motor skill training supported by mixed reality technologies, interactive visual corrective feedback has become particularly significant, as demonstrated in our previous work~\cite{diller2022vcb}. This feedback is designed to support individuals to perform specific body movements correctly, thereby reducing the need for constant supervision by professionals. Superimposed avatars, in various types, represent a particular prevalent feedback method. Proper execution of movements is vital in physiotherapy and physical exercise to achieve the desired benefits and prevent injuries. Additionally, the repetitive and controlled nature of movements in physiotherapy and strength training allows for precise feedback provision and the identification of common errors.
+In modern society, skill training is crucial across various areas, including recreational sports, physical therapy, and professional environments. Enhancing the learning process through interactive technology is becoming increasingly important. Specifically, in motor skill training supported by mixed reality technologies, interactive visual corrective feedback has become particularly significant, as demonstrated in \autoref{chap:visualCueSurvey}. This feedback is designed to support individuals to perform specific body movements correctly, thereby reducing the need for constant supervision by professionals. Superimposed avatars, in various types, represent a particular prevalent feedback method. Proper execution of movements is vital in physiotherapy and physical exercise to achieve the desired benefits and prevent injuries. Additionally, the repetitive and controlled nature of movements in physiotherapy and strength training allows for precise feedback provision and the identification of common errors.
 
-Despite their importance, current methods for viewpoint selection in human motion and action feedback do not adequately consider visual cues. Furthermore, many existing techniques are computationally intensive and unsuitable for real-time application. In contrast, this chapter and its shorter version~\cite{diller2024automatic} identify key factors for optimal viewpoint selection for superimposed avatars used for motor feedback and propose an algorithm for this purpose using \emph{principal component analysis} (PCA). In addition to~\cite{diller2024automatic}, this work explores valuable aspects of avatar registration. Not only do these directly impact the viewpoint selection, but they also give us a further understanding of how to register superimposed avatars to facilitate an understanding of the feedback from the user, independent of the rendering methods.
+Despite their importance, current methods for viewpoint selection in human motion and action feedback do not adequately consider visual cues. Furthermore, many existing techniques are computationally intensive and unsuitable for real-time application. In contrast, this chapter identifies key factors for optimal viewpoint selection for superimposed avatars used for motor feedback and propose an algorithm for this purpose using \emph{principal component analysis} (PCA). This work explores valuable aspects of avatar registration. Not only do these directly impact the viewpoint selection, but they also give us a further understanding of how to register superimposed avatars to facilitate an understanding of the feedback from the user, independent of the rendering methods.
 
 \section{Related Work \label{sec:relView}}
 As demonstrated by Bouwmans et al.~\cite{bouwmans2018arpca}, robust PCA has numerous applications in the field of visual computing. For instance, Skaro et al.~\cite{skaro2021knac} introduced a method to reduce errors common in marker-based motion tracking.
@@ -13,8 +13,8 @@ Wang et al.~\cite{wang2019asw} utilized information theory and deep reinforcemen
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.5\linewidth]{pictures/skeleton_E_occ.png}
-	\caption{Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}: Joint Mutual Occlusion. Originally published in~\cite{diller2024automatic}.}
+	\includegraphics[width=0.6\linewidth]{pictures/skeleton_E_occ.png}
+	\caption{Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}: Joint Mutual Occlusion.}
 	\label{fig:jmo}
 \end{figure}
 
@@ -27,39 +27,39 @@ The approaches by Ishara et al.~\cite{ishara2015mra} and Kwon et al.~\cite{kwon2
 PCA is commonly used to reduce dimensionality in data sets for machine learning~\cite{sorzano2014sdr}. The principal components represent the main independent directions in which data points spread. For spatial data, three independent directions are involved. The first two principal components represent the main spread directions, while the third component provides a good viewing direction, perpendicular to the first two. This is equivalent to reducing the dimensionality from three to two, as the rendered image of 3D objects is displayed in two dimensions. Assa et al.~\cite{assa2008moh} used this method to calculate camera paths. However, their use case differs significantly, as they compute camera paths that involve camera cuts, which we avoid due to the short duration of exercise repetitions where cuts can be disorienting. Additionally, the work of Assa et al. is action-based, while ours is feedback-based, requiring additional measures to ensure feedback visibility. Lastly, their approach is not real-time capable, being computationally intensive and requiring the entire motion sequence for computation.
 
 \section{Methodology \label{sec:view:methodology}}
+\begin{figure*}[h!]
+	\centering
+	\includegraphics[width=0.49\linewidth]{pictures/projection_feedback}\hfill
+	\includegraphics[width=0.49\linewidth]{pictures/projection_feedback_arrow}
+	\caption{Feedback for the same angle viewed from different perspectives. Two feedback cues: circular sector (left) and arrow (right). From left to right: Perfectly visible, visible, and hardly visible feedback. The shadows demonstrate that viewpoint affects not only the perception of the geometry but also of the feedback.}
+	\label{fig:projection_feedback}
+\end{figure*}
 To facilitate a user-friendly and intuitive viewpoint selection, several things have to be considered. We will discuss these in detail in \autoref{sec:considerations}. With the foundational registration methods discussed in \autoref{sec:optimalReg}, it is possible to calculate an optimized viewpoint, as presented in \autoref{sec:methViewCalc}.
 
 \subsection*{Perspective Considerations \label{sec:considerations}}
 In the literature, concrete rules for generating good perspectives are lacking. However, based on user preferences and logical argumentation several criteria and hints can be extracted to determine what facilitates a good viewpoint.
 
-\begin{figure}[h]
+\begin{figure}[t!h]
 	\centering
 	\includegraphics[width=\linewidth]{pictures/projection_normal.png}
-	\caption{Highlighting the importance of viewpoint selection: Three \emph{different} joint angles produce \emph{identical} shadows when projected onto the ground, implying they appear identical from an overhead perspective. Inspired by Nundy et al.~\cite{nundy2000wam}. Originally published in~\cite{diller2024automatic}.}
+	\caption{Highlighting the importance of viewpoint selection: Three \emph{different} joint angles produce \emph{identical} shadows when projected onto the ground, implying they appear identical from an overhead perspective. Inspired by Nundy et al.~\cite{nundy2000wam}.}
 	\label{fig:projection_normal}
 \end{figure}
 
 Polonsky et al.~\cite{polonsky2005wii} identified seven measurable view descriptors but concluded that determining a universally good view of an object is challenging. None of the view descriptors alone provides a general measure of viewpoint quality. However, some clues are available for treating specific objects. For instance, Zusne~\cite{zusne1970vpf} empirically demonstrated that humans prefer a frontal view of objects with eyes and a face.
 
-When looking at motor feedback, here in particular superimposed avatars, the positions of the joints and the angles between limbs are particularly critical for understanding movements. However, as previously analyzed by Nundy et al.~\cite{nundy2000wam}, angle perception is highly perspective-dependent. This is especially true in computer-rendered perspectives due to screen projection distortions, as shown in \autoref{fig:projection_normal} and \autoref{fig:projection_feedback}. While stereoscopic viewing (e.g., real-world or head-mounted displays) helps depth perception and angle interpretation, monoscopic rendering does not offer the same possibilities. Additionally, occlusion can impede understanding of the human pose, with self-occlusion of the avatar's limbs behind each other. Similarly, visual feedback cues can be obscured by the avatar itself or by other cues, as depicted in \autoref{fig:projection_feedback} and \autoref{fig:skeletonFeedbackPerspective}.
+When looking at motor feedback, here in particular superimposed avatars, the positions of the joints and the angles between limbs are particularly critical for understanding movements. However, as previously analyzed by Nundy et al.~\cite{nundy2000wam}, angle perception is highly perspective-dependent. This is especially true in computer-rendered perspectives due to screen projection distortions, as shown in \autoref{fig:projection_normal} and \autoref{fig:projection_feedback}. While stereoscopic viewing (e.g., in the real-world or via HMD) helps depth perception and angle interpretation, monoscopic rendering does not offer the same possibilities. Additionally, occlusion can impede understanding of the human pose, with self-occlusion of the avatar's limbs behind each other. Similarly, visual feedback cues can be obscured by the avatar itself or by other cues, as depicted in \autoref{fig:projection_feedback} and \autoref{fig:skeletonFeedbackPerspective}.
 
-\begin{figure*}[h]
-	\centering
-	\includegraphics[width=0.49\linewidth]{pictures/projection_feedback}\hfill
-	\includegraphics[width=0.49\linewidth]{pictures/projection_feedback_arrow}
-	\caption{Feedback for the same angle viewed from different perspectives. Two feedback cues: circular sector (left) and arrow (right). From left to right: Perfectly visible, visible, and hardly visible feedback. The shadows demonstrate that viewpoint affects not only the perception of the geometry but also of the feedback. Originally published in~\cite{diller2024automatic}.}
-	\label{fig:projection_feedback}
-\end{figure*}
 
-Given the lack of a general description for a good view, we need to define the characteristics of a good viewpoint for our specific use case. In our context, we frequently use the metaphor of a virtual camera, common in rendering, to describe the viewpoint and viewing direction. Following Zusne's~\cite{zusne1970vpf} findings, we prefer an approximately frontal view of the human pose, meaning the virtual camera should be oriented towards the front of the pose rather than from behind. Additionally, the camera's up-vector should align with the world's up-vector to avoid viewer confusion, as this is the biologically typical perception for humans. Furthermore, we aim to minimize the occlusions of the avatars demonstrating the movement execution. Finally, in our use case, visual feedback is provided to correct movements or poses, and this feedback must be clearly visible. Therefore, feedback should not be occluded by the avatar or by itself and should be as perpendicular to the view direction as possible.
-
-\begin{figure}[ht]
+\begin{figure}[t!h]
 	\centering
 	\includegraphics[width=0.49\linewidth]{pictures/feedbackFront.png}
 	\includegraphics[width=0.49\linewidth]{pictures/feedbackSide.png}
-	\caption{Skeleton of a human pose with feedback from two perspectives. Two visual feedback cues are shown: A red angle sector and a superimposed avatar (here green skeleton). The feedback is hardly visible from the frontal perspective on the left. Inspired by~\cite{diller2024automatic}.}
+	\caption{Skeleton of a human pose with feedback from two perspectives. Two visual feedback cues are shown: A red angle sector and a superimposed avatar (here green skeleton). The feedback is hardly visible from the frontal perspective on the left.}
 	\label{fig:skeletonFeedbackPerspective}
 \end{figure}
+
+Given the lack of a general description for a good view, we need to define the characteristics of a good viewpoint for our specific use case. In our context, we frequently use the metaphor of a virtual camera, common in rendering, to describe the viewpoint and viewing direction. Following Zusne's~\cite{zusne1970vpf} findings, we prefer an approximately frontal view of the human pose, meaning the virtual camera should be oriented towards the front of the pose rather than from behind. Additionally, the camera's up-vector should align with the world's up-vector to avoid viewer confusion, as this is the biologically typical perception for humans. Furthermore, we aim to minimize the occlusions of the avatars demonstrating the movement execution. Finally, in our use case, visual feedback is provided to correct movements or poses, and this feedback must be clearly visible. Therefore, feedback should not be occluded by the avatar or by itself and should be as perpendicular to the view direction as possible.
 
 When selecting perspectives for human motions and corresponding feedback, it is important to consider the dependencies of different body parts. Specifically, the limbs are hierarchically linked, meaning that moving the upper arm will cause the lower arm and hand to follow. Consequently, perspectives for such motions should ideally employ a \emph{hierarchical drill-down mechanism} to prioritize viewing along the hierarchy.
 
@@ -81,7 +81,7 @@ Because the view direction should be optimized for corrective feedback correspon
 \begin{figure}[tb]
 	\centering
 	\includegraphics[width=0.5\linewidth]{pictures/eigenvector.png}
-	\caption{If Joint \(J_n\) (in red) deviates from the target position, a PCA is conducted including the corresponding target joint (in orange) and their parents (in blue). The eigenvector \(\vec{e}_{3n}\) then gives us an optimal view direction \(\vec{v}_{Fn}\) of the feedback for \(J_n\). The resulting view direction is orthogonal to the plane defined by the eigenvectors \(\vec{e}_{1n}\) and \(\vec{e}_{2n}\). This plane approximates the distribution of the considered joints and does not interpolate them. Originally published in~\cite{diller2024automatic}.}
+	\caption{If Joint \(J_n\) (in red) deviates from the target position, a PCA is conducted including the corresponding target joint (in orange) and their parents (in blue). The eigenvector \(\vec{e}_{3n}\) then gives us an optimal view direction \(\vec{v}_{Fn}\) of the feedback for \(J_n\). The resulting view direction is orthogonal to the plane defined by the eigenvectors \(\vec{e}_{1n}\) and \(\vec{e}_{2n}\). This plane approximates the distribution of the considered joints and does not interpolate them.}
 	\label{fig:eigenvector}
 \end{figure}
 
@@ -125,13 +125,13 @@ Subsequently, a diverse set of example exercises was developed including various
 
 \begin{figure*}[t!]
 	\centering
-	\subfloat[Bench press]{\includegraphics[width=.18\linewidth]{pictures/bench.png}\hfill}  
-	\subfloat[Curl A]{\includegraphics[width=.14\linewidth]{pictures/curlA.png}\hfill} 
-	\subfloat[Lateral raises]{\includegraphics[width=.18\linewidth]{pictures/lateral.png}\hfill} 
-	\subfloat[Shoulder press]{\includegraphics[width=.18\linewidth]{pictures/shoulder.png}\hfill} 
-	\subfloat[Bend over row]{\includegraphics[width=.18\linewidth]{pictures/rows.png}\hfill}
-	\subfloat[Curl B]{\includegraphics[width=.14\linewidth]{pictures/curlB.png}\hfill} 
-	\caption{Sample exercises with deviations as described in \autoref{sec:sample}. Originally published in~\cite{diller2024automatic}.}
+	\subfloat[\centering Bench press]{\includegraphics[width=.18\linewidth]{pictures/bench.png}\hfill}  
+	\subfloat[\centering Curl A]{\includegraphics[width=.14\linewidth]{pictures/curlA.png}\hfill} 
+	\subfloat[\centering Lateral raises]{\includegraphics[width=.18\linewidth]{pictures/lateral.png}\hfill} 
+	\subfloat[\centering Shoulder press]{\includegraphics[width=.18\linewidth]{pictures/shoulder.png}\hfill} 
+	\subfloat[\centering Bent-over\\row]{\includegraphics[width=.18\linewidth]{pictures/rows.png}\hfill}
+	\subfloat[\centering Curl B]{\includegraphics[width=.14\linewidth]{pictures/curlB.png}\hfill} 
+	\caption{Sample exercises with deviations as described in \autoref{sec:sample}.}
 	\label{fig:optimal:exercises}
 \end{figure*}
 
@@ -143,14 +143,14 @@ To assess our method, as described in \autoref{sec:study}, and compare it with t
 
 Selecting a viewpoint for videos can be considered as choosing a continuous viewpoint for each static pose in the individual frames. To verify the underlying assumptions of viewpoint quality (see \autoref{sec:considerations}), we chose four representative static poses: standing (standard anatomical position), squatting, bending down, and bench press. To learn more about how the user study was conducted, please refer to \autoref{sec:study}.
 
-The following six exercises were chosen, including deviations (see \autoref{fig:optimal:exercises} for visualization of the exercises): bench press (deviation: Arms too wide), lateral raises (deviation: Arms asymmetrical), bend over row (deviation: Elbows tucked in), shoulder press (deviation: Arms asymmetrical), biceps curl A (deviation: Repetition only half executed), and biceps curl B (deviation: Elbows do not stay stable). The exercises and their deviations were recorded at the same position, and performed by the same individual. Therefore, it was possible to use the absolute position as a registration method. However, the commendable methods described in \autoref{sec:methReg} would yield the same results, even when performed with different-sized individuals at varying locations.
+The following six exercises were chosen, including deviations (see \autoref{fig:optimal:exercises} for visualization of the exercises): bench press (deviation: Arms too wide), lateral raises (deviation: Arms asymmetrical), bent-over row (deviation: Elbows tucked in), shoulder press (deviation: Arms asymmetrical), biceps curl A (deviation: Repetition only half executed), and biceps curl B (deviation: Elbows do not stay stable). The exercises and their deviations were recorded at the same position, and performed by the same individual. Therefore, it was possible to use the absolute position as a registration method. However, the commendable methods described in \autoref{sec:methReg} would yield the same results, even when performed with different-sized individuals at varying locations.
 
 \subsection{User Study Design \label{sec:study}}
 The user study was structured into three tasks. The participants were presented with two tasks and a set of structured questions. These are explained in the following.
 
 \textbf{Viewpoint Selection:} We intended to confirm the underlying assumptions of user preferences for the views as explained in \autoref{sec:considerations}. For this purpose, we asked users to choose the viewpoint for static poses. Feedback was not displayed during this task, as we wanted to verify the established assumptions. As viewpoint selection for videos selects a viewpoint for a static pose in each frame, this should give us insights into user preference and how our algorithm performs compared to that. Furthermore, it is unfeasible for users to select a camera path in real-time. Therefore, only with static poses user evaluation is even possible. This also enables our method to be compared to the current literature (see \autoref{sec:relView}).
 
-A skeleton-like avatar successively showed four static poses of exercises: bench press, squat, bend over row, and standing (for more information, see \autoref{sec:sample}). The users could adjust the viewing angle pose-wise by clicking and dragging the mouse. A skybox around the avatar supported orientation in virtual 3D. After confirming, the viewpoint was registered and stored for analysis.
+A skeleton-like avatar successively showed four static poses of exercises: bench press, squat, bent-over row, and standing (for more information, see \autoref{sec:sample}). The users could adjust the viewing angle pose-wise by clicking and dragging the mouse. A skybox around the avatar supported orientation in virtual 3D. After confirming, the viewpoint was registered and stored for analysis.
 
 \textbf{Viewpoint Comparison:} To evaluate the performance of our view selection algorithm, we showed four looped videos of exercise repetitions with the corresponding correction feedback randomly juxtaposed. The viewpoint in each video was selected by a different method. This way, six different exercises with deviations were successively shown, as explained in \autoref{sec:sample}.  
 
@@ -188,15 +188,15 @@ In \autoref{eq:vse}, \(GD_m\) represents the geodesic distance of the potential 
 
 \begin{figure*}[ht]
 	\centering
-	\subfloat[Bench Press]{\includegraphics[width=0.24\linewidth]{pictures/transverseBench.png}}
-	\subfloat[Squat]{\includegraphics[width=0.24\linewidth]{pictures/transverseSquat.png}}
-	\subfloat[Bend Down]{\includegraphics[width=0.24\linewidth]{pictures/transverseBend.png}}
-	\subfloat[Stand]{\includegraphics[width=0.24\linewidth]{pictures/transverseStand.png}}\includegraphics[width=0.041\linewidth]{pictures/whitePixel.png}\\
-	\subfloat[Bench Press]{\includegraphics[width=0.24\linewidth]{pictures/medianBench.png}}
-	\subfloat[Squat]{\includegraphics[width=0.24\linewidth]{pictures/medianSquat.png}}
-	\subfloat[Bend Down]{\includegraphics[width=0.24\linewidth]{pictures/medianBend.png}}
-	\subfloat[Stand]{\includegraphics[width=0.24\linewidth]{pictures/medianStand.png}}    \includegraphics[width=0.041\linewidth]{pictures/scale.png}
-	\caption{\emph{View Selection Error} (VSE) for different viewing angles from the top (a-d) and side (e-h) using the benchmark of Dutagaci et al.~\cite{dutagaci2010bbv}. The red line represents the view direction selected by our method. The human figure only shows spatial orientation and does not represent the executed movements. Originally published in~\cite{diller2024automatic}.}
+	\subfloat[\centering Bench Press]{\includegraphics[width=0.24\linewidth]{pictures/transverseBench.png}}
+	\subfloat[\centering Squat]{\includegraphics[width=0.24\linewidth]{pictures/transverseSquat.png}}
+	\subfloat[\centering Bent-down]{\includegraphics[width=0.24\linewidth]{pictures/transverseBend.png}}
+	\subfloat[\centering Stand]{\includegraphics[width=0.24\linewidth]{pictures/transverseStand.png}}\includegraphics[width=0.041\linewidth]{pictures/whitePixel.png}\\
+	\subfloat[\centering Bench Press]{\includegraphics[width=0.24\linewidth]{pictures/medianBench.png}}
+	\subfloat[\centering Squat]{\includegraphics[width=0.24\linewidth]{pictures/medianSquat.png}}
+	\subfloat[\centering Bent-down]{\includegraphics[width=0.24\linewidth]{pictures/medianBend.png}}
+	\subfloat[\centering Stand]{\includegraphics[width=0.24\linewidth]{pictures/medianStand.png}}    \includegraphics[width=0.041\linewidth]{pictures/scale.png}
+	\caption{\emph{View Selection Error} (VSE) for different viewing angles from the top (a-d) and side (e-h) using the benchmark of Dutagaci et al.~\cite{dutagaci2010bbv}. The red line represents the view direction selected by our method. The human figure only shows spatial orientation and does not represent the executed movements.}
 	\label{fig:colorMaps}
 \end{figure*}
 
@@ -212,20 +212,6 @@ To interpret the comparison of methods in \autoref{sec:results:comparison}, it i
 \textbf{JMO~\cite{ishara2015mra}:}
 The JMO algorithm predominantly produced an adequate overview of the human body. A major drawback was that, when applied to videos, the algorithm erratically switched between viewpoints that were significantly distant from each other. This can be perceived in \autoref{fig:jmoSequence}. Consequently, the feedback often was difficult to comprehend, as the algorithm was not designed to work with visual cues or videos. Additionally, several viewpoints were selected from below and behind, although participants preferred perspectives from the front and slightly above (see \autoref{sec:results:selection}).
 
-\begin{figure*}[h]
-	\centering
-	\includegraphics[width=0.11\linewidth]{pictures/jmoSequence1.png}\hfill
-	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence2.png}\hfill
-	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence3.png}\hfill
-	\includegraphics[width=0.10\linewidth]{pictures/jmoSequence4.png}\hfill
-	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence5.png}\hfill
-	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence6.png}\hfill
-	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence7.png}\hfill
-	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence8.png}\hfill
-	\caption{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the \emph{Joint Mutual Occlusion} algorithm by Ishara et al.~\cite{ishara2015mra}. Originally published in~\cite{diller2024automatic}.}
-	\label{fig:jmoSequence}
-\end{figure*}
-
 \textbf{Kwon et al.~\cite{kwon2020ocp}:} 
 As can be seen in \autoref{fig:kwonSequence}, the algorithm of Kwon et al. seemed to predominantly produce views from behind in our application. As elaborated in \autoref{sec:results:selection}, this is a view that is mostly avoided by users. Additionally, the algorithm sometimes selected views from below, similar to the JMO algorithm mentioned earlier. The algorithm by Kwon et al. offered a much more stable perspective than JMO. However, the feedback was often challenging to see.
 
@@ -239,12 +225,29 @@ As can be seen in \autoref{fig:kwonSequence}, the algorithm of Kwon et al. seeme
 	\includegraphics[width=0.12\linewidth]{pictures/kwonSequence6.png}\hfill
 	\includegraphics[width=0.12\linewidth]{pictures/kwonSequence7.png}\hfill
 	\includegraphics[width=0.115\linewidth]{pictures/kwonSequence8.png}\hfill
-	\caption{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the algorithm by Kwon et al.~\cite{kwon2020ocp}. Originally published in~\cite{diller2024automatic}.}
+	\caption{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the algorithm by Kwon et al.~\cite{kwon2020ocp}.}
 	\label{fig:kwonSequence}
 \end{figure*}
 
 \textbf{Ours:}
 Our algorithm consistently transitioned between an optimal viewpoint for the neutral position and the contracted position with deviations, as illustrated in \autoref{fig:bicepsSequence}. When feedback was present, it was displayed clearly and perceivable emphasis on it. However, in some exercises, the rapid exercise execution caused a conflict between the neutral and the feedback-optimized viewpoint. This resulted in quick camera movements, which some users found irritating.
+
+\subsection{Viewpoint Comparison \label{sec:results:comparison}}
+\autoref{tab:comparison} shows the user choice distribution of the viewpoint comparison. Our algorithm was most prevalent with 35.04~\% of votes, the isometric-like position was chosen second most with 32.48~\%, followed by Kwon et al.~\cite{kwon2020ocp} with 17.52~\% and lastly JMO~\cite{ishara2015mra} with 14.96~\%.
+
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=0.11\linewidth]{pictures/jmoSequence1.png}\hfill
+	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence2.png}\hfill
+	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence3.png}\hfill
+	\includegraphics[width=0.10\linewidth]{pictures/jmoSequence4.png}\hfill
+	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence5.png}\hfill
+	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence6.png}\hfill
+	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence7.png}\hfill
+	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence8.png}\hfill
+	\caption{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the \emph{Joint Mutual Occlusion} algorithm by Ishara et al.~\cite{ishara2015mra}.}
+	\label{fig:jmoSequence}
+\end{figure*}
 
 \begin{figure*}[h]
 	\centering
@@ -256,20 +259,20 @@ Our algorithm consistently transitioned between an optimal viewpoint for the neu
 	\includegraphics[width=0.115\linewidth]{pictures/bicepsSequence6.png}\hfill
 	\includegraphics[width=0.11\linewidth]{pictures/bicepsSequence7.png}\hfill
 	\includegraphics[width=0.11\linewidth]{pictures/bicepsSequence8.png}\hfill
-	\caption{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by our algorithm. Originally published in~\cite{diller2024automatic}.}
+	\caption{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by our algorithm.}
 	\label{fig:bicepsSequence}
 \end{figure*}
 
-\subsection{Viewpoint Comparison \label{sec:results:comparison}}
-\autoref{tab:comparison} shows the user choice distribution of the viewpoint comparison. Our algorithm was most prevalent with 35.04~\% of votes, the isometric-like position was chosen second most with 32.48~\%, followed by Kwon et al.~\cite{kwon2020ocp} with 17.52~\% and lastly JMO~\cite{ishara2015mra} with 14.96~\%.
+Occasionally camera positions from behind were provided by the methods of Kwon et al.~\cite{kwon2020ocp} and Ishara et al.~\cite{ishara2015mra}. Additionally, they produced an unsteady camera movement, because they jumped between far-distant viewpoints and generally, had just a limited amount of viewpoints available. In contrast, the static isometric-like viewpoint produced surprisingly good results, although it lacked an adaptation for movement or feedback. The primary advantage of the isometric-like viewpoint over the other methods was its stability. Our method provided an adequate view of the neutral positions of the exercises. Furthermore, it produced a continuous camera movement toward a feedback-oriented viewpoint with increasing deviation. However, the camera movement showing the bench press and bent-over row exercises was occasionally rapid.
 
-Occasionally camera positions from behind were provided by the methods of Kwon et al.~\cite{kwon2020ocp} and Ishara et al.~\cite{ishara2015mra}. Additionally, they produced an unsteady camera movement, because they jumped between far-distant viewpoints and generally, had just a limited amount of viewpoints available. In contrast, the static isometric-like viewpoint produced surprisingly good results, although it lacked an adaptation for movement or feedback. The primary advantage of the isometric-like viewpoint over the other methods was its stability. Our method provided an adequate view of the neutral positions of the exercises. Furthermore, it produced a continuous camera movement toward a feedback-oriented viewpoint with increasing deviation. However, the camera movement showing the bench press and bend-over row exercises was occasionally rapid.
+\section{Insights and Discussion\label{sec:insights}}
+Looking at \autoref{fig:colorMaps}, it becomes evident that the participants preferred a frontal view direction. This aligns with the statement made by Zusne~\cite{zusne1970vpf}, that humans desire frontal views (see \autoref{sec:considerations}), and verifies these requirements for our application. Additionally, it was observed that participants preferred a viewpoint from slightly above.
 
 \begin{table}[h]
-	\caption{\label{tab:comparison}Results of user study. Distribution of viewpoint selection methods chosen by the participants. Originally published in~\cite{diller2024automatic}.}%
+	\caption{\label{tab:comparison}Results of user study. Distribution of viewpoint selection methods chosen by the participants.}%
 	\begin{tabular}{@{}l|llllll|l@{}}
 		\toprule
-		Method & \begin{sideways}Bench press\end{sideways} & \begin{sideways}Biceps curl A  \end{sideways} & \begin{sideways}Lateral raises\end{sideways} & \begin{sideways}Shoulder press\end{sideways} & \begin{sideways}Bend over row\end{sideways} & \begin{sideways}Biceps curl B\end{sideways}  & \begin{tabular}{l}Total\\Percentage\end{tabular} \\
+		Method & \begin{sideways}Bench press\end{sideways} & \begin{sideways}Biceps curl A  \end{sideways} & \begin{sideways}Lateral raises\end{sideways} & \begin{sideways}Shoulder press\end{sideways} & \begin{sideways}Bent-over row\end{sideways} & \begin{sideways}Biceps curl B\end{sideways}  & \begin{tabular}{l}Total\\Percentage\end{tabular} \\
 		\midrule
 		Neutral  & 19 & 15 & 3 & 15 & 6 & 18 & 32.48 \% \\
 		JMO & 1 & 1  & 6  & 0 & 25 & 2 & 14.96 \% \\
@@ -279,10 +282,7 @@ Occasionally camera positions from behind were provided by the methods of Kwon e
 	\end{tabular}
 \end{table}
 
-\section{Insights and Discussion\label{sec:insights}}
-Looking at \autoref{fig:colorMaps}, it becomes evident that the participants preferred a frontal view direction. This aligns with the statement made by Zusne~\cite{zusne1970vpf}, that humans desire frontal views (see \autoref{sec:considerations}), and verifies these requirements for our application. Additionally, it was observed that participants preferred a viewpoint from slightly above.
-
-Our algorithm performs significantly less well for some specific exercises. This can be attributed to the consistently smooth, though occasionally rapid, camera movement. In particular, the camera moved rapidly during the bench press and bend-over row exercises. As stated in \autoref{sec:methViewCalc}, our algorithm generally prevents inconsistent camera movement, though rapid camera motions may still occasionally occur.
+Our algorithm performs significantly less well for some specific exercises. This can be attributed to the consistently smooth, though occasionally rapid, camera movement. In particular, the camera moved rapidly during the bench press and bent-over row exercises. As stated in \autoref{sec:methViewCalc}, our algorithm generally prevents inconsistent camera movement, though rapid camera motions may still occasionally occur.
 
 The most prevalent statement made by the participants regarded the camera movement consistency. Specifically, users were irritated by movements that were too rapid or erratic. This observation matches the findings by Assa et al.~\cite{assa2008moh} concerning camera paths. Additionally, many participants indicated that having multiple camera perspectives would help them to understand the poses and feedback. This is especially interesting for future work and when applying suggested methods. Additionally, some users desired the option to select no method, as they felt none of the suggested perspectives were adequate. This implies that there are possible improvements to our algorithm and that human viewpoint preferences might need further assessment. Lastly, some users struggled to interpret poses without relation to the environment. Primarily, this concerned the bench press exercise, where a virtual bench might help users interpret the avatar posture. Therefore, incorporating the surrounding environment could enhance understanding, especially for exercises involving equipment such as weights, benches, and pull-up bars. However, additionally rendered equipment could occlude the avatar or visual cues and therefore hinder the perception of the provided feedback.
 
