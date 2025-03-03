@@ -1,74 +1,74 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The Experiential learning cycle as defined by Kolb \blx@tocontentsinit {0}\cite {kolb:1984:experiential}. Icons mark the stages where XR could potentially be leveraged the most.}}{5}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Experiential learning cycle as defined by Kolb \blx@tocontentsinit {0}\cite {kolb:1984:experiential}. Icons mark the stages where \acrshort {xr} could potentially be leveraged the most.}}{3}{figure.caption.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Each of our educational modules consists of an exploratory, slides, and a quiz.}}{8}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The icons in the scene hierarchy let the user quickly identify possibilities to contribute. The \emph {pen} icon indicates editable objects, the \emph {plus} icon marks where new objects can be added.}}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Template objects (so-called \emph {prefabs}) enable the user to easily create customized scenes fit for their needs. }}{15}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Systematic overview of our educational approach and how to implement it in education schedules. We provide $n=14$ modules that are based on shared templates, which give them a consistent look and feel. By using the templates to create new modules, reusing or modifying existing modules, or replacing parts, other educators can create their own modules tailored to their individual teaching schedules.}}{16}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Screenshots of the selection of exploratories used to evaluate the UX of our modules. This should provide an overview of the contents and the design. The panels on the left provide additional information, and the panels on the right offer options to manipulate the scene.}}{17}{figure.caption.24}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DDA Line Drawing}}}{17}{subfigure.5.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Field of View}}}{17}{subfigure.5.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Rotation}}}{17}{subfigure.5.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Each of our educational modules consists of an exploratory, slides, and a quiz.}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The icons in the scene hierarchy let the user quickly identify possibilities to contribute. The \emph {pen} icon indicates editable objects, the \emph {plus} icon marks where new objects can be added.}}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Template objects (so-called \emph {prefabs}) enable the user to easily create customized scenes fit for their needs. }}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Systematic overview of our educational approach and how to implement it in education schedules. We provide $n=14$ modules that are based on shared templates, which give them a consistent look and feel. By using the templates to create new modules, reusing or modifying existing modules, or replacing parts, other educators can create their own modules tailored to their individual teaching schedules.}}{14}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Screenshots of the selection of exploratories used to evaluate the UX of our modules. This should provide an overview of the contents and the design. The panels on the left provide additional information, and the panels on the right offer options to manipulate the scene.}}{15}{figure.caption.23}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DDA Line Drawing}}}{15}{subfigure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Field of View}}}{15}{subfigure.5.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Rotation}}}{15}{subfigure.5.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of the human-machine feedback loop based on~\blx@tocontentsinit {0}\cite {morone2021dab}. The \emph {machine} or \emph {system} usually is a computer with some kind of display, for example an AR headset.}}{22}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces A person exercising with a ball. Exocentric (left) and egocentric (right) view types with possible target movement (feedback) in red and the actual movement in black.}}{30}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Examples of visual cues used in the literature and described in~\autoref {sec:visualCues}: a) Textual, b) Color coding, c) Body outline, d) End position, e) Transparent target avatar, f) Opaque target avatar, g) Abstraction, h) Video overlay, i) Rubber bands, j) Arrows, k) Trajectories, l) Graphs, m) Limb angles. Images from \blx@tocontentsinit {0}\cite {caserman2021fbm}, \blx@tocontentsinit {0}\cite {quevedo2017asr}, \blx@tocontentsinit {0}\cite {han2016ara}, \blx@tocontentsinit {0}\cite {wiehr2016bce}, \blx@tocontentsinit {0}\cite {waltemate2016tlp}, \blx@tocontentsinit {0}\cite {ikeda2018arb}, \blx@tocontentsinit {0}\cite {vidal2020blo}, \blx@tocontentsinit {0}\cite {furukawa2018dar}, \blx@tocontentsinit {0}\cite {yu2020pmd}, \blx@tocontentsinit {0}\cite {oshita2018sts}, \blx@tocontentsinit {0}\cite {clarke2020rva}, \blx@tocontentsinit {0}\cite {takahashi2019vrb}, \blx@tocontentsinit {0}\cite {debarba2018arv}. }}{32}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Color-coded skeleton: The skeleton visualizes where to correct the movement. Image from~\blx@tocontentsinit {0}\cite {oka2021rtf}.}}{36}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces An opaque avatar shows the actual pose, while a transparent target avatar depicts the target pose, which is to be taken. Image from~\blx@tocontentsinit {0}\cite {barioni2019bvr}.}}{37}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Video frame synthesized by interpolating between user and expert pose. The upper slide bar represents the degree of expertise used for the interpolation. The lower slide bar controls the current frame of the playback. Image from~\blx@tocontentsinit {0}\cite {shiro2019ipv}.}}{38}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Projection-based MR for body parts that are hard to see. Assuming a correct movement execution the projected crosshair matches the marking on the floor. Image from~\blx@tocontentsinit {0}\cite {vidal2020blo}.}}{39}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Occurrence of different visual cues in the selected literature.}}{42}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of the human-machine feedback loop based on~\blx@tocontentsinit {0}\cite {morone2021dab}. The \emph {machine} or \emph {system} usually is a computer with some kind of display, for example an \acrshort {ar} headset.}}{20}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A person exercising with a ball. Exocentric (left) and egocentric (right) view types with possible target movement (feedback) in red and the actual movement in black.}}{28}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Examples of visual cues used in the literature and described in~\autoref {sec:visualCues}: a) Textual, b) Color coding, c) Body outline, d) End position, e) Transparent target avatar, f) Opaque target avatar, g) Abstraction, h) Video overlay, i) Rubber bands, j) Arrows, k) Trajectories, l) Graphs, m) Limb angles. Images from \blx@tocontentsinit {0}\cite {caserman2021fbm}, \blx@tocontentsinit {0}\cite {quevedo2017asr}, \blx@tocontentsinit {0}\cite {han2016ara}, \blx@tocontentsinit {0}\cite {wiehr2016bce}, \blx@tocontentsinit {0}\cite {waltemate2016tlp}, \blx@tocontentsinit {0}\cite {ikeda2018arb}, \blx@tocontentsinit {0}\cite {vidal2020blo}, \blx@tocontentsinit {0}\cite {furukawa2018dar}, \blx@tocontentsinit {0}\cite {yu2020pmd}, \blx@tocontentsinit {0}\cite {oshita2018sts}, \blx@tocontentsinit {0}\cite {clarke2020rva}, \blx@tocontentsinit {0}\cite {takahashi2019vrb}, \blx@tocontentsinit {0}\cite {debarba2018arv}. }}{30}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Color-coded skeleton: The skeleton visualizes where to correct the movement. Image from~\blx@tocontentsinit {0}\cite {oka2021rtf}.}}{34}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces An opaque avatar shows the actual pose, while a transparent target avatar depicts the target pose, which is to be taken. Image from~\blx@tocontentsinit {0}\cite {barioni2019bvr}.}}{35}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Video frame synthesized by interpolating between user and expert pose. The upper slide bar represents the degree of expertise used for the interpolation. The lower slide bar controls the current frame of the playback. Image from~\blx@tocontentsinit {0}\cite {shiro2019ipv}.}}{36}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Projection-based \acrshort {vr} for body parts that are hard to see. Assuming a correct movement execution the projected crosshair matches the marking on the floor. Image from~\blx@tocontentsinit {0}\cite {vidal2020blo}.}}{37}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Occurrence of different visual cues in the selected literature.}}{40}{figure.caption.62}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Highlighting the importance of registration: When registered at the pelvis (a), the squatting target avatar (in green) seems to be floating. Registering at the feet (b) seems to provide more intuitive feedback, connected to the environment.}}{45}{figure.caption.69}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Superimposition registered at pelvis}}}{45}{subfigure.1.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Superimposition registered at feet}}}{45}{subfigure.1.2}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Six degrees of freedom to define the placement of a rigid body in space.}}{46}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Start and execution position of exercise examples registered according to our registration methods explained in \autoref {sec:optimalReg} (R), the feet (F) and only the pelvis (P). The exercises and registration parameters can be found in \autoref {tab:regExamples}.}}{49}{figure.caption.76}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Push-up (P)}}}{49}{subfigure.3.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Push-up (R)}}}{49}{subfigure.3.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Dip (P)}}}{49}{subfigure.3.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Dip (R)}}}{49}{subfigure.3.4}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Jump (F)}}}{49}{subfigure.3.5}%
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Jump (R)}}}{49}{subfigure.3.6}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Highlighting the importance of registration: When registered at the pelvis (a), the squatting target avatar (in green) seems to be floating. Registering at the feet (b) seems to provide more intuitive feedback, connected to the environment.}}{43}{figure.caption.68}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Superimposition registered at pelvis}}}{43}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Superimposition registered at feet}}}{43}{subfigure.1.2}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Six degrees of freedom to define the placement of a rigid body in space.}}{44}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Start and execution position of exercise examples registered according to our registration methods explained in \autoref {sec:optimalReg} (R), the feet (F) and only the pelvis (P). The exercises and registration parameters can be found in \autoref {tab:regExamples}.}}{47}{figure.caption.75}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Push-up (P)}}}{47}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Push-up (R)}}}{47}{subfigure.3.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Dip (P)}}}{47}{subfigure.3.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Dip (R)}}}{47}{subfigure.3.4}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Jump (F)}}}{47}{subfigure.3.5}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Jump (R)}}}{47}{subfigure.3.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Measure for the self-occlusion of the skeleton by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}: Joint Mutual Occlusion.}}{52}{figure.caption.81}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Feedback for the same angle viewed from different perspectives. Two feedback cues: circular sector (left) and arrow (right). From left to right: Perfectly visible, visible, and hardly visible feedback. The shadows demonstrate that viewpoint affects not only the perception of the geometry but also of the feedback.}}{53}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Highlighting the importance of viewpoint selection: Three \emph {different} joint angles produce \emph {identical} shadows when projected onto the ground, implying they appear identical from an overhead perspective. Inspired by Nundy et al.~\blx@tocontentsinit {0}\cite {nundy2000wam}.}}{54}{figure.caption.85}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Skeleton of a human pose with feedback from two perspectives. Two visual feedback cues are shown: A red angle sector and a superimposed avatar (here green skeleton). The feedback is hardly visible from the frontal perspective on the left.}}{55}{figure.caption.86}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces If Joint \(J_n\) (in red) deviates from the target position, a PCA is conducted including the corresponding target joint (in orange) and their parents (in blue). The eigenvector \(\vec {e}_{3n}\) then gives us an optimal view direction \(\vec {v}_{Fn}\) of the feedback for \(J_n\). The resulting view direction is orthogonal to the plane defined by the eigenvectors \(\vec {e}_{1n}\) and \(\vec {e}_{2n}\). This plane approximates the distribution of the considered joints and does not interpolate them.}}{57}{figure.caption.88}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Sample exercises with deviations as described in \autoref {sec:sample}.}}{60}{figure.caption.92}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Bench press}}}{60}{subfigure.6.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Curl A}}}{60}{subfigure.6.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Lateral raises}}}{60}{subfigure.6.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Shoulder press}}}{60}{subfigure.6.4}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Bent-over\\row}}}{60}{subfigure.6.5}%
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Curl B}}}{60}{subfigure.6.6}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces \emph {View Selection Error} (VSE) for different viewing angles from the top (a-d) and side (e-h) using the benchmark of Dutagaci et al.~\blx@tocontentsinit {0}\cite {dutagaci2010bbv}. The red line represents the view direction selected by our method. The human figure only shows spatial orientation and does not represent the executed movements.}}{64}{figure.caption.97}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Bench Press}}}{64}{subfigure.7.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Squat}}}{64}{subfigure.7.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Bent-down}}}{64}{subfigure.7.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Stand}}}{64}{subfigure.7.4}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Bench Press}}}{64}{subfigure.7.5}%
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Squat}}}{64}{subfigure.7.6}%
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {\centering Bent-down}}}{64}{subfigure.7.7}%
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {\centering Stand}}}{64}{subfigure.7.8}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the algorithm by Kwon et al.~\blx@tocontentsinit {0}\cite {kwon2020ocp}.}}{65}{figure.caption.101}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the \emph {Joint Mutual Occlusion} algorithm by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}.}}{66}{figure.caption.103}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by our algorithm.}}{66}{figure.caption.104}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Measure for the self-occlusion of the skeleton by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}: Joint Mutual Occlusion.}}{50}{figure.caption.80}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Feedback for the same angle viewed from different perspectives. Two feedback cues: circular sector (left) and arrow (right). From left to right: Perfectly visible, visible, and hardly visible feedback. The shadows demonstrate that viewpoint affects not only the perception of the geometry but also of the feedback.}}{51}{figure.caption.82}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Highlighting the importance of viewpoint selection: Three \emph {different} joint angles produce \emph {identical} shadows when projected onto the ground, implying they appear identical from an overhead perspective. Inspired by Nundy et al.~\blx@tocontentsinit {0}\cite {nundy2000wam}.}}{52}{figure.caption.84}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Skeleton of a human pose with feedback from two perspectives. Two visual feedback cues are shown: A red angle sector and a superimposed avatar (here green skeleton). The feedback is hardly visible from the frontal perspective on the left.}}{53}{figure.caption.85}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces If Joint \(J_n\) (in red) deviates from the target position, a \acrshort {pca} is conducted including the corresponding target joint (in orange) and their parents (in blue). The eigenvector \(\vec {e}_{3n}\) then gives us an optimal view direction \(\vec {v}_{Fn}\) of the feedback for \(J_n\). The resulting view direction is orthogonal to the plane defined by the eigenvectors \(\vec {e}_{1n}\) and \(\vec {e}_{2n}\). This plane approximates the distribution of the considered joints and does not interpolate them.}}{55}{figure.caption.87}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Sample exercises with deviations as described in \autoref {sec:sample}.}}{58}{figure.caption.91}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Bench press}}}{58}{subfigure.6.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Curl A}}}{58}{subfigure.6.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Lateral raises}}}{58}{subfigure.6.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Shoulder press}}}{58}{subfigure.6.4}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Bent-over\\row}}}{58}{subfigure.6.5}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Curl B}}}{58}{subfigure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces \emph {View Selection Error} (VSE) for different viewing angles from the top (a-d) and side (e-h) using the benchmark of Dutagaci et al.~\blx@tocontentsinit {0}\cite {dutagaci2010bbv}. The red line represents the view direction selected by our method. The human figure only shows spatial orientation and does not represent the executed movements.}}{62}{figure.caption.96}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Bench Press}}}{62}{subfigure.7.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Squat}}}{62}{subfigure.7.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Bent-down}}}{62}{subfigure.7.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Stand}}}{62}{subfigure.7.4}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Bench Press}}}{62}{subfigure.7.5}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Squat}}}{62}{subfigure.7.6}%
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {\centering Bent-down}}}{62}{subfigure.7.7}%
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {\centering Stand}}}{62}{subfigure.7.8}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the algorithm by Kwon et al.~\blx@tocontentsinit {0}\cite {kwon2020ocp}.}}{63}{figure.caption.100}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the \emph {Joint Mutual Occlusion} algorithm by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}.}}{64}{figure.caption.102}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by our algorithm.}}{64}{figure.caption.103}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces A person exercising with a ball. Exocentric (left) and egocentric (right) view types with possible target movement (feedback) in transparent green and the actual movement in blue.}}{70}{figure.caption.110}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot of the motor feedback provided by SkillAR via HMD. }}{73}{figure.caption.115}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces The reference (in green) is performing the ideal exercise --- in this case a squat --- while the actual avatar is neutrally standing. The result of registering at the pelvis (left) looks as if hovering and can potentially be irritating to the user. In this case, it might be preferable to register the avatars at the foot or the ground. }}{74}{figure.caption.117}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Example exercises with deviations as described in \autoref {sec:design}.}}{75}{figure.caption.118}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Standing}}}{75}{subfigure.4.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Jumping\\Jack}}}{75}{subfigure.4.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Plank}}}{75}{subfigure.4.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Squat}}}{75}{subfigure.4.4}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Torso\\Rotation}}}{75}{subfigure.4.5}%
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Warrior II}}}{75}{subfigure.4.6}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces The feedback avatar is positioned such that its pelvis lies on the intersection of the view direction $\vec {v}$ and the horizontal plane through the user's pelvis $P$.}}{76}{figure.caption.120}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces The avatars move horizontally if the view direction deviates more than $\Delta $ from the center of the visualization, as indicated by the circles. The visualization is scaled up in the distance and down in proximity to the camera. The constant size always matches the field of view of the HMD and irritates the user less as if it were constantly changing.}}{76}{figure.caption.121}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces The feedback transitions to a \emph {top-down mode}, in which the avatars are shown below, if the angle $\gamma $ between the normal of the floor and the view direction is smaller than 20°. }}{77}{figure.caption.122}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces A person exercising with a ball. Exocentric (left) and egocentric (right) view types with possible target movement (feedback) in transparent green and the actual movement in blue.}}{68}{figure.caption.109}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot of the motor feedback provided by SkillAR via \acrshort {hmd}. }}{71}{figure.caption.114}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces The reference (in green) is performing the ideal exercise --- in this case a squat --- while the actual avatar is neutrally standing. The result of registering at the pelvis (left) looks as if hovering and can potentially be irritating to the user. In this case, it might be preferable to register the avatars at the foot or the ground. }}{72}{figure.caption.116}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Example exercises with deviations as described in \autoref {sec:design}.}}{73}{figure.caption.117}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Standing}}}{73}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Jumping\\Jack}}}{73}{subfigure.4.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Plank}}}{73}{subfigure.4.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Squat}}}{73}{subfigure.4.4}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Torso\\Rotation}}}{73}{subfigure.4.5}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Warrior II}}}{73}{subfigure.4.6}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces The feedback avatar is positioned such that its pelvis lies on the intersection of the view direction $\vec {v}$ and the horizontal plane through the user's pelvis $P$.}}{74}{figure.caption.119}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces The avatars move horizontally if the view direction deviates more than $\Delta $ from the center of the visualization, as indicated by the circles. The visualization is scaled up in the distance and down in proximity to the camera. The constant size always matches the field of view of the \acrshort {hmd} and irritates the user less as if it were constantly changing.}}{74}{figure.caption.120}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces The feedback transitions to a \emph {top-down mode}, in which the avatars are shown below, if the angle $\gamma $ between the normal of the floor and the view direction is smaller than 20°. }}{75}{figure.caption.121}%
 \addvspace {10\p@ }

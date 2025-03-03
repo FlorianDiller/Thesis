@@ -89,7 +89,9 @@
 \usepackage{xr}
 \usepackage{comment}
 \usepackage{graphicx}
+\usepackage[acronym, nonumberlist=false, nogroupskip]{glossaries}
 
+\makeglossaries
 
 \hypersetup{					% setup the hyperref-package options
 	pdftitle={\thesisTitle},	% 	- title (PDF meta)
@@ -114,6 +116,20 @@
 %\renewcaptionname{ngerman}{\tablename}{Tab.}
 \renewcaptionname{english}{\figurename}{Fig.}
 \renewcaptionname{english}{\tablename}{Tab.}
+
+\newacronym{vr}{VR}{Virtual Reality}
+\newacronym{ar}{AR}{Augmented Reality}
+\newacronym{xr}{XR}{Extended Reality}
+\newacronym{mr}{MR}{Mixed Reality}
+\newacronym{hmd}{HMD}{Head-Mounted Display}
+\newacronym{rmd}{RMD}{Room-Mounted Display}
+\newacronym{pca}{PCA}{Principal Component Analysis}
+\newacronym{cg}{CG}{Computer Graphics}
+\newacronym{gan}{GAN}{Generative Adversarial Networks}
+\newacronym{ml}{ML}{Machine Learning}
+\newacronym{oer}{OER}{Open Educational Resources}
+\newacronym{pov}{POV}{Point of View}
+\newacronym{cave}{CAVE}{Cave Automatic Virtual Environment}
 
 % --------------------------
 % Front matter
@@ -166,11 +182,21 @@
 }
 \cleardoublepage
 
-
+\addcontentsline{toc}{chapter}{List of Figures}
 \listoffigures
 \cleardoublepage
 
+\addcontentsline{toc}{chapter}{List of Tables}
 \listoftables
+\cleardoublepage
+
+
+\addcontentsline{toc}{chapter}{Glossary}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\renewcommand*{\glspostdescription}{\medskip}
+\setglossarystyle{long}
+\printglossary[type=\acronymtype, title={Glossary}]
 \cleardoublepage
 
 \input{content/colophon}

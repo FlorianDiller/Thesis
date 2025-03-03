@@ -1,0 +1,364 @@
+\glsdefs@newdocentry{vr}%
+{%
+name={\acronymfont {\glsentryshort {vr}}},%
+sort={VR},%
+type={acronym},%
+first={VR},%
+firstplural={VRs},%
+text={VR},%
+plural={VRs},%
+description={Virtual Reality},%
+descriptionplural={Virtual Reality},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Virtual Reality},%
+longplural={Virtual Realitys},%
+short={VR},%
+shortplural={VRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ar}%
+{%
+name={\acronymfont {\glsentryshort {ar}}},%
+sort={AR},%
+type={acronym},%
+first={AR},%
+firstplural={ARs},%
+text={AR},%
+plural={ARs},%
+description={Augmented Reality},%
+descriptionplural={Augmented Reality},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Augmented Reality},%
+longplural={Augmented Realitys},%
+short={AR},%
+shortplural={ARs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{xr}%
+{%
+name={\acronymfont {\glsentryshort {xr}}},%
+sort={XR},%
+type={acronym},%
+first={XR},%
+firstplural={XRs},%
+text={XR},%
+plural={XRs},%
+description={Extended Reality},%
+descriptionplural={Extended Reality},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extended Reality},%
+longplural={Extended Realitys},%
+short={XR},%
+shortplural={XRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{mr}%
+{%
+name={\acronymfont {\glsentryshort {mr}}},%
+sort={MR},%
+type={acronym},%
+first={MR},%
+firstplural={MRs},%
+text={MR},%
+plural={MRs},%
+description={Mixed Reality},%
+descriptionplural={Mixed Reality},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Mixed Reality},%
+longplural={Mixed Realitys},%
+short={MR},%
+shortplural={MRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{hmd}%
+{%
+name={\acronymfont {\glsentryshort {hmd}}},%
+sort={HMD},%
+type={acronym},%
+first={HMD},%
+firstplural={HMDs},%
+text={HMD},%
+plural={HMDs},%
+description={Head-Mounted Display},%
+descriptionplural={Head-Mounted Display},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Head-Mounted Display},%
+longplural={Head-Mounted Displays},%
+short={HMD},%
+shortplural={HMDs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{rmd}%
+{%
+name={\acronymfont {\glsentryshort {rmd}}},%
+sort={RMD},%
+type={acronym},%
+first={RMD},%
+firstplural={RMDs},%
+text={RMD},%
+plural={RMDs},%
+description={Room-Mounted Display},%
+descriptionplural={Room-Mounted Display},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Room-Mounted Display},%
+longplural={Room-Mounted Displays},%
+short={RMD},%
+shortplural={RMDs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{pca}%
+{%
+name={\acronymfont {\glsentryshort {pca}}},%
+sort={PCA},%
+type={acronym},%
+first={PCA},%
+firstplural={PCAs},%
+text={PCA},%
+plural={PCAs},%
+description={Principal Component Analysis},%
+descriptionplural={Principal Component Analysis},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Principal Component Analysis},%
+longplural={Principal Component Analysiss},%
+short={PCA},%
+shortplural={PCAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cg}%
+{%
+name={\acronymfont {\glsentryshort {cg}}},%
+sort={CG},%
+type={acronym},%
+first={CG},%
+firstplural={CGs},%
+text={CG},%
+plural={CGs},%
+description={Computer Graphics},%
+descriptionplural={Computer Graphics},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Computer Graphics},%
+longplural={Computer Graphicss},%
+short={CG},%
+shortplural={CGs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gan}%
+{%
+name={\acronymfont {\glsentryshort {gan}}},%
+sort={GAN},%
+type={acronym},%
+first={GAN},%
+firstplural={GANs},%
+text={GAN},%
+plural={GANs},%
+description={Generative Adversarial Networks},%
+descriptionplural={Generative Adversarial Networks},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Generative Adversarial Networks},%
+longplural={Generative Adversarial Networkss},%
+short={GAN},%
+shortplural={GANs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ml}%
+{%
+name={\acronymfont {\glsentryshort {ml}}},%
+sort={ML},%
+type={acronym},%
+first={ML},%
+firstplural={MLs},%
+text={ML},%
+plural={MLs},%
+description={Machine Learning},%
+descriptionplural={Machine Learning},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Machine Learning},%
+longplural={Machine Learnings},%
+short={ML},%
+shortplural={MLs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{oer}%
+{%
+name={\acronymfont {\glsentryshort {oer}}},%
+sort={OER},%
+type={acronym},%
+first={OER},%
+firstplural={OERs},%
+text={OER},%
+plural={OERs},%
+description={Open Educational Resources},%
+descriptionplural={Open Educational Resources},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Open Educational Resources},%
+longplural={Open Educational Resourcess},%
+short={OER},%
+shortplural={OERs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{pov}%
+{%
+name={\acronymfont {\glsentryshort {pov}}},%
+sort={POV},%
+type={acronym},%
+first={POV},%
+firstplural={POVs},%
+text={POV},%
+plural={POVs},%
+description={Point of View},%
+descriptionplural={Point of View},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Point of View},%
+longplural={Point of Views},%
+short={POV},%
+shortplural={POVs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cave}%
+{%
+name={\acronymfont {\glsentryshort {cave}}},%
+sort={CAVE},%
+type={acronym},%
+first={CAVE},%
+firstplural={CAVEs},%
+text={CAVE},%
+plural={CAVEs},%
+description={Cave Automatic Virtual Environment},%
+descriptionplural={Cave Automatic Virtual Environment},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cave Automatic Virtual Environment},%
+longplural={Cave Automatic Virtual Environments},%
+short={CAVE},%
+shortplural={CAVEs},%
+counter={page},%
+parent={},%
+%
+}%
+
