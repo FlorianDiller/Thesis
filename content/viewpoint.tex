@@ -14,11 +14,11 @@ Wang et al.~\cite{wang2019asw} utilized information theory and deep reinforcemen
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.6\linewidth]{pictures/skeleton_E_occ.png}
-	\caption[Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}.]{Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}: Joint Mutual Occlusion.}
+	\caption[Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}.]{Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}: \acrlong{jmo}.}
 	\label{fig:jmo}
 \end{figure}
 
-Ishara et al.~\cite{ishara2015mra} calculated the optimal camera position for robot navigation using a camera mounted on top of the robot. Their approach involves calculating the so-called \emph{Joint Mutual Occlusion} (JMO), which considers the angle \(\alpha\) between two joints and the viewpoint, as shown in \autoref{fig:jmo}. The angles \(\alpha_{nm}\) between joints \(n\) and \(m\) are summed and normalized, where \(n,m \in N\) and \(n \neq m\), with \(N\) representing the number of joints. This approach results in \(\frac{N!}{2(N-2)!}\) calculations of \(\alpha\)~\cite{charalambides2002enumerative} and could therefore be computationally expensive. 
+Ishara et al.~\cite{ishara2015mra} calculated the optimal camera position for robot navigation using a camera mounted on top of the robot. Their approach involves calculating the so-called \emph{\acrfull{jmo}}, which considers the angle \(\alpha\) between two joints and the viewpoint, as shown in \autoref{fig:jmo}. The angles \(\alpha_{nm}\) between joints \(n\) and \(m\) are summed and normalized, where \(n,m \in N\) and \(n \neq m\), with \(N\) representing the number of joints. This approach results in \(\frac{N!}{2(N-2)!}\) calculations of \(\alpha\)~\cite{charalambides2002enumerative} and could therefore be computationally expensive. 
 
 Kwon et al.~\cite{kwon2020ocp} proposed a method that results in a weighted sum of three metrics: \emph{normalized limb length}, \emph{normalized area of a 2-D bounding box}, and \emph{normalized visible area of a 3-D bounding box}. In addition, they also presented an algorithm that avoids recalculating weights for each frame by summing the three metrics without weights. However, their algorithm, designed for static poses, requires recalculation for each frame in videos. Despite these methods automatically selecting camera positions for human poses, they are insufficient for visual feedback, as the skeleton can occlude the feedback, making it difficult to perceive, as analyzed by Nundy et al.~\cite{nundy2000wam} and discussed in \autoref{sec:considerations}.
 
@@ -157,7 +157,7 @@ A skeleton-like avatar successively showed four static poses of exercises: bench
 The different methods used for viewpoint selection are:
 \begin{itemize}
 	\setlength{\itemsep}{-0.3cm}
-	\item Ishara et al.~\cite{ishara2015mra}, who chose the viewpoint according to the \emph{JMO}, the biggest sum of angles between all joints and the potential viewpoint (see \autoref{fig:jmo}).
+	\item Ishara et al.~\cite{ishara2015mra}, who chose the viewpoint according to the \emph{\acrshort{jmo}}, the biggest sum of angles between all joints and the potential viewpoint (see \autoref{fig:jmo}).
 	\item The method of Kwon et al.~\cite{kwon2020ocp} involves the sum of displayed limb lengths, a 2D, and 3D bounding box. As their best resulting method is computationally intensive and not capable of real-time, we chose their second-best algorithm variant without weights.
 	\item Our algorithm, as described in \autoref{sec:methViewCalc}.
 	\item  To compare the methods to a neutral position, we included a viewpoint as it is used in \emph{isometric projection} (rotated 45° horizontally and 35.264° vertically).
@@ -177,14 +177,14 @@ For more detail on the methods mentioned in this section, see \autoref{sec:relVi
 \end{itemize} 
 
 \subsection{Viewpoint Benchmark \label{sec:benchmark}}
-The viewpoints, chosen in the viewpoint selection task of the user study, were evaluated using the benchmark presented by Dutagaci et al.~\cite{dutagaci2010bbv}. They provided a method to evaluate potential viewpoints and compare them to a selection of views chosen by users. The calculation of what Dutagaci et al. call the \emph{View Selection Error} (VSE) can be found in \autoref{eq:vse}. The VSE represents a number between 0 and 1, where low values signify a high discrepancy between the viewpoints in question and the ones chosen by the users.
+The viewpoints, chosen in the viewpoint selection task of the user study, were evaluated using the benchmark presented by Dutagaci et al.~\cite{dutagaci2010bbv}. They provided a method to evaluate potential viewpoints and compare them to a selection of views chosen by users. The calculation of what Dutagaci et al. call the \acrfull{vse} can be found in \autoref{eq:vse}. The \acrshort{vse} represents a number between 0 and 1, where low values signify a high discrepancy between the viewpoints in question and the ones chosen by the users.
 
 \begin{equation}
 	\label{eq:vse}
 	VSE = \frac{1}{M \cdot \pi \cdot r}\sum_{m=1}^{M} GD_{m}
 \end{equation}
 
-In \autoref{eq:vse}, \(GD_m\) represents the geodesic distance of the potential viewpoint to each user-chosen viewpoint \(m \in M\). The variable $M$ represents the total number of participants (i.e., the number of viewpoints to consider). The viewpoints are expected to be on a sphere (viewpoint sphere) around the focused object. The radius of said sphere (i.e. the distance of each viewpoint to the focused object) is represented by $r$. To visualize the user-selected viewpoints, the viewpoint vectors were projected on the median and transverse planes. Subsequently, we plotted the VSE by comparing each direction around the center as a potential viewpoint. As a result, the \emph{View Selection Error} is displayed angle-wise in the median and frontal plane around the body using the Viridis colormap~\cite{viridis} in \autoref{fig:colorMaps}. Here, blue areas represent a low VSE and therefore, an overall low distance to the user-selected view directions. In contrast, view directions that were avoided by the participants are shown by yellow areas.
+In \autoref{eq:vse}, \(GD_m\) represents the geodesic distance of the potential viewpoint to each user-chosen viewpoint \(m \in M\). The variable $M$ represents the total number of participants (i.e., the number of viewpoints to consider). The viewpoints are expected to be on a sphere (viewpoint sphere) around the focused object. The radius of said sphere (i.e. the distance of each viewpoint to the focused object) is represented by $r$. To visualize the user-selected viewpoints, the viewpoint vectors were projected on the median and transverse planes. Subsequently, we plotted the \acrshort{vse} by comparing each direction around the center as a potential viewpoint. As a result, the \emph{\acrshort{vse}} is displayed angle-wise in the median and frontal plane around the body using the Viridis colormap~\cite{viridis} in \autoref{fig:colorMaps}. Here, blue areas represent a low \acrshort{vse} and therefore, an overall low distance to the user-selected view directions. In contrast, view directions that were avoided by the participants are shown by yellow areas.
 
 \begin{figure*}[ht]
 	\centering
@@ -196,7 +196,7 @@ In \autoref{eq:vse}, \(GD_m\) represents the geodesic distance of the potential 
 	\subfloat[\centering Squat]{\includegraphics[width=0.24\linewidth]{pictures/medianSquat.png}}
 	\subfloat[\centering Bent-down]{\includegraphics[width=0.24\linewidth]{pictures/medianBend.png}}
 	\subfloat[\centering Stand]{\includegraphics[width=0.24\linewidth]{pictures/medianStand.png}}    \includegraphics[width=0.041\linewidth]{pictures/scale.png}
-	\caption[Comparison of our method to user selected view points.]{\emph{View Selection Error} (VSE) for different viewing angles from the top (a-d) and side (e-h) using the benchmark of Dutagaci et al.~\cite{dutagaci2010bbv}. The red line represents the view direction selected by our method. The human figure only shows spatial orientation and does not represent the executed movements.}
+	\caption[Comparison of our method to user selected view points.]{\acrfull{vse} for different viewing angles from the top (a-d) and side (e-h) using the benchmark of Dutagaci et al.~\cite{dutagaci2010bbv}. The red line represents the view direction selected by our method. The human figure only shows spatial orientation and does not represent the executed movements.}
 	\label{fig:colorMaps}
 \end{figure*}
 
@@ -204,16 +204,16 @@ In \autoref{eq:vse}, \(GD_m\) represents the geodesic distance of the potential 
 In \autoref{sec:results:selection}, we will discuss the performance of each algorithm's viewpoint selection relative to the user-selected viewpoints, using the method described in \autoref{sec:benchmark}. Subsequently, in \autoref{sec:results:analysis} the performance of the above-mentioned methods in optimizing viewpoints for the same exercise will be discussed, based on image sequences extracted from the videos. Lastly, \autoref{sec:results:comparison} concludes the user study results of the viewpoint comparison. The results of the questionnaire are found in \autoref{sec:study}, where they specify the participants, and in \autoref{sec:insights}, where the free-text answers are discussed.
 
 \subsection{Viewpoint Selection \label{sec:results:selection}}
-In \autoref{fig:colorMaps}, a low view selection error is represented by blue areas. Therefore, viewpoints in these areas aligned well with the user selection. Yellow areas were chosen less. The red line represents the viewpoint chosen by our method for the static pose without movement. Looking at \autoref{fig:colorMaps}, we see that our method calculated viewpoints predominantly lying in the blue regions, i.e., in regions preferred by users. Similarly, it becomes apparent when analyzing the view selection error mean over the four exercises, that, in comparison, our algorithm fits the selection of the users best with an average VSE of 0.3467. The static isometric-like view performed second best with an average VSE of 0.347 followed by JMO with 0.4825 and the method of Kwon et al. with 0.5497.
+In \autoref{fig:colorMaps}, a low \acrshort{vse} is represented by blue areas. Therefore, viewpoints in these areas aligned well with the user selection. Yellow areas were chosen less. The red line represents the viewpoint chosen by our method for the static pose without movement. Looking at \autoref{fig:colorMaps}, we see that our method calculated viewpoints predominantly lying in the blue regions, i.e., in regions preferred by users. Similarly, it becomes apparent when analyzing the \acrshort{vse} mean over the four exercises, that, in comparison, our algorithm fits the selection of the users best with an average \acrshort{vse} of 0.3467. The static isometric-like view performed second best with an average \acrshort{vse} of 0.347 followed by \acrshort{jmo} with 0.4825 and the method of Kwon et al. with 0.5497.
 
 \subsection{Method Analysis\label{sec:results:analysis}}
 To interpret the comparison of methods in \autoref{sec:results:comparison}, it is essential to understand the viewpoints each method provides and how these viewpoints change over time.
 
-\textbf{JMO~\cite{ishara2015mra}:}
-The JMO algorithm predominantly produced an adequate overview of the human body. A major drawback was that, when applied to videos, the algorithm erratically switched between viewpoints that were significantly distant from each other. This can be perceived in \autoref{fig:jmoSequence}. Consequently, the feedback often was difficult to comprehend, as the algorithm was not designed to work with visual cues or videos. Additionally, several viewpoints were selected from below and behind, although participants preferred perspectives from the front and slightly above (see \autoref{sec:results:selection}).
+\textbf{\acrshort{jmo}~\cite{ishara2015mra}:}
+The \acrshort{jmo} algorithm predominantly produced an adequate overview of the human body. A major drawback was that, when applied to videos, the algorithm erratically switched between viewpoints that were significantly distant from each other. This can be perceived in \autoref{fig:jmoSequence}. Consequently, the feedback often was difficult to comprehend, as the algorithm was not designed to work with visual cues or videos. Additionally, several viewpoints were selected from below and behind, although participants preferred perspectives from the front and slightly above (see \autoref{sec:results:selection}).
 
 \textbf{Kwon et al.~\cite{kwon2020ocp}:} 
-As can be seen in \autoref{fig:kwonSequence}, the algorithm of Kwon et al. seemed to predominantly produce views from behind in our application. As elaborated in \autoref{sec:results:selection}, this is a view that is mostly avoided by users. Additionally, the algorithm sometimes selected views from below, similar to the JMO algorithm mentioned earlier. The algorithm by Kwon et al. offered a much more stable perspective than JMO. However, the feedback was often challenging to see.
+As can be seen in \autoref{fig:kwonSequence}, the algorithm of Kwon et al. seemed to predominantly produce views from behind in our application. As elaborated in \autoref{sec:results:selection}, this is a view that is mostly avoided by users. Additionally, the algorithm sometimes selected views from below, similar to the \acrshort{jmo} algorithm mentioned earlier. The algorithm by Kwon et al. offered a much more stable perspective than \acrshort{jmo}. However, the feedback was often challenging to see.
 
 \begin{figure*}[h!]
 	\centering
@@ -233,7 +233,7 @@ As can be seen in \autoref{fig:kwonSequence}, the algorithm of Kwon et al. seeme
 Our algorithm consistently transitioned between an optimal viewpoint for the neutral position and the contracted position with deviations, as illustrated in \autoref{fig:bicepsSequence}. When feedback was present, it was displayed clearly and perceivable emphasis on it. However, in some exercises, the rapid exercise execution caused a conflict between the neutral and the feedback-optimized viewpoint. This resulted in quick camera movements, which some users found irritating.
 
 \subsection{Viewpoint Comparison \label{sec:results:comparison}}
-\autoref{tab:comparison} shows the user choice distribution of the viewpoint comparison. Our algorithm was most prevalent with 35.04~\% of votes, the isometric-like position was chosen second most with 32.48~\%, followed by Kwon et al.~\cite{kwon2020ocp} with 17.52~\% and lastly JMO~\cite{ishara2015mra} with 14.96~\%.
+\autoref{tab:comparison} shows the user choice distribution of the viewpoint comparison. Our algorithm was most prevalent with 35.04~\% of votes, the isometric-like position was chosen second most with 32.48~\%, followed by Kwon et al.~\cite{kwon2020ocp} with 17.52~\% and lastly \acrshort{jmo}~\cite{ishara2015mra} with 14.96~\%.
 
 \begin{figure*}[h]
 	\centering
@@ -245,7 +245,7 @@ Our algorithm consistently transitioned between an optimal viewpoint for the neu
 	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence6.png}\hfill
 	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence7.png}\hfill
 	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence8.png}\hfill
-	\caption[Image sequence optimized by Ishara et al.~\cite{ishara2015mra}.]{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the \emph{Joint Mutual Occlusion} algorithm by Ishara et al.~\cite{ishara2015mra}.}
+	\caption[Image sequence optimized by Ishara et al.~\cite{ishara2015mra}.]{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the \emph{\acrfull{jmo}} algorithm by Ishara et al.~\cite{ishara2015mra}.}
 	\label{fig:jmoSequence}
 \end{figure*}
 
@@ -275,7 +275,7 @@ Looking at \autoref{fig:colorMaps}, it becomes evident that the participants pre
 		Method & \begin{sideways}Bench press\end{sideways} & \begin{sideways}Biceps curl A  \end{sideways} & \begin{sideways}Lateral raises\end{sideways} & \begin{sideways}Shoulder press\end{sideways} & \begin{sideways}Bent-over row\end{sideways} & \begin{sideways}Biceps curl B\end{sideways}  & \begin{tabular}{l}Total\\Percentage\end{tabular} \\
 		\midrule
 		Neutral  & 19 & 15 & 3 & 15 & 6 & 18 & 32.48 \% \\
-		JMO & 1 & 1  & 6  & 0 & 25 & 2 & 14.96 \% \\
+		\acrshort{jmo} & 1 & 1  & 6  & 0 & 25 & 2 & 14.96 \% \\
 		Kwon & 14 & 7  & 3  & 3 & 6 & 8 & 17.52 \% \\
 		Ours  & 5 & 16 & 27  & 21 & 2 & 11 & \textbf{35.04 \%} \\
 		\bottomrule

@@ -51,8 +51,8 @@
 \contentsline {subsection}{\numberline {6.3.6}Viewpoint Benchmark }{61}{section*.95}%
 \contentsline {section}{\numberline {6.4}Results}{61}{section*.97}%
 \contentsline {subsection}{\numberline {6.4.1}Viewpoint Selection }{62}{section*.98}%
-\contentsline {subsection}{\numberline {6.4.2}Method Analysis}{63}{section*.99}%
-\contentsline {subsection}{\numberline {6.4.3}Viewpoint Comparison }{64}{section*.101}%
+\contentsline {subsection}{\numberline {6.4.2}Method Analysis}{62}{section*.99}%
+\contentsline {subsection}{\numberline {6.4.3}Viewpoint Comparison }{63}{section*.101}%
 \contentsline {section}{\numberline {6.5}Insights and Discussion}{64}{section*.104}%
 \contentsline {section}{\numberline {6.6}Conclusion}{66}{section*.106}%
 \contentsline {chapter}{\numberline {7}Omnipresent In-Situ Feedback for Motor Skill Training using AR }{67}{chapter.7}%
