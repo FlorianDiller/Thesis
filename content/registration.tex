@@ -6,7 +6,7 @@
 		\includegraphics[height=0.35\linewidth]{pictures/pelvisRegSide.png}}
 	\subfloat[Superimposition registered at feet]{\includegraphics[height=0.35\linewidth]{pictures/footReg.png}
 		\includegraphics[height=0.35\linewidth]{pictures/footRegSide.png}}
-	\caption{Highlighting the importance of registration: When registered at the pelvis (a), the squatting target avatar (in green) seems to be floating. Registering at the feet (b) seems to provide more intuitive feedback, connected to the environment.}
+	\caption[Illustrating the importance of registration.]{Illustrating the importance of registration: When registered at the pelvis (a), the squatting target avatar (in green) seems to be floating. Registering at the feet (b) seems to provide more intuitive feedback, connected to the environment.}
 	\label{fig:registrationComparison}
 \end{figure}
 
@@ -26,7 +26,7 @@ An optimal avatar registration is highly dependent on the specific exercise perf
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{pictures/Gizmos.png}
-	\caption{Six degrees of freedom to define the placement of a rigid body in space.}
+	\caption[Six degrees of freedom to define the placement of a rigid body.]{Six degrees of freedom to define the placement of a rigid body in space.}
 	\label{fig:6dof}
 \end{figure}
 
@@ -67,7 +67,7 @@ Furthermore, scaling the target avatar eliminates most inconsistencies in a bone
 	\subfloat[\centering Dip (R)]{\includegraphics[height=.27\linewidth]{pictures/dipsRegistered.PNG}\hfill} 
 	\subfloat[\centering Jump (F)]{\includegraphics[height=.27\linewidth]{pictures/jumpFeet.PNG}\hfill}
 	\subfloat[\centering Jump (R)]{\includegraphics[height=.27\linewidth]{pictures/jumpPelvis.PNG}\hfill} 
-	\caption{Start and execution position of exercise examples registered according to our registration methods explained in \autoref{sec:optimalReg} (R), the feet (F) and only the pelvis (P). The exercises and registration parameters can be found in \autoref{tab:regExamples}.}
+	\caption[Registered start and execution position of exercise examples.]{Start and execution position of exercise examples registered according to our registration methods explained in \autoref{sec:optimalReg} (R), the feet (F) and only the pelvis (P). The exercises and registration parameters can be found in \autoref{tab:regExamples}.}
 	\label{fig:regExamples}
 \end{figure*}
 
@@ -78,7 +78,7 @@ To establish an understanding of the methods explained in \autoref{sec:optimalRe
 Exercises that connect with the feet on the floor (like squats and warrior II), and those that involve lying down (like leg raises, plank, and push-ups) both profit from the same registration. Here, the pelvis was used to align the avatars on the horizontal plane. As a result, the torsos and therefore, the body's center were registered quite well. The avatars were vertically placed by aligning the lowest joint of each. Consequently, the avatars were intuitively placed on the floor, even if the movement of the actual avatar did not (yet) follow the target avatar (see \autoref{fig:regExamples} and \autoref{fig:registrationComparison}). Concerning rotation, the pitch and roll rotations, as depicted in \autoref{fig:6dof}, were fixated as in the recorded exercise. As already stated in \autoref{sec:optimalReg}, the pitch and roll rotations seem inherent to the exercise, as altering them can falsify the execution. However, the yaw rotation was based on the same joint used for horizontal alignment: The pelvis. This aligns the main orientations of the avatars.
 
 \begin{table}[h]
-	\caption{Exercise examples with corresponding joints for each of the six degrees of freedom to match for an optimized registration as described in \autoref{sec:optimalReg}.\label{tab:regExamples}}
+	\caption[Example exercises with corresponding registration.]{Exercise examples with corresponding joints for each of the six degrees of freedom to match for an optimized registration as described in \autoref{sec:optimalReg}.\label{tab:regExamples}}
 	\footnotesize
 	\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccccc}
 		\toprule%

@@ -3,12 +3,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Fitts and Posners~\blx@tocontentsinit {0}\cite {fitts1967HPe} stages of skill learning as applied to motor learning. Presentation based on~\blx@tocontentsinit {0}\cite {huber2013AEP}.}}{23}{table.caption.37}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Classification of reviewed literature. Explanation for classification features can be found in \autoref {sec:classification}. Visual cues are explained in \autoref {sec:visualCues}.}}{31}{table.caption.53}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Fitts and Posners stages of skill learning~\blx@tocontentsinit {0}\cite {fitts1967HPe}.}}{23}{table.caption.37}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Classification of reviewed literature.}}{31}{table.caption.53}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Exercise examples with corresponding joints for each of the six degrees of freedom to match for an optimized registration as described in \autoref {sec:optimalReg}.}}{48}{table.caption.77}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Example exercises with corresponding registration.}}{48}{table.caption.77}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Results of user study. Distribution of viewpoint selection methods chosen by the participants.}}{65}{table.caption.105}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Results of user study evaluation view selection methods.}}{65}{table.caption.105}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Time measurements for each task in the user study.}}{78}{table.caption.128}%
 \contentsline {table}{\numberline {7.2}{\ignorespaces Accuracy for each task in the user study.}}{79}{table.caption.130}%

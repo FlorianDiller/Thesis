@@ -12,7 +12,7 @@ Optical see-through \acrshort{hmd}s --- as are used in this chapter --- always p
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{pictures/PointOfView.PNG}
-	\caption{A person exercising with a ball. Exocentric (left) and egocentric (right) view types with possible target movement (feedback) in transparent green and the actual movement in blue.\label{fig:omnipresent:POV}}
+	\caption[Comparison of an exocentric and egocentric perspective.]{A person exercising with a ball. Exocentric (left) and egocentric (right) view types with possible target movement (feedback) in transparent green and the actual movement in blue.\label{fig:omnipresent:POV}}
 \end{figure}
 
 Alternatively, a common way to display motion feedback is a third-person perspective (\autoref{fig:omnipresent:POV}, left). This gives the user an overview of his or her body in space. The relation of all limbs becomes clear and deviations from the correct form can be adjusted accordingly. Therefore, Rymal et al and Ste-Marie~\cite{rymal2009dsm} discovered that an exocentric view of an exercise can help athletes improve their ability to mentally visualize the motion, which can lead to learning new skills or improving performance~\cite{white1998ida}. Moreover, we elaborated in \autoref{chap:visualCueSurvey} that a third-person view is predominantly used in current literature when providing visual feedback for motor skills.
@@ -53,7 +53,7 @@ To superimpose the actual and target pose avatars in relation to each other, in 
 \begin{figure*}[h!]
 	\centering    \subfloat{\includegraphics[width=0.5\linewidth]{pictures/pelvisRegistration.png}\hfill}
 	\subfloat{\includegraphics[width=0.5\linewidth]{pictures/footRegistration.png}\hfill}
-	\caption{The reference (in green) is performing the ideal exercise --- in this case a squat --- while the actual avatar is neutrally standing. The result of registering at the pelvis (left) looks as if hovering and can potentially be irritating to the user. In this case, it might be preferable to register the avatars at the foot or the ground. \label{fig:registration}}
+	\caption[Example of different methods registering squatting skeletons.]{The reference (in green) is performing the ideal exercise --- in this case a squat --- while the actual avatar is neutrally standing. The result of registering at the pelvis (left) looks as if hovering and can potentially be irritating to the user. In this case, it might be preferable to register the avatars at the foot or the ground. \label{fig:registration}}
 \end{figure*}
 
 
@@ -80,7 +80,7 @@ The stereoscopic display of the \acrshort{hmd} makes it possible for the user to
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.6\linewidth]{pictures/avatarPos.png}
-	\caption{The feedback avatar is positioned such that its pelvis lies on the intersection of the view direction $\vec{v}$ and the horizontal plane through the user's pelvis $P$.\label{fig:positioning}}
+	\caption[Positioning of the feedback avatar.]{The feedback avatar is positioned such that its pelvis lies on the intersection of the view direction $\vec{v}$ and the horizontal plane through the user's pelvis $P$.\label{fig:positioning}}
 \end{figure}
 
 \textbf{Snapping:}
@@ -89,7 +89,7 @@ While moving --- especially during exercises --- the head movement can be unstab
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.6\linewidth]{pictures/gridRound.png}
-	\caption{The avatars move horizontally if the view direction deviates more than $\Delta$ from the center of the visualization, as indicated by the circles. The visualization is scaled up in the distance and down in proximity to the camera. The constant size always matches the field of view of the \acrshort{hmd} and irritates the user less as if it were constantly changing.\label{fig:roundGrid}}
+	\caption[Spatial stabilization of the feedback positioning.]{The avatars move horizontally if the view direction deviates more than $\Delta$ from the center of the visualization, as indicated by the circles. The visualization is scaled up in the distance and down in proximity to the camera. The constant size always matches the field of view of the \acrshort{hmd} and irritates the user less as if it were constantly changing.\label{fig:roundGrid}}
 \end{figure}
 
 \textbf{Scaling:}
@@ -101,7 +101,7 @@ When looking down, the feedback positioning at pelvis height becomes hard to per
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.6\linewidth]{pictures/floorPos.png}
-	\caption{The feedback transitions to a \emph{top-down mode}, in which the avatars are shown below, if the angle $\gamma$ between the normal of the floor and the view direction is smaller than 20°. \label{fig:floor}}
+	\caption[Top-down mode visualizing exercises when looking down.]{The feedback transitions to a \emph{top-down mode}, in which the avatars are shown below, if the angle $\gamma$ between the normal of the floor and the view direction is smaller than 20°. \label{fig:floor}}
 \end{figure}
 
 \textbf{Free Mode:}

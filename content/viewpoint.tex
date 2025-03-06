@@ -14,7 +14,7 @@ Wang et al.~\cite{wang2019asw} utilized information theory and deep reinforcemen
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.6\linewidth]{pictures/skeleton_E_occ.png}
-	\caption{Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}: Joint Mutual Occlusion.}
+	\caption[Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}.]{Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}: Joint Mutual Occlusion.}
 	\label{fig:jmo}
 \end{figure}
 
@@ -31,7 +31,7 @@ The approaches by Ishara et al.~\cite{ishara2015mra} and Kwon et al.~\cite{kwon2
 	\centering
 	\includegraphics[width=0.49\linewidth]{pictures/projection_feedback}\hfill
 	\includegraphics[width=0.49\linewidth]{pictures/projection_feedback_arrow}
-	\caption{Feedback for the same angle viewed from different perspectives. Two feedback cues: circular sector (left) and arrow (right). From left to right: Perfectly visible, visible, and hardly visible feedback. The shadows demonstrate that viewpoint affects not only the perception of the geometry but also of the feedback.}
+	\caption[Feedback for the same angle viewed from different perspectives.]{Feedback for the same angle viewed from different perspectives. Two feedback cues: circular sector (left) and arrow (right). From left to right: Perfectly visible, visible, and hardly visible feedback. The shadows demonstrate that viewpoint affects not only the perception of the geometry but also of the feedback.}
 	\label{fig:projection_feedback}
 \end{figure*}
 To facilitate a user-friendly and intuitive viewpoint selection, several things have to be considered. We will discuss these in detail in \autoref{sec:considerations}. With the foundational registration methods discussed in \autoref{sec:optimalReg}, it is possible to calculate an optimized viewpoint, as presented in \autoref{sec:methViewCalc}.
@@ -42,7 +42,7 @@ In the literature, concrete rules for generating good perspectives are lacking. 
 \begin{figure}[t!h]
 	\centering
 	\includegraphics[width=\linewidth]{pictures/projection_normal.png}
-	\caption{Highlighting the importance of viewpoint selection: Three \emph{different} joint angles produce \emph{identical} shadows when projected onto the ground, implying they appear identical from an overhead perspective. Inspired by Nundy et al.~\cite{nundy2000wam}.}
+	\caption[Illustrating the importance of viewpoint selection.]{Illustrating the importance of viewpoint selection: Three \emph{different} joint angles produce \emph{identical} shadows when projected onto the ground, implying they appear identical from an overhead perspective. Inspired by Nundy et al.~\cite{nundy2000wam}.}
 	\label{fig:projection_normal}
 \end{figure}
 
@@ -55,7 +55,7 @@ When looking at motor feedback, here in particular superimposed avatars, the pos
 	\centering
 	\includegraphics[width=0.49\linewidth]{pictures/feedbackFront.png}
 	\includegraphics[width=0.49\linewidth]{pictures/feedbackSide.png}
-	\caption{Skeleton of a human pose with feedback from two perspectives. Two visual feedback cues are shown: A red angle sector and a superimposed avatar (here green skeleton). The feedback is hardly visible from the frontal perspective on the left.}
+	\caption[Skeleton of a human pose with feedback from two perspectives.]{Skeleton of a human pose with feedback from two perspectives. Two visual feedback cues are shown: A red angle sector and a superimposed avatar (here green skeleton). The feedback is hardly visible from the frontal perspective on the left.}
 	\label{fig:skeletonFeedbackPerspective}
 \end{figure}
 
@@ -81,7 +81,7 @@ Because the view direction should be optimized for corrective feedback correspon
 \begin{figure}[tb]
 	\centering
 	\includegraphics[width=0.5\linewidth]{pictures/eigenvector.png}
-	\caption{If Joint \(J_n\) (in red) deviates from the target position, a \acrshort{pca} is conducted including the corresponding target joint (in orange) and their parents (in blue). The eigenvector \(\vec{e}_{3n}\) then gives us an optimal view direction \(\vec{v}_{Fn}\) of the feedback for \(J_n\). The resulting view direction is orthogonal to the plane defined by the eigenvectors \(\vec{e}_{1n}\) and \(\vec{e}_{2n}\). This plane approximates the distribution of the considered joints and does not interpolate them.}
+	\caption[PCA provides an optimal view direction for feedback.]{If Joint \(J_n\) (in red) deviates from the target position, a \acrshort{pca} is conducted including the corresponding target joint (in orange) and their parents (in blue). The eigenvector \(\vec{e}_{3n}\) then gives us an optimal view direction \(\vec{v}_{Fn}\) of the feedback for \(J_n\). The resulting view direction is orthogonal to the plane defined by the eigenvectors \(\vec{e}_{1n}\) and \(\vec{e}_{2n}\). This plane approximates the distribution of the considered joints and does not interpolate them.}
 	\label{fig:eigenvector}
 \end{figure}
 
@@ -196,7 +196,7 @@ In \autoref{eq:vse}, \(GD_m\) represents the geodesic distance of the potential 
 	\subfloat[\centering Squat]{\includegraphics[width=0.24\linewidth]{pictures/medianSquat.png}}
 	\subfloat[\centering Bent-down]{\includegraphics[width=0.24\linewidth]{pictures/medianBend.png}}
 	\subfloat[\centering Stand]{\includegraphics[width=0.24\linewidth]{pictures/medianStand.png}}    \includegraphics[width=0.041\linewidth]{pictures/scale.png}
-	\caption{\emph{View Selection Error} (VSE) for different viewing angles from the top (a-d) and side (e-h) using the benchmark of Dutagaci et al.~\cite{dutagaci2010bbv}. The red line represents the view direction selected by our method. The human figure only shows spatial orientation and does not represent the executed movements.}
+	\caption[Comparison of our method to user selected view points.]{\emph{View Selection Error} (VSE) for different viewing angles from the top (a-d) and side (e-h) using the benchmark of Dutagaci et al.~\cite{dutagaci2010bbv}. The red line represents the view direction selected by our method. The human figure only shows spatial orientation and does not represent the executed movements.}
 	\label{fig:colorMaps}
 \end{figure*}
 
@@ -225,7 +225,7 @@ As can be seen in \autoref{fig:kwonSequence}, the algorithm of Kwon et al. seeme
 	\includegraphics[width=0.12\linewidth]{pictures/kwonSequence6.png}\hfill
 	\includegraphics[width=0.12\linewidth]{pictures/kwonSequence7.png}\hfill
 	\includegraphics[width=0.115\linewidth]{pictures/kwonSequence8.png}\hfill
-	\caption{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the algorithm by Kwon et al.~\cite{kwon2020ocp}.}
+	\caption[Image sequence optimized by Kwon et al.~\cite{kwon2020ocp}.]{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the algorithm by Kwon et al.~\cite{kwon2020ocp}.}
 	\label{fig:kwonSequence}
 \end{figure*}
 
@@ -245,7 +245,7 @@ Our algorithm consistently transitioned between an optimal viewpoint for the neu
 	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence6.png}\hfill
 	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence7.png}\hfill
 	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence8.png}\hfill
-	\caption{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the \emph{Joint Mutual Occlusion} algorithm by Ishara et al.~\cite{ishara2015mra}.}
+	\caption[Image sequence optimized by Ishara et al.~\cite{ishara2015mra}.]{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by the \emph{Joint Mutual Occlusion} algorithm by Ishara et al.~\cite{ishara2015mra}.}
 	\label{fig:jmoSequence}
 \end{figure*}
 
@@ -259,7 +259,7 @@ Our algorithm consistently transitioned between an optimal viewpoint for the neu
 	\includegraphics[width=0.115\linewidth]{pictures/bicepsSequence6.png}\hfill
 	\includegraphics[width=0.11\linewidth]{pictures/bicepsSequence7.png}\hfill
 	\includegraphics[width=0.11\linewidth]{pictures/bicepsSequence8.png}\hfill
-	\caption{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by our algorithm.}
+	\caption[Image sequence optimized by our method.]{Image sequence, taken from a video of a biceps curl exercise with deviation. The viewpoint is optimized by our algorithm.}
 	\label{fig:bicepsSequence}
 \end{figure*}
 
@@ -269,7 +269,7 @@ Occasionally camera positions from behind were provided by the methods of Kwon e
 Looking at \autoref{fig:colorMaps}, it becomes evident that the participants preferred a frontal view direction. This aligns with the statement made by Zusne~\cite{zusne1970vpf}, that humans desire frontal views (see \autoref{sec:considerations}), and verifies these requirements for our application. Additionally, it was observed that participants preferred a viewpoint from slightly above.
 
 \begin{table}[h]
-	\caption{\label{tab:comparison}Results of user study. Distribution of viewpoint selection methods chosen by the participants.}%
+	\caption[Results of user study evaluation view selection methods.]{\label{tab:comparison}Results of user study. Distribution of viewpoint selection methods chosen by the participants.}%
 	\begin{tabular}{@{}l|llllll|l@{}}
 		\toprule
 		Method & \begin{sideways}Bench press\end{sideways} & \begin{sideways}Biceps curl A  \end{sideways} & \begin{sideways}Lateral raises\end{sideways} & \begin{sideways}Shoulder press\end{sideways} & \begin{sideways}Bent-over row\end{sideways} & \begin{sideways}Biceps curl B\end{sideways}  & \begin{tabular}{l}Total\\Percentage\end{tabular} \\
