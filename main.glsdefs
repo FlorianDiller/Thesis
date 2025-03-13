@@ -586,3 +586,59 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{ui}%
+{%
+name={\acronymfont {\glsentryshort {ui}}},%
+sort={UI},%
+type={acronym},%
+first={UI},%
+firstplural={UIs},%
+text={UI},%
+plural={UIs},%
+description={User Interface},%
+descriptionplural={User Interface},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={User Interface},%
+longplural={User Interfaces},%
+short={UI},%
+shortplural={UIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ux}%
+{%
+name={\acronymfont {\glsentryshort {ux}}},%
+sort={UX},%
+type={acronym},%
+first={UX},%
+firstplural={UXs},%
+text={UX},%
+plural={UXs},%
+description={User Experience},%
+descriptionplural={User Experience},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={User Experience},%
+longplural={User Experiences},%
+short={UX},%
+shortplural={UXs},%
+counter={page},%
+parent={},%
+%
+}%
+

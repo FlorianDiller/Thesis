@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {1.1}Publications}{2}{section*.6}%
 \contentsline {section}{\numberline {1.2}Remarks}{2}{section*.7}%
 \contentsline {chapter}{\numberline {2}Educational Background}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Holistic Approach to Modular Open Educational Resources for Computer Graphics}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Holistic Approach to Modular Open Educational Resources for CG}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Related Work}{6}{section*.12}%
 \contentsline {section}{\numberline {3.2}OER - Terminology and Challenges }{8}{section*.13}%
 \contentsline {section}{\numberline {3.3}Topics Overview}{9}{section*.14}%
@@ -14,11 +14,11 @@
 \contentsline {section}{\numberline {3.5}Evaluation}{14}{section*.22}%
 \contentsline {section}{\numberline {3.6}Publication}{15}{section*.24}%
 \contentsline {subsection}{\numberline {3.6.1}Teaching Staff Interviews}{15}{section*.25}%
-\contentsline {subsection}{\numberline {3.6.2}UX-Design Expert}{16}{section*.26}%
+\contentsline {subsection}{\numberline {3.6.2}\acrshort {ux}-Design Expert}{16}{section*.26}%
 \contentsline {subsection}{\numberline {3.6.3}Students}{16}{section*.27}%
 \contentsline {section}{\numberline {3.7}Conclusion}{17}{section*.28}%
 \contentsline {section}{\numberline {3.8}Future Work}{18}{section*.29}%
-\contentsline {chapter}{\numberline {4}Visual Cue Based Corrective Feedback for Motor Skill Training in Mixed Reality: A Survey}{19}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Visual Cue Based Corrective Feedback for Motor Skill Training in Mixed Reality}{19}{chapter.4}%
 \contentsline {subsection}{\numberline {4.0.1}Related Work}{20}{section*.32}%
 \contentsline {subsection}{\numberline {4.0.2}Organization of this Chapter}{21}{section*.33}%
 \contentsline {section}{\numberline {4.1}Background and Terminology }{22}{section*.34}%
@@ -39,7 +39,7 @@
 \contentsline {chapter}{\numberline {5}Registration of Superimposed Avatars }{43}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Related Work }{43}{section*.69}%
 \contentsline {section}{\numberline {5.2}Methodology }{44}{section*.70}%
-\contentsline {chapter}{\numberline {6}Automatic Viewpoint Selection for Interactive Motor Feedback Using Principle Component Analysis}{49}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Automatic Viewpoint Selection for Interactive Motor Feedback Using PCA}{49}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Related Work }{49}{section*.79}%
 \contentsline {section}{\numberline {6.2}Methodology }{51}{section*.81}%
 \contentsline {section}{\numberline {6.3}Viewpoint Selection Evaluation }{57}{section*.88}%
