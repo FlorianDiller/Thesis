@@ -642,3 +642,31 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{plato}%
+{%
+name={\acronymfont {\glsentryshort {plato}}},%
+sort={PLATO},%
+type={acronym},%
+first={PLATO},%
+firstplural={PLATOs},%
+text={PLATO},%
+plural={PLATOs},%
+description={Programmed Logic for Automatic Teaching Operations},%
+descriptionplural={Programmed Logic for Automatic Teaching Operations},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Programmed Logic for Automatic Teaching Operations},%
+longplural={Programmed Logic for Automatic Teaching Operationss},%
+short={PLATO},%
+shortplural={PLATOs},%
+counter={page},%
+parent={},%
+%
+}%
+

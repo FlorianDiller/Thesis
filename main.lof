@@ -60,15 +60,14 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Comparison of an exocentric and egocentric perspective.}}{68}{figure.caption.109}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot of the motor feedback provided by SkillAR via \acrshort {hmd}. }}{71}{figure.caption.114}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Example of different methods registering squatting skeletons.}}{72}{figure.caption.116}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Example exercises with deviations as described in \autoref {sec:design}.}}{73}{figure.caption.117}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Standing}}}{73}{subfigure.4.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Jumping\\Jack}}}{73}{subfigure.4.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Plank}}}{73}{subfigure.4.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Squat}}}{73}{subfigure.4.4}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Torso\\Rotation}}}{73}{subfigure.4.5}%
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Warrior II}}}{73}{subfigure.4.6}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Positioning of the feedback avatar.}}{74}{figure.caption.119}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Spatial stabilization of the feedback positioning.}}{74}{figure.caption.120}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Top-down mode visualizing exercises when looking down.}}{75}{figure.caption.121}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Example exercises with deviations as described in \autoref {sec:design}.}}{72}{figure.caption.116}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Standing}}}{72}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Jumping\\Jack}}}{72}{subfigure.3.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Plank}}}{72}{subfigure.3.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Squat}}}{72}{subfigure.3.4}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Torso\\Rotation}}}{72}{subfigure.3.5}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Warrior II}}}{72}{subfigure.3.6}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Positioning of the feedback avatar.}}{73}{figure.caption.118}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Spatial stabilization of the feedback positioning.}}{74}{figure.caption.119}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Top-down mode visualizing exercises when looking down.}}{74}{figure.caption.120}%
 \addvspace {10\p@ }
