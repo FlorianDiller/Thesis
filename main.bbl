@@ -4099,6 +4099,36 @@
     \field{year}{2020}
   \endentry
 
+  \entry{lave:wenger:1991}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=LJ}{%
+         family={Lave},
+         familyi={L\bibinitperiod},
+         given={Jean},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WE}{%
+         family={Wenger},
+         familyi={W\bibinitperiod},
+         given={Etienne},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{LJWE1}
+    \strng{fullhash}{LJWE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{series}{Learning in Doing: Social, Cognitive and Computational
+  Perspectives}
+    \field{title}{Situated Learning: Legitimate Peripheral Participation}
+    \field{year}{1991}
+  \endentry
+
   \entry{naour2019superimpose}{article}{}{}
     \name{author}{3}{}{%
       {{hash=LNT}{%
@@ -4709,6 +4739,57 @@
     \field{year}{2019}
   \endentry
 
+  \entry{mat2025virtual}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{5}{}{%
+      {{hash=MSKA}{%
+         family={Mat\bibnamedelima Sanusi},
+         familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Khaleel\bibnamedelima Asyraaf},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ID}{%
+         family={Iren},
+         familyi={I\bibinitperiod},
+         given={Deniz},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Fanchamps},
+         familyi={F\bibinitperiod},
+         given={Nardie},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Geisen},
+         familyi={G\bibinitperiod},
+         given={Mai},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Klemke},
+         familyi={K\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MSKA+1}
+    \strng{fullhash}{MSKAIDFNGMKR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{1\bibrangedash 41}
+    \field{title}{Virtual virtuoso: a systematic literature review of immersive
+  learning environments for psychomotor skill development}
+    \field{journaltitle}{Educational technology research and development}
+    \field{year}{2025}
+  \endentry
+
   \entry{jim:2023:studies}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=M}{%
@@ -4722,7 +4803,11 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{M}
     \field{sortinithash}{M}
+    \field{note}{accessed 2024-01-19}
     \field{title}{JIM(Jugend, Information, Medien)-Studie 2023}
+    \verb{url}
+    \verb {https://www.mpfs.de/studien/jim-studie/2023/}
+    \endverb
     \field{year}{2023}
   \endentry
 
@@ -7335,6 +7420,10 @@
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{title}{Video games - Worldwide}
+    \verb{url}
+    \verb {https://de.statista.com/outlook/dmo/digitale-medien/videospiele/welt
+    \verb weit}
+    \endverb
     \field{year}{2023}
   \endentry
 
@@ -8107,8 +8196,19 @@
     \strng{namehash}{TRD+1}
     \strng{fullhash}{TRDRWBAAQBMIBRCMESFNBFMBGMAKSKELPNMPSSJSSSBHSPVJWSWSJ1}
     \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
     \field{sortinit}{T}
     \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1097/j.pain.0000000000000160
+    \endverb
+    \field{number}{6}
+    \field{pages}{1003\bibrangedash 1007}
+    \field{title}{{A} classification of chronic pain for {I}{C}{D}-11}
+    \field{volume}{156}
+    \field{journaltitle}{Pain}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{trepkowski2019enf}{article}{}{}
