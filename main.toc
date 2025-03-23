@@ -80,6 +80,6 @@
 \contentsline {section}{\numberline {7.8}Conclusion}{82}{section*.137}%
 \contentsline {section}{\numberline {7.9}Future Work}{83}{section*.138}%
 \contentsline {chapter}{\nonumberline Bibliography}{85}{chapter*.139}%
-\contentsline {chapter}{List of Figures}{99}{section*.141}%
-\contentsline {chapter}{List of Tables}{101}{section*.141}%
-\contentsline {chapter}{Glossary}{103}{section*.141}%
+\contentsline {chapter}{List of Figures}{101}{section*.141}%
+\contentsline {chapter}{List of Tables}{103}{section*.141}%
+\contentsline {chapter}{Glossary}{105}{section*.141}%

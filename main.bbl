@@ -284,6 +284,45 @@
     \warn{\item Can't use 'location' + 'address'}
   \endentry
 
+  \entry{anderson1998contextual}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=AT}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={Ted},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WDL}{%
+         family={Wright},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima L},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=IMA}{%
+         family={Immink},
+         familyi={I\bibinitperiod},
+         given={Maarten\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{AT+1}
+    \strng{fullhash}{ATWDLIMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{2}
+    \field{pages}{207\bibrangedash 221}
+    \field{title}{Contextual dependencies during perceptual-motor skill
+  performance: Influence of task difficulty}
+    \field{volume}{6}
+    \field{journaltitle}{Memory}
+    \field{year}{1998}
+  \endentry
+
   \entry{angel:2017:interactive}{inproceedings}{}{}
     \name{author}{2}{}{%
       {{hash=AE}{%
@@ -2617,6 +2656,56 @@
     \field{journaltitle}{IEEE Transactions on Visualization and Computer
   Graphics}
     \field{year}{2020}
+  \endentry
+
+  \entry{godden1975context}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=GDR}{%
+         family={GODDEN},
+         familyi={G\bibinitperiod},
+         given={D.\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BAD}{%
+         family={BADDELEY},
+         familyi={B\bibinitperiod},
+         given={A.\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GDRBAD1}
+    \strng{fullhash}{GDRBAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    In a free recall experiment, divers learnt lists of words in two natural
+  environments: on dry land and underwater, and recalled the words in either
+  the environment of original learning, or in the alternative environment.
+  Lists learnt underwater were best recalled underwater, and vice versa. A
+  subsequent experiment shows that the disruption of moving from one
+  environment to the other was unlikely to be responsible for context-dependent
+  memory.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1111/j.2044-8295.1975.tb01468.x
+    \endverb
+    \verb{eprint}
+    \verb https://bpspsychub.onlinelibrary.wiley.com/doi/pdf/10.1111/j.2044-829
+    \verb 5.1975.tb01468.x
+    \endverb
+    \field{number}{3}
+    \field{pages}{325\bibrangedash 331}
+    \field{title}{CONTEXT-DEPENDENT MEMORY IN TWO NATURAL ENVIRONMENTS: ON LAND
+  AND UNDERWATER}
+    \verb{url}
+    \verb https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/j.2044-829
+    \verb 5.1975.tb01468.x
+    \endverb
+    \field{volume}{66}
+    \field{journaltitle}{British Journal of Psychology}
+    \field{year}{1975}
   \endentry
 
   \entry{gonzalesfranco2010contribution}{inproceedings}{}{}
@@ -6556,6 +6645,57 @@
     \field{year}{2011}
   \endentry
 
+  \entry{ruitenberg2012context}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=RMF}{%
+         family={Ruitenberg},
+         familyi={R\bibinitperiod},
+         given={Marit\bibnamedelima FL},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=DKE}{%
+         family={De\bibnamedelima Kleine},
+         familyi={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+         given={Elian},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VdLRH}{%
+         prefix={Van\bibnamedelima der},
+         prefixi={V\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Lubbe},
+         familyi={L\bibinitperiod},
+         given={Rob\bibnamedelima HJ},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=VWB}{%
+         family={Verwey},
+         familyi={V\bibinitperiod},
+         given={Willem\bibnamedelima B},
+         giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=AEL}{%
+         family={Abrahamse},
+         familyi={A\bibinitperiod},
+         given={Elger\bibnamedelima L},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{RMF+1}
+    \strng{fullhash}{RMFDKELRHVdVWBAEL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{pages}{812\bibrangedash 820}
+    \field{title}{Context-dependent motor skill and the role of practice}
+    \field{volume}{76}
+    \field{journaltitle}{Psychological research}
+    \field{year}{2012}
+  \endentry
+
   \entry{rutkowski2020uvr}{article}{}{}
     \name{author}{7}{}{%
       {{hash=RS}{%
@@ -7207,6 +7347,38 @@
     \field{journaltitle}{Journal of Biomechanical Engineering}
     \field{month}{02}
     \field{year}{2021}
+  \endentry
+
+  \entry{smith2001environmental}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=SSM}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Steven\bibnamedelima M},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vela},
+         familyi={V\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{SSMVE1}
+    \strng{fullhash}{SSMVE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{203\bibrangedash 220}
+    \field{title}{Environmental context-dependent memory: A review and
+  meta-analysis}
+    \field{volume}{8}
+    \field{journaltitle}{Psychonomic bulletin \& review}
+    \field{year}{2001}
   \endentry
 
   \entry{sorzano2014sdr}{article}{}{}
@@ -9032,6 +9204,37 @@
     \verb https://world.physio/sites/default/files/2024-01/AMC2023-Global.pdf
     \endverb
     \field{year}{2023}
+  \endentry
+
+  \entry{wright1991contextual}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=WDL}{%
+         family={Wright},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima L},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SCH}{%
+         family={Shea},
+         familyi={S\bibinitperiod},
+         given={Charles\bibnamedelima H},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{WDLSCH1}
+    \strng{fullhash}{WDLSCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{pages}{361\bibrangedash 370}
+    \field{title}{Contextual dependencies in motor skills}
+    \field{volume}{19}
+    \field{journaltitle}{Memory \& Cognition}
+    \field{year}{1991}
   \endentry
 
   \entry{wu:2013:current}{article}{}{}
