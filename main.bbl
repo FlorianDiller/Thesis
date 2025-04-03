@@ -1920,6 +1920,45 @@
     \field{year}{1997}
   \endentry
 
+  \entry{diller2025towards}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=DF}{%
+         family={Diller},
+         familyi={D\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Frey},
+         familyi={F\bibinitperiod},
+         given={Thorsten},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Wiebel},
+         familyi={W\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{DF+1}
+    \strng{fullhash}{DFFTWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{issuetitle}{Selected Topics on Computer Vision, Imaging and Computer
+  Graphics Theory and Applications}
+    \field{note}{Accepted for publication}
+    \field{title}{Towards an Optimal Display of Superimposed Avatars for Motor
+  Feedback}
+    \field{journaltitle}{Virtual Reality}
+    \field{year}{2025}
+  \endentry
+
   \entry{diller2024skillar}{article}{}{}
     \name{author}{4}{}{%
       {{hash=DF}{%

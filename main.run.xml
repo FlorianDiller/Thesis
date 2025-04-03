@@ -85,7 +85,6 @@
     </requires>
     <requires type="editable">
       <file>bib-refs.bib</file>
-      <file>bib-refs</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
