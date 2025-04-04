@@ -3,72 +3,72 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The Experiential learning cycle as defined by Kolb \blx@tocontentsinit {0}\cite {kolb:1984:experiential}.}}{4}{figure.caption.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Contents of educational modules.}}{6}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Icons indicate user interaction.}}{12}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Structure of educational templates.}}{13}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Systematic overview of the educational approach.}}{14}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Screenshots of user evaluated exploratories.}}{15}{figure.caption.26}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DDA Line Drawing}}}{15}{subfigure.5.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Field of View}}}{15}{subfigure.5.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Rotation}}}{15}{subfigure.5.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Contents of educational modules.}}{8}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Icons indicate user interaction.}}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Structure of educational templates.}}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Systematic overview of the educational approach.}}{16}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Screenshots of user evaluated exploratories.}}{17}{figure.caption.26}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DDA Line Drawing}}}{17}{subfigure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Field of View}}}{17}{subfigure.5.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Rotation}}}{17}{subfigure.5.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of the human-machine feedback loop based on~\blx@tocontentsinit {0}\cite {morone2021dab}.}}{20}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of an exocentric and egocentric perspective.}}{28}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Examples of visual cues used in the literature.}}{30}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Example of a color-coded skeleton.}}{35}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Transparent avatar for motion feedback.}}{35}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Synthesized frame between expert and beginner.}}{36}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Projection-based \acrshort {vr} for body parts that are hard to see.}}{37}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Occurrence of different visual cues in the selected literature.}}{40}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of the human-machine feedback loop based on~\blx@tocontentsinit {0}\cite {morone2021dab}.}}{22}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of an exocentric and egocentric perspective.}}{30}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Examples of visual cues used in the literature.}}{32}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Example of a color-coded skeleton.}}{37}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Transparent avatar for motion feedback.}}{37}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Synthesized frame between expert and beginner.}}{38}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Projection-based \acrshort {vr} for body parts that are hard to see.}}{39}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Occurrence of different visual cues in the selected literature.}}{42}{figure.caption.65}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Illustrating the importance of registration.}}{45}{figure.caption.71}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Superimposition registered at pelvis}}}{45}{subfigure.1.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Superimposition registered at feet}}}{45}{subfigure.1.2}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Six degrees of freedom to define the placement of a rigid body.}}{46}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Registered start and execution position of exercise examples.}}{49}{figure.caption.78}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Push-up (P)}}}{49}{subfigure.3.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Push-up (R)}}}{49}{subfigure.3.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Dip (P)}}}{49}{subfigure.3.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Dip (R)}}}{49}{subfigure.3.4}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Jump (F)}}}{49}{subfigure.3.5}%
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Jump (R)}}}{49}{subfigure.3.6}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Illustrating the importance of registration.}}{47}{figure.caption.71}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Superimposition registered at pelvis}}}{47}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Superimposition registered at feet}}}{47}{subfigure.1.2}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Six degrees of freedom to define the placement of a rigid body.}}{48}{figure.caption.75}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Registered start and execution position of exercise examples.}}{51}{figure.caption.78}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Push-up (P)}}}{51}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Push-up (R)}}}{51}{subfigure.3.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Dip (P)}}}{51}{subfigure.3.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Dip (R)}}}{51}{subfigure.3.4}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Jump (F)}}}{51}{subfigure.3.5}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Jump (R)}}}{51}{subfigure.3.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Measure for the self-occlusion of the skeleton by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}.}}{52}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Feedback for the same angle viewed from different perspectives.}}{53}{figure.caption.85}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Illustrating the importance of viewpoint selection.}}{54}{figure.caption.87}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Skeleton of a human pose with feedback from two perspectives.}}{55}{figure.caption.88}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces PCA provides an optimal view direction for feedback.}}{57}{figure.caption.90}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Sample exercises with deviations as described in \autoref {sec:sample}.}}{60}{figure.caption.94}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Bench press}}}{60}{subfigure.6.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Curl A}}}{60}{subfigure.6.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Lateral raises}}}{60}{subfigure.6.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Shoulder press}}}{60}{subfigure.6.4}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Bent-over\\row}}}{60}{subfigure.6.5}%
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Curl B}}}{60}{subfigure.6.6}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Comparison of our method to user selected view points.}}{64}{figure.caption.99}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Bench Press}}}{64}{subfigure.7.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Squat}}}{64}{subfigure.7.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Bent-down}}}{64}{subfigure.7.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Stand}}}{64}{subfigure.7.4}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Bench Press}}}{64}{subfigure.7.5}%
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Squat}}}{64}{subfigure.7.6}%
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {\centering Bent-down}}}{64}{subfigure.7.7}%
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {\centering Stand}}}{64}{subfigure.7.8}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Image sequence optimized by Kwon et al.~\blx@tocontentsinit {0}\cite {kwon2020ocp}.}}{65}{figure.caption.103}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Image sequence optimized by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}.}}{66}{figure.caption.105}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Image sequence optimized by our method.}}{66}{figure.caption.106}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Measure for the self-occlusion of the skeleton by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}.}}{54}{figure.caption.83}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Feedback for the same angle viewed from different perspectives.}}{55}{figure.caption.85}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Illustrating the importance of viewpoint selection.}}{56}{figure.caption.87}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Skeleton of a human pose with feedback from two perspectives.}}{57}{figure.caption.88}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces PCA provides an optimal view direction for feedback.}}{59}{figure.caption.90}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Sample exercises with deviations as described in \autoref {sec:sample}.}}{62}{figure.caption.94}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Bench press}}}{62}{subfigure.6.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Curl A}}}{62}{subfigure.6.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Lateral raises}}}{62}{subfigure.6.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Shoulder press}}}{62}{subfigure.6.4}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Bent-over\\row}}}{62}{subfigure.6.5}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Curl B}}}{62}{subfigure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Comparison of our method to user selected view points.}}{66}{figure.caption.99}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Bench Press}}}{66}{subfigure.7.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Squat}}}{66}{subfigure.7.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Bent-down}}}{66}{subfigure.7.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Stand}}}{66}{subfigure.7.4}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Bench Press}}}{66}{subfigure.7.5}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Squat}}}{66}{subfigure.7.6}%
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {\centering Bent-down}}}{66}{subfigure.7.7}%
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {\centering Stand}}}{66}{subfigure.7.8}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Image sequence optimized by Kwon et al.~\blx@tocontentsinit {0}\cite {kwon2020ocp}.}}{67}{figure.caption.103}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Image sequence optimized by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}.}}{68}{figure.caption.105}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Image sequence optimized by our method.}}{68}{figure.caption.106}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Examples of exocentric and egocentric motion feedback in augmented reality.}}{70}{figure.caption.112}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot of the motor feedback provided by SkillAR via \acrshort {hmd}. }}{73}{figure.caption.117}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Example exercises with deviations as described in \autoref {sec:design}.}}{74}{figure.caption.119}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Standing}}}{74}{subfigure.3.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Jumping\\Jack}}}{74}{subfigure.3.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Plank}}}{74}{subfigure.3.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Squat}}}{74}{subfigure.3.4}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Torso\\Rotation}}}{74}{subfigure.3.5}%
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Warrior II}}}{74}{subfigure.3.6}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Positioning of the feedback avatar.}}{75}{figure.caption.121}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Spatial stabilization of the feedback positioning.}}{76}{figure.caption.122}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Top-down mode visualizing exercises when looking down.}}{76}{figure.caption.123}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Examples of exocentric and egocentric motion feedback in augmented reality.}}{72}{figure.caption.112}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot of the motor feedback provided by SkillAR via \acrshort {hmd}. }}{75}{figure.caption.117}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Example exercises with deviations as described in \autoref {sec:design}.}}{76}{figure.caption.119}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Standing}}}{76}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Jumping\\Jack}}}{76}{subfigure.3.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\centering Plank}}}{76}{subfigure.3.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {\centering Squat}}}{76}{subfigure.3.4}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {\centering Torso\\Rotation}}}{76}{subfigure.3.5}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Warrior II}}}{76}{subfigure.3.6}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Positioning of the feedback avatar.}}{77}{figure.caption.121}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Spatial stabilization of the feedback positioning.}}{78}{figure.caption.122}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Top-down mode visualizing exercises when looking down.}}{78}{figure.caption.123}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

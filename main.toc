@@ -5,83 +5,83 @@
 \contentsline {chapter}{\numberline {2}Educational Methodology }{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Experiential Learning }{3}{section*.9}%
 \contentsline {section}{\numberline {2.2}Skill Learning }{4}{section*.11}%
-\contentsline {section}{\numberline {2.3}Situated Learning }{4}{section*.12}%
-\contentsline {chapter}{\numberline {3}Holistic Approach to Modular Open Educational Resources for CG}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Related Work}{6}{section*.15}%
-\contentsline {section}{\numberline {3.2}OER - Terminology and Challenges }{8}{section*.16}%
-\contentsline {section}{\numberline {3.3}Topics Overview}{9}{section*.17}%
-\contentsline {section}{\numberline {3.4}Holistic Approach}{10}{section*.18}%
-\contentsline {subsection}{\numberline {3.4.1}Implementation}{12}{section*.20}%
-\contentsline {subsection}{\numberline {3.4.2}Educational Modules}{12}{section*.22}%
-\contentsline {subsection}{\numberline {3.4.3}In-App Tasks and Challenges}{13}{section*.24}%
-\contentsline {section}{\numberline {3.5}Evaluation}{14}{section*.25}%
-\contentsline {section}{\numberline {3.6}Publication}{15}{section*.27}%
-\contentsline {subsection}{\numberline {3.6.1}Teaching Staff Interviews}{15}{section*.28}%
-\contentsline {subsection}{\numberline {3.6.2}\acrshort {ux}-Design Expert}{16}{section*.29}%
-\contentsline {subsection}{\numberline {3.6.3}Students}{16}{section*.30}%
-\contentsline {section}{\numberline {3.7}Conclusion}{17}{section*.31}%
-\contentsline {section}{\numberline {3.8}Future Work}{18}{section*.32}%
-\contentsline {chapter}{\numberline {4}Visual Cue Based Corrective Feedback for Motor Skill Training in Mixed Reality}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Related Work}{20}{section*.35}%
-\contentsline {section}{\numberline {4.2}Organization of this Chapter}{21}{section*.36}%
-\contentsline {section}{\numberline {4.3}Background and Terminology }{22}{section*.37}%
-\contentsline {subsection}{\numberline {4.3.1}Feedback }{22}{section*.38}%
-\contentsline {subsection}{\numberline {4.3.2}Phases of Skill Learning in Physical Activity}{23}{section*.39}%
-\contentsline {subsection}{\numberline {4.3.3}Instructor or Agent}{23}{section*.41}%
-\contentsline {subsection}{\numberline {4.3.4}Immersion }{24}{section*.42}%
-\contentsline {section}{\numberline {4.4}Methodology and Scope }{25}{section*.43}%
-\contentsline {section}{\numberline {4.5}Classification }{27}{section*.44}%
-\contentsline {section}{\numberline {4.6}Exemplary Discussion }{34}{section*.57}%
-\contentsline {subsection}{\numberline {4.6.1}Representative Examples}{34}{section*.59}%
-\contentsline {subsection}{\numberline {4.6.2}Exceptional Examples}{36}{section*.61}%
-\contentsline {section}{\numberline {4.7}Survey Insights}{38}{section*.64}%
-\contentsline {section}{\numberline {4.8}Conclusion }{41}{section*.66}%
-\contentsline {subsection}{\numberline {4.8.1}Findings}{41}{section*.67}%
-\contentsline {subsection}{\numberline {4.8.2}Limitations}{42}{section*.68}%
-\contentsline {subsection}{\numberline {4.8.3}Open Questions }{42}{section*.69}%
-\contentsline {chapter}{\numberline {5}Registration of Superimposed Avatars }{45}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Related Work }{45}{section*.72}%
-\contentsline {section}{\numberline {5.2}Methodology }{46}{section*.73}%
-\contentsline {chapter}{\numberline {6}Automatic Viewpoint Selection for Interactive Motor Feedback Using PCA}{51}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Related Work }{51}{section*.82}%
-\contentsline {section}{\numberline {6.2}Methodology }{53}{section*.84}%
-\contentsline {section}{\numberline {6.3}Viewpoint Selection Evaluation }{59}{section*.91}%
-\contentsline {subsection}{\numberline {6.3.1}Participants}{59}{section*.92}%
-\contentsline {subsection}{\numberline {6.3.2}Experimental Setup for Exercise Recording}{59}{section*.93}%
-\contentsline {subsection}{\numberline {6.3.3}Exercise Visualization }{60}{section*.95}%
-\contentsline {subsection}{\numberline {6.3.4}Sample Exercises }{61}{section*.96}%
-\contentsline {subsection}{\numberline {6.3.5}User Study Design }{61}{section*.97}%
-\contentsline {subsection}{\numberline {6.3.6}Viewpoint Benchmark }{63}{section*.98}%
-\contentsline {section}{\numberline {6.4}Results}{63}{section*.100}%
-\contentsline {subsection}{\numberline {6.4.1}Viewpoint Selection }{64}{section*.101}%
-\contentsline {subsection}{\numberline {6.4.2}Method Analysis}{64}{section*.102}%
-\contentsline {subsection}{\numberline {6.4.3}Viewpoint Comparison }{65}{section*.104}%
-\contentsline {section}{\numberline {6.5}Insights and Discussion}{66}{section*.107}%
-\contentsline {section}{\numberline {6.6}Conclusion}{68}{section*.109}%
-\contentsline {chapter}{\numberline {7}Omnipresent In-Situ Feedback for Motor Skill Training using AR }{69}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Point of View in Motor Feedback}{70}{section*.111}%
-\contentsline {section}{\numberline {7.2}Common Visual Feedback Technologies}{71}{section*.113}%
-\contentsline {section}{\numberline {7.3}Related Work}{71}{section*.114}%
-\contentsline {section}{\numberline {7.4}Omnipresent Feedback}{73}{section*.115}%
-\contentsline {subsection}{\numberline {7.4.1}System Overview }{73}{section*.116}%
-\contentsline {subsection}{\numberline {7.4.2}Avatar Registration }{74}{section*.118}%
-\contentsline {subsection}{\numberline {7.4.3}Feedback Transformation }{74}{section*.120}%
-\contentsline {section}{\numberline {7.5}Evaluation}{77}{section*.124}%
-\contentsline {subsection}{\numberline {7.5.1}Participants}{77}{section*.125}%
-\contentsline {subsection}{\numberline {7.5.2}Preparation}{78}{section*.126}%
-\contentsline {subsection}{\numberline {7.5.3}Study Design }{78}{section*.127}%
-\contentsline {section}{\numberline {7.6}Results}{79}{section*.128}%
-\contentsline {subsection}{\numberline {7.6.1}Completion Time Analysis}{79}{section*.129}%
-\contentsline {subsection}{\numberline {7.6.2}Accuracy Analysis}{80}{section*.131}%
-\contentsline {section}{\numberline {7.7}Discussion}{80}{section*.133}%
-\contentsline {subsection}{\numberline {7.7.1}User Comments }{81}{section*.134}%
-\contentsline {subsection}{\numberline {7.7.2}Observable Behaviors }{81}{section*.135}%
-\contentsline {subsection}{\numberline {7.7.3}Limitations}{82}{section*.136}%
-\contentsline {section}{\numberline {7.8}Conclusion}{82}{section*.137}%
-\contentsline {section}{\numberline {7.9}Future Work}{83}{section*.138}%
-\contentsline {chapter}{\numberline {8}Conclusion}{85}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Future Work}{85}{section*.140}%
-\contentsline {chapter}{\nonumberline Bibliography}{87}{chapter*.141}%
-\contentsline {chapter}{List of Figures}{103}{section*.143}%
-\contentsline {chapter}{List of Tables}{105}{section*.143}%
-\contentsline {chapter}{List of Abbreviations}{107}{section*.143}%
+\contentsline {section}{\numberline {2.3}Situated Learning }{5}{section*.12}%
+\contentsline {chapter}{\numberline {3}Holistic Approach to Modular Open Educational Resources for CG}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Related Work}{8}{section*.15}%
+\contentsline {section}{\numberline {3.2}OER - Terminology and Challenges }{10}{section*.16}%
+\contentsline {section}{\numberline {3.3}Topics Overview}{11}{section*.17}%
+\contentsline {section}{\numberline {3.4}Holistic Approach}{12}{section*.18}%
+\contentsline {subsection}{\numberline {3.4.1}Implementation}{14}{section*.20}%
+\contentsline {subsection}{\numberline {3.4.2}Educational Modules}{14}{section*.22}%
+\contentsline {subsection}{\numberline {3.4.3}In-App Tasks and Challenges}{15}{section*.24}%
+\contentsline {section}{\numberline {3.5}Evaluation}{16}{section*.25}%
+\contentsline {section}{\numberline {3.6}Publication}{17}{section*.27}%
+\contentsline {subsection}{\numberline {3.6.1}Teaching Staff Interviews}{17}{section*.28}%
+\contentsline {subsection}{\numberline {3.6.2}\acrshort {ux}-Design Expert}{18}{section*.29}%
+\contentsline {subsection}{\numberline {3.6.3}Students}{18}{section*.30}%
+\contentsline {section}{\numberline {3.7}Conclusion}{19}{section*.31}%
+\contentsline {section}{\numberline {3.8}Future Work}{20}{section*.32}%
+\contentsline {chapter}{\numberline {4}Visual Cue Based Corrective Feedback for Motor Skill Training in Mixed Reality}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Related Work}{22}{section*.35}%
+\contentsline {section}{\numberline {4.2}Organization of this Chapter}{23}{section*.36}%
+\contentsline {section}{\numberline {4.3}Background and Terminology }{24}{section*.37}%
+\contentsline {subsection}{\numberline {4.3.1}Feedback }{24}{section*.38}%
+\contentsline {subsection}{\numberline {4.3.2}Phases of Skill Learning in Physical Activity}{25}{section*.39}%
+\contentsline {subsection}{\numberline {4.3.3}Instructor or Agent}{25}{section*.41}%
+\contentsline {subsection}{\numberline {4.3.4}Immersion }{26}{section*.42}%
+\contentsline {section}{\numberline {4.4}Methodology and Scope }{27}{section*.43}%
+\contentsline {section}{\numberline {4.5}Classification }{29}{section*.44}%
+\contentsline {section}{\numberline {4.6}Exemplary Discussion }{36}{section*.57}%
+\contentsline {subsection}{\numberline {4.6.1}Representative Examples}{36}{section*.59}%
+\contentsline {subsection}{\numberline {4.6.2}Exceptional Examples}{38}{section*.61}%
+\contentsline {section}{\numberline {4.7}Survey Insights}{40}{section*.64}%
+\contentsline {section}{\numberline {4.8}Conclusion }{43}{section*.66}%
+\contentsline {subsection}{\numberline {4.8.1}Findings}{43}{section*.67}%
+\contentsline {subsection}{\numberline {4.8.2}Limitations}{44}{section*.68}%
+\contentsline {subsection}{\numberline {4.8.3}Open Questions }{44}{section*.69}%
+\contentsline {chapter}{\numberline {5}Registration of Superimposed Avatars }{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Related Work }{47}{section*.72}%
+\contentsline {section}{\numberline {5.2}Methodology }{48}{section*.73}%
+\contentsline {chapter}{\numberline {6}Automatic Viewpoint Selection for Interactive Motor Feedback Using PCA}{53}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Related Work }{53}{section*.82}%
+\contentsline {section}{\numberline {6.2}Methodology }{55}{section*.84}%
+\contentsline {section}{\numberline {6.3}Viewpoint Selection Evaluation }{61}{section*.91}%
+\contentsline {subsection}{\numberline {6.3.1}Participants}{61}{section*.92}%
+\contentsline {subsection}{\numberline {6.3.2}Experimental Setup for Exercise Recording}{61}{section*.93}%
+\contentsline {subsection}{\numberline {6.3.3}Exercise Visualization }{62}{section*.95}%
+\contentsline {subsection}{\numberline {6.3.4}Sample Exercises }{63}{section*.96}%
+\contentsline {subsection}{\numberline {6.3.5}User Study Design }{63}{section*.97}%
+\contentsline {subsection}{\numberline {6.3.6}Viewpoint Benchmark }{65}{section*.98}%
+\contentsline {section}{\numberline {6.4}Results}{65}{section*.100}%
+\contentsline {subsection}{\numberline {6.4.1}Viewpoint Selection }{66}{section*.101}%
+\contentsline {subsection}{\numberline {6.4.2}Method Analysis}{66}{section*.102}%
+\contentsline {subsection}{\numberline {6.4.3}Viewpoint Comparison }{67}{section*.104}%
+\contentsline {section}{\numberline {6.5}Insights and Discussion}{68}{section*.107}%
+\contentsline {section}{\numberline {6.6}Conclusion}{70}{section*.109}%
+\contentsline {chapter}{\numberline {7}Omnipresent In-Situ Feedback for Motor Skill Training using AR }{71}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Point of View in Motor Feedback}{72}{section*.111}%
+\contentsline {section}{\numberline {7.2}Common Visual Feedback Technologies}{73}{section*.113}%
+\contentsline {section}{\numberline {7.3}Related Work}{73}{section*.114}%
+\contentsline {section}{\numberline {7.4}Omnipresent Feedback}{75}{section*.115}%
+\contentsline {subsection}{\numberline {7.4.1}System Overview }{75}{section*.116}%
+\contentsline {subsection}{\numberline {7.4.2}Avatar Registration }{76}{section*.118}%
+\contentsline {subsection}{\numberline {7.4.3}Feedback Transformation }{76}{section*.120}%
+\contentsline {section}{\numberline {7.5}Evaluation}{79}{section*.124}%
+\contentsline {subsection}{\numberline {7.5.1}Participants}{79}{section*.125}%
+\contentsline {subsection}{\numberline {7.5.2}Preparation}{80}{section*.126}%
+\contentsline {subsection}{\numberline {7.5.3}Study Design }{80}{section*.127}%
+\contentsline {section}{\numberline {7.6}Results}{81}{section*.128}%
+\contentsline {subsection}{\numberline {7.6.1}Completion Time Analysis}{81}{section*.129}%
+\contentsline {subsection}{\numberline {7.6.2}Accuracy Analysis}{82}{section*.131}%
+\contentsline {section}{\numberline {7.7}Discussion}{82}{section*.133}%
+\contentsline {subsection}{\numberline {7.7.1}User Comments }{83}{section*.134}%
+\contentsline {subsection}{\numberline {7.7.2}Observable Behaviors }{83}{section*.135}%
+\contentsline {subsection}{\numberline {7.7.3}Limitations}{84}{section*.136}%
+\contentsline {section}{\numberline {7.8}Conclusion}{84}{section*.137}%
+\contentsline {section}{\numberline {7.9}Future Work}{85}{section*.138}%
+\contentsline {chapter}{\numberline {8}Conclusion}{87}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Future Work}{87}{section*.140}%
+\contentsline {chapter}{\nonumberline Bibliography}{89}{chapter*.141}%
+\contentsline {chapter}{List of Figures}{105}{section*.143}%
+\contentsline {chapter}{List of Tables}{107}{section*.143}%
+\contentsline {chapter}{List of Abbreviations}{109}{section*.143}%
