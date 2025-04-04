@@ -58,7 +58,7 @@
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Image sequence optimized by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}.}}{68}{figure.caption.105}%
 \contentsline {figure}{\numberline {6.10}{\ignorespaces Image sequence optimized by our method.}}{68}{figure.caption.106}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Examples of exocentric and egocentric motion feedback in augmented reality.}}{72}{figure.caption.112}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Examples of exocentric and egocentric motion feedback in \acrshort {ar}.}}{72}{figure.caption.112}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot of the motor feedback provided by SkillAR via \acrshort {hmd}. }}{75}{figure.caption.117}%
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Example exercises with deviations as described in \autoref {sec:design}.}}{76}{figure.caption.119}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Standing}}}{76}{subfigure.3.1}%
