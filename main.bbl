@@ -4227,6 +4227,32 @@
     \field{year}{2020}
   \endentry
 
+  \entry{lapsley2017review}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=LP}{%
+         family={Lapsley},
+         familyi={L\bibinitperiod},
+         given={Phil},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LP1}
+    \strng{fullhash}{LP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Review: Plato’s ‘Friendly Orange Glow’}
+    \verb{url}
+    \verb https://www.wsj.com/articles/review-platos-friendly-orange-glow-15127
+    \verb 71287
+    \endverb
+    \field{journaltitle}{The Wall Street Journal}
+    \field{day}{08}
+    \field{month}{12}
+    \field{year}{2017}
+  \endentry
+
   \entry{lave:wenger:1991}{book}{}{}
     \name{author}{2}{}{%
       {{hash=LJ}{%

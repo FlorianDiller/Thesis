@@ -102,6 +102,11 @@
 \renewcommand{\cftloftitlefont}{\thesischapterfont}
 \renewcommand{\cftlottitlefont}{\thesischapterfont}
 
+\newcommand{\Autoref}[1]{\begingroup
+  \def\sectionautorefname{Section}%
+  \autoref{#1}%
+\endgroup}
+
 \makeglossaries
 
 \hypersetup{					% setup the hyperref-package options
@@ -132,7 +137,7 @@
 \newacronym{ar}{AR}{Augmented Reality}
 \newacronym{xr}{XR}{Extended Reality}
 \newacronym{mr}{MR}{Mixed Reality}
-\newacronym{hmd}{HMD}{Head-Mounted Display}
+\newacronym[plural=HMDs, firstplural=Head-Mounted Displays]{hmd}{HMD}{Head-Mounted Display}
 \newacronym{rmd}{RMD}{Room-Mounted Display}
 \newacronym{pca}{PCA}{Principal Component Analysis}
 \newacronym{cg}{CG}{Computer Graphics}
@@ -152,6 +157,13 @@
 \newacronym{ui}{UI}{User Interface}
 \newacronym{ux}{UX}{User Experience}
 \newacronym{plato}{PLATO}{Programmed Logic for Automatic Teaching Operations}
+\newacronym{cgems}{CGEMS}{Computer Graphics Educational Materials Source}
+\newacronym{acm}{ACM}{Association for Computing Machinery}
+\newacronym{siggraph}{SIGGRAPH}{Special Interest Group on Graphics and Interactive Techniques}
+\newacronym{dda}{DDA}{Digital Differential Analyzer}
+\newacronym{prisma}{PRISMA}{Preferred Reporting Items for Systematic Reviews and Meta-Analyses}
+\newacronym{ieee}{IEEE}{Institute of Electrical and Electronics Engineers}
+\newacronym{hci}{HCI}{Human Computer Interaction}
 
 % --------------------------
 % Front matter

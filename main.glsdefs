@@ -116,7 +116,7 @@ name={\acronymfont {\glsentryshort {hmd}}},%
 sort={HMD},%
 type={acronym},%
 first={HMD},%
-firstplural={HMDs},%
+firstplural={Head-Mounted Displays},%
 text={HMD},%
 plural={HMDs},%
 description={Head-Mounted Display},%
@@ -665,6 +665,202 @@ long={Programmed Logic for Automatic Teaching Operations},%
 longplural={Programmed Logic for Automatic Teaching Operationss},%
 short={PLATO},%
 shortplural={PLATOs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cgems}%
+{%
+name={\acronymfont {\glsentryshort {cgems}}},%
+sort={CGEMS},%
+type={acronym},%
+first={CGEMS},%
+firstplural={CGEMSs},%
+text={CGEMS},%
+plural={CGEMSs},%
+description={Computer Graphics Educational Materials Source},%
+descriptionplural={Computer Graphics Educational Materials Source},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Computer Graphics Educational Materials Source},%
+longplural={Computer Graphics Educational Materials Sources},%
+short={CGEMS},%
+shortplural={CGEMSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{acm}%
+{%
+name={\acronymfont {\glsentryshort {acm}}},%
+sort={ACM},%
+type={acronym},%
+first={ACM},%
+firstplural={ACMs},%
+text={ACM},%
+plural={ACMs},%
+description={Association for Computing Machinery},%
+descriptionplural={Association for Computing Machinery},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Association for Computing Machinery},%
+longplural={Association for Computing Machinerys},%
+short={ACM},%
+shortplural={ACMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{siggraph}%
+{%
+name={\acronymfont {\glsentryshort {siggraph}}},%
+sort={SIGGRAPH},%
+type={acronym},%
+first={SIGGRAPH},%
+firstplural={SIGGRAPHs},%
+text={SIGGRAPH},%
+plural={SIGGRAPHs},%
+description={Special Interest Group on Graphics and Interactive Techniques},%
+descriptionplural={Special Interest Group on Graphics and Interactive Techniques},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Special Interest Group on Graphics and Interactive Techniques},%
+longplural={Special Interest Group on Graphics and Interactive Techniquess},%
+short={SIGGRAPH},%
+shortplural={SIGGRAPHs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{dda}%
+{%
+name={\acronymfont {\glsentryshort {dda}}},%
+sort={DDA},%
+type={acronym},%
+first={DDA},%
+firstplural={DDAs},%
+text={DDA},%
+plural={DDAs},%
+description={Digital Differential Analyzer},%
+descriptionplural={Digital Differential Analyzer},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Digital Differential Analyzer},%
+longplural={Digital Differential Analyzers},%
+short={DDA},%
+shortplural={DDAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{prisma}%
+{%
+name={\acronymfont {\glsentryshort {prisma}}},%
+sort={PRISMA},%
+type={acronym},%
+first={PRISMA},%
+firstplural={PRISMAs},%
+text={PRISMA},%
+plural={PRISMAs},%
+description={Preferred Reporting Items for Systematic Reviews and Meta-Analyses},%
+descriptionplural={Preferred Reporting Items for Systematic Reviews and Meta-Analyses},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Preferred Reporting Items for Systematic Reviews and Meta-Analyses},%
+longplural={Preferred Reporting Items for Systematic Reviews and Meta-Analysess},%
+short={PRISMA},%
+shortplural={PRISMAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ieee}%
+{%
+name={\acronymfont {\glsentryshort {ieee}}},%
+sort={IEEE},%
+type={acronym},%
+first={IEEE},%
+firstplural={IEEEs},%
+text={IEEE},%
+plural={IEEEs},%
+description={Institute of Electrical and Electronics Engineers},%
+descriptionplural={Institute of Electrical and Electronics Engineers},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Institute of Electrical and Electronics Engineers},%
+longplural={Institute of Electrical and Electronics Engineerss},%
+short={IEEE},%
+shortplural={IEEEs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{hci}%
+{%
+name={\acronymfont {\glsentryshort {hci}}},%
+sort={HCI},%
+type={acronym},%
+first={HCI},%
+firstplural={HCIs},%
+text={HCI},%
+plural={HCIs},%
+description={Human Computer Interaction},%
+descriptionplural={Human Computer Interaction},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Human Computer Interaction},%
+longplural={Human Computer Interactions},%
+short={HCI},%
+shortplural={HCIs},%
 counter={page},%
 parent={},%
 %
