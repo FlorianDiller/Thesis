@@ -866,3 +866,31 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{6dof}%
+{%
+name={\acronymfont {\glsentryshort {6dof}}},%
+sort={6DoF},%
+type={acronym},%
+first={6DoF},%
+firstplural={6DoFs},%
+text={6DoF},%
+plural={6DoFs},%
+description={Six Degrees of Freedom},%
+descriptionplural={Six Degrees of Freedom},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Six Degrees of Freedom},%
+longplural={Six Degrees of Freedoms},%
+short={6DoF},%
+shortplural={6DoFs},%
+counter={page},%
+parent={},%
+%
+}%
+
