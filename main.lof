@@ -55,12 +55,12 @@
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Squat}}}{70}{subfigure.7.6}%
 \contentsline {subfigure}{\numberline {(g)}{\ignorespaces {\centering Bent-down}}}{70}{subfigure.7.7}%
 \contentsline {subfigure}{\numberline {(h)}{\ignorespaces {\centering Stand}}}{70}{subfigure.7.8}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Image sequence optimized by Kwon et al.~\blx@tocontentsinit {0}\cite {kwon2020ocp}.}}{71}{figure.caption.105}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Image sequence optimized by Kwon et al.~\blx@tocontentsinit {0}\cite {kwon2020ocp}.}}{72}{figure.caption.106}%
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Image sequence optimized by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}.}}{72}{figure.caption.107}%
 \contentsline {figure}{\numberline {6.10}{\ignorespaces Image sequence optimized by our method.}}{72}{figure.caption.108}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Examples of exocentric and egocentric motion feedback in \acrshort {ar}.}}{76}{figure.caption.114}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot of the motor feedback provided by SkillAR via \acrshort {hmd}. }}{79}{figure.caption.119}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot of the egocentric motor feedback provided by SkillAR via \acrshort {hmd}.}}{79}{figure.caption.119}%
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Example exercises with deviations as described in \autoref {sec:design}.}}{80}{figure.caption.121}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Standing}}}{80}{subfigure.3.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Jumping\\Jack}}}{80}{subfigure.3.2}%

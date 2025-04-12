@@ -11,7 +11,7 @@ Several studies have explored approaches to viewpoint selection for human action
 
 Wang et al.~\cite{wang2019asw} utilized information theory and deep reinforcement learning to select a single viewpoint for action sequences. Simiarly, Choi et al.~\cite{choi2012rav} extracted key frames from motion data to create a sequence of stick figures representing the initial motion data.
 
-\begin{figure}[ht]
+\begin{figure}[t!h]
 	\centering
 	\includegraphics[width=0.6\linewidth]{pictures/skeleton_E_occ.png}
 	\caption[Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}.]{Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}: \acrlong{jmo}.}
@@ -27,7 +27,7 @@ The approaches by Ishara et al.~\cite{ishara2015mra} and Kwon et al.~\cite{kwon2
 \acrshort{pca} is commonly used to reduce dimensionality in data sets for machine learning~\cite{sorzano2014sdr}. The principal components represent the main independent directions in which data points spread. For spatial data, three independent directions are involved. The first two principal components represent the main spread directions, while the third component provides a good viewing direction, perpendicular to the first two. This is equivalent to reducing the dimensionality from three to two, as the rendered image of 3D objects is displayed in two dimensions. Assa et al.~\cite{assa2008moh} used this method to calculate camera paths. However, their use case differs significantly from ours, as they compute camera paths that involve camera cuts, which we avoid due to the short duration of exercise repetitions where cuts can be disorienting. Additionally, the work of Assa et al. is action-based, while ours is feedback-based, requiring additional measures to ensure feedback visibility. Lastly, their approach is not real-time capable, being computationally intensive and requiring the entire motion sequence for computation.
 
 \section{Methodology \label{sec:view:methodology}}
-\begin{figure*}[h!]
+\begin{figure*}[b!]
 	\centering
 	\includegraphics[width=0.49\linewidth]{pictures/projection_feedback}\hfill
 	\includegraphics[width=0.49\linewidth]{pictures/projection_feedback_arrow}
@@ -214,6 +214,12 @@ The \acrshort{jmo} algorithm predominantly produced an adequate overview of the 
 \textbf{Kwon et al.~\cite{kwon2020ocp}:} 
 As can be seen in \autoref{fig:kwonSequence}, the algorithm of Kwon et al. seemed to predominantly produce views from behind in our application. As elaborated in \autoref{sec:results:selection}, this is a view that is mostly avoided by users. Additionally, the algorithm sometimes selected views from below, similar to the \acrshort{jmo} algorithm mentioned earlier. The algorithm by Kwon et al. offered a much more stable perspective than \acrshort{jmo}. However, the feedback was often challenging to see.
 
+\textbf{Ours:}
+Our algorithm consistently transitioned between an optimal viewpoint for the neutral position and the contracted position with deviations, as illustrated in \autoref{fig:bicepsSequence}. When feedback was present, it was displayed clearly and with a perceivably emphasized. However, during some exercises, the rapid exercise execution caused a conflict between the neutral and the feedback-optimized viewpoint. This resulted in quick camera movements, which some users perceived as irritating.
+
+\subsection{Viewpoint Comparison \label{sec:results:comparison}}
+\autoref{tab:comparison} shows the user choice distribution of the viewpoint comparison. Our algorithm was most prevalent with 35.04~\% of votes, the isometric-like position was chosen second most with 32.48~\%, followed by Kwon et al.~\cite{kwon2020ocp} with 17.52~\% and lastly \acrshort{jmo}~\cite{ishara2015mra} with 14.96~\%.
+
 \begin{figure*}[h!]
 	\centering
 	\includegraphics[width=0.11\linewidth]{pictures/kwonSequence1.png}\hfill
@@ -228,13 +234,7 @@ As can be seen in \autoref{fig:kwonSequence}, the algorithm of Kwon et al. seeme
 	\label{fig:kwonSequence}
 \end{figure*}
 
-\textbf{Ours:}
-Our algorithm consistently transitioned between an optimal viewpoint for the neutral position and the contracted position with deviations, as illustrated in \autoref{fig:bicepsSequence}. When feedback was present, it was displayed clearly and with a perceivably emphasized. However, during some exercises, the rapid exercise execution caused a conflict between the neutral and the feedback-optimized viewpoint. This resulted in quick camera movements, which some users perceived as irritating.
-
-\subsection{Viewpoint Comparison \label{sec:results:comparison}}
-\autoref{tab:comparison} shows the user choice distribution of the viewpoint comparison. Our algorithm was most prevalent with 35.04~\% of votes, the isometric-like position was chosen second most with 32.48~\%, followed by Kwon et al.~\cite{kwon2020ocp} with 17.52~\% and lastly \acrshort{jmo}~\cite{ishara2015mra} with 14.96~\%.
-
-\begin{figure*}[h]
+\begin{figure*}[h!]
 	\centering
 	\includegraphics[width=0.11\linewidth]{pictures/jmoSequence1.png}\hfill
 	\includegraphics[width=0.12\linewidth]{pictures/jmoSequence2.png}\hfill
@@ -248,7 +248,7 @@ Our algorithm consistently transitioned between an optimal viewpoint for the neu
 	\label{fig:jmoSequence}
 \end{figure*}
 
-\begin{figure*}[h]
+\begin{figure*}[h!]
 	\centering
 	\includegraphics[width=0.115\linewidth]{pictures/bicepsSequence1.png}\hfill
 	\includegraphics[width=0.13\linewidth]{pictures/bicepsSequence2.png}\hfill
@@ -291,6 +291,6 @@ The spatial registration (see \autoref{sec:methReg}) for our use case was trivia
 \section{Conclusion}
 The chapter at hand provides novel insights on how to optimize the display of superimposed avatars including motion feedback. Current literature suggests, that the superimposition of avatars plays an increasingly important role. As an accessible and intuitive method of providing and receiving motor feedback, it is widespread in both \acrshort{mr} and traditional feedback technologies.
 
-We introduce a new method for selecting viewpoints for motor feedback, such as superimposed avatars, among other options. Not only is this method computationally faster than the methods found in the literature, but evaluation in the context of a user study showed, that participants preferred our method over other methods found in the literature.
+We introduce a new method for selecting viewpoints for motor feedback, such as superimposed avatars, among other options. Not only is this method computationally faster than the methods found in the literature, but evaluation in the context of a user study showed, that participants preferred our method over other approaches found in the literature.
 
 Our viewpoint selection method combined with the registration methods found in \autoref{chap:registration} can adequately optimize the display of superimposed avatars. However, the individual methods provide value as well, as they can be utilized separately from each other.

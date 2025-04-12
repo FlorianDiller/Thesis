@@ -58,8 +58,8 @@
 \contentsline {section}{\numberline {6.4}Results}{70}{section*.102}%
 \contentsline {subsection}{\numberline {6.4.1}Viewpoint Selection }{70}{section*.103}%
 \contentsline {subsection}{\numberline {6.4.2}Method Analysis}{71}{section*.104}%
-\contentsline {subsection}{\numberline {6.4.3}Viewpoint Comparison }{72}{section*.106}%
-\contentsline {section}{\numberline {6.5}Insights and Discussion}{72}{section*.109}%
+\contentsline {subsection}{\numberline {6.4.3}Viewpoint Comparison }{71}{section*.105}%
+\contentsline {section}{\numberline {6.5}Insights and Discussion}{73}{section*.109}%
 \contentsline {section}{\numberline {6.6}Conclusion}{74}{section*.111}%
 \contentsline {chapter}{\numberline {7}Omnipresent In-Situ Feedback for Motor Skill Training using AR }{75}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Point of View in Motor Feedback}{76}{section*.113}%
@@ -71,21 +71,22 @@
 \contentsline {subsection}{\numberline {7.4.3}Feedback Transformation }{80}{section*.122}%
 \contentsline {section}{\numberline {7.5}Evaluation}{83}{section*.126}%
 \contentsline {subsection}{\numberline {7.5.1}Participants}{83}{section*.127}%
-\contentsline {subsection}{\numberline {7.5.2}Preparation}{84}{section*.128}%
-\contentsline {subsection}{\numberline {7.5.3}Study Design }{84}{section*.129}%
-\contentsline {section}{\numberline {7.6}Results}{85}{section*.130}%
-\contentsline {subsection}{\numberline {7.6.1}Completion Time Analysis}{85}{section*.131}%
-\contentsline {subsection}{\numberline {7.6.2}Accuracy Analysis}{86}{section*.133}%
-\contentsline {section}{\numberline {7.7}Discussion}{86}{section*.135}%
-\contentsline {subsection}{\numberline {7.7.1}User Comments }{87}{section*.136}%
-\contentsline {subsection}{\numberline {7.7.2}Observable Behaviors }{87}{section*.137}%
-\contentsline {subsection}{\numberline {7.7.3}Limitations}{88}{section*.138}%
-\contentsline {section}{\numberline {7.8}Conclusion}{88}{section*.139}%
-\contentsline {section}{\numberline {7.9}Future Work}{89}{section*.140}%
+\contentsline {subsection}{\numberline {7.5.2}Apparatus}{84}{section*.128}%
+\contentsline {subsection}{\numberline {7.5.3}Tasks }{84}{section*.129}%
+\contentsline {subsection}{\numberline {7.5.4}Study Design }{85}{section*.130}%
+\contentsline {section}{\numberline {7.6}Results}{86}{section*.131}%
+\contentsline {subsection}{\numberline {7.6.1}Completion Time Analysis}{86}{section*.132}%
+\contentsline {subsection}{\numberline {7.6.2}Accuracy Analysis}{86}{section*.134}%
+\contentsline {section}{\numberline {7.7}Discussion}{87}{section*.136}%
+\contentsline {subsection}{\numberline {7.7.1}User Comments }{88}{section*.137}%
+\contentsline {subsection}{\numberline {7.7.2}Observable Behaviors }{88}{section*.138}%
+\contentsline {subsection}{\numberline {7.7.3}Limitations}{89}{section*.139}%
+\contentsline {section}{\numberline {7.8}Conclusion}{89}{section*.140}%
+\contentsline {section}{\numberline {7.9}Future Work}{90}{section*.141}%
 \contentsline {chapter}{\numberline {8}Conclusion}{91}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Research Questions }{91}{section*.142}%
-\contentsline {section}{\numberline {8.2}Future Work}{92}{section*.143}%
-\contentsline {chapter}{\nonumberline Bibliography}{93}{chapter*.144}%
-\contentsline {chapter}{List of Figures}{109}{section*.146}%
-\contentsline {chapter}{List of Tables}{111}{section*.146}%
-\contentsline {chapter}{List of Abbreviations}{113}{section*.146}%
+\contentsline {section}{\numberline {8.1}Research Questions }{91}{section*.143}%
+\contentsline {section}{\numberline {8.2}Future Work}{92}{section*.144}%
+\contentsline {chapter}{\nonumberline Bibliography}{93}{chapter*.145}%
+\contentsline {chapter}{List of Figures}{109}{section*.147}%
+\contentsline {chapter}{List of Tables}{111}{section*.147}%
+\contentsline {chapter}{List of Abbreviations}{113}{section*.147}%

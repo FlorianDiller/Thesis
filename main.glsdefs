@@ -894,3 +894,31 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{usb}%
+{%
+name={\acronymfont {\glsentryshort {usb}}},%
+sort={USB},%
+type={acronym},%
+first={USB},%
+firstplural={USBs},%
+text={USB},%
+plural={USBs},%
+description={Universal Serial Bus},%
+descriptionplural={Universal Serial Bus},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Universal Serial Bus},%
+longplural={Universal Serial Buss},%
+short={USB},%
+shortplural={USBs},%
+counter={page},%
+parent={},%
+%
+}%
+

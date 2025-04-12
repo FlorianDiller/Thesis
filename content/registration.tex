@@ -24,7 +24,7 @@ Furthermore, the registration directly influences the inputs of the \acrfull{pca
 \subsection*{Optimal Avatar Registration \label{sec:optimalReg}}
 An optimal avatar registration is highly dependent on the specific exercise performed and even on the individual interpreting the visual feedback. However, there are a few key aspects that are crucial in helping users to comprehend feedback using superimposed avatars. In the following, we present guidelines, that can be used to register avatars for a certain scenario or to implement optimal avatar registration independently.
 
-\begin{figure}[h]
+\begin{figure}[t]
 	\centering
 	\includegraphics[width=0.5\linewidth]{pictures/Gizmos.png}
 	\caption[\acrlong{6dof} to define the placement of a rigid body.]{\acrlong{6dof} to define the placement of a rigid body in space.}
@@ -59,7 +59,7 @@ When two avatars are superimposed, depending on the recorded individuals, the sc
 Avatar registration is a complex subject. The most generally applicable guidelines can be found above. However, it seems as if there is no optimal approach for every individual, situation, and use case. Especially when considering the details concerning the rotation around the horizontal axes, it seems in some cases there is a trade-off between the exercise's validity and perfect registration.
 Furthermore, scaling the target avatar eliminates most inconsistencies in a bone-wise fashion, yet the angles between the bones at the joints stay consistent. Consequently, given certain proportions and thus centers of mass of two individuals compared, the scaling could lead to the target exercise not being the most optimal. Although the methods mentioned above yield good results for most exercises, even when registering with a neutral standing position, hanging exercises are hard to perceive while standing. This results from missing reference points of the environment. Once the actual avatar is hanging, we can use the hands as reference points (in particular, horizontal alignment).
 
-\begin{figure*}[h]
+\begin{figure*}[tb]
 	\centering
 	\captionsetup[subfigure]{labelformat=empty}
 	\subfloat[\centering Push-up (P)]{\includegraphics[height=.16\linewidth]{pictures/pushupPelvis.PNG}\hfill}  
