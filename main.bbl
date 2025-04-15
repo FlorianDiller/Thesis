@@ -1921,7 +1921,7 @@
   \endentry
 
   \entry{diller2025towards}{article}{}{}
-    \name{author}{3}{}{%
+    \name{author}{4}{}{%
       {{hash=DF}{%
          family={Diller},
          familyi={D\bibinitperiod},
@@ -1931,8 +1931,14 @@
       {{hash=FT}{%
          family={Frey},
          familyi={F\bibinitperiod},
-         given={Thorsten},
+         given={Thorben},
          giveni={T\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Scheuermann},
+         familyi={S\bibinitperiod},
+         given={Gerik},
+         giveni={G\bibinitperiod},
       }}%
       {{hash=WA}{%
          family={Wiebel},
@@ -1941,25 +1947,30 @@
          giveni={A\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
     \strng{namehash}{DF+1}
-    \strng{fullhash}{DFFTWA1}
+    \strng{fullhash}{DFFTSGWA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \field{issuetitle}{Selected Topics on Computer Vision, Imaging and Computer
-  Graphics Theory and Applications}
-    \field{note}{Accepted for publication}
+    \verb{doi}
+    \verb 10.1007/s42979-025-03904-7
+    \endverb
+    \field{issn}{2661-8907}
+    \field{number}{4}
+    \field{pages}{388}
     \field{title}{Towards an Optimal Display of Superimposed Avatars for Motor
   Feedback}
-    \field{journaltitle}{Virtual Reality}
+    \verb{url}
+    \verb https://doi.org/10.1007/s42979-025-03904-7
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{SN Computer Science}
     \field{year}{2025}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{diller2024skillar}{article}{}{}
+  \entry{diller2025skillar}{article}{}{}
     \name{author}{4}{}{%
       {{hash=DF}{%
          family={Diller},
@@ -1986,18 +1997,22 @@
          giveni={A\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
     \strng{namehash}{DF+1}
     \strng{fullhash}{DFHNSGWA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \verb{doi}
-    \verb 10.1007/s10055-025-01108-1
-    \endverb
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 11}
     \field{title}{SkillAR: omnipresent in-situ feedback for motor skill
   training using AR}
-    \field{year}{2024}
+    \field{volume}{29}
+    \field{journaltitle}{Virtual Reality}
+    \field{year}{2025}
   \endentry
 
   \entry{diller2024holistic}{article}{}{}

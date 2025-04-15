@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.29)  12 APR 2025 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.29)  15 APR 2025 10:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1548,6 +1548,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'diller2025towards':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'figueiredo:2003:cgems':
 (biblatex)                - Can't use 'location' + 'address'.
 
@@ -1821,6 +1826,10 @@ LaTeX Font Info:    Trying to load font information for TS1+bch on input line 55
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
 
+LaTeX Warning: Citation 'diller2024skillar' on page 2 undefined on input line 63.
+
+
+
 [2]) (./content/chapter-concepts.tex
 
 [3]
@@ -1841,7 +1850,7 @@ Class scrreprt Warning: Redefinition of \@makechapterhead detected.
 (scrreprt)              KOMA-Script and will not work with a coming version,
 (scrreprt)              that will remove this deprecated code.
 
-<pictures/ExperientialLearningCycle2.png, id=346, 815.29594pt x 318.43968pt>
+<pictures/ExperientialLearningCycle2.png, id=345, 815.29594pt x 318.43968pt>
 File: pictures/ExperientialLearningCycle2.png Graphic file (type png)
 <use pictures/ExperientialLearningCycle2.png>
 Package pdftex.def Info: pictures/ExperientialLearningCycle2.png  used on input line 21.
@@ -1873,7 +1882,7 @@ Class scrreprt Warning: Redefinition of \@makechapterhead detected.
 
 
 [9]
-<pictures/ExGoerContents.png, id=457, 1026.83624pt x 529.98pt>
+<pictures/ExGoerContents.png, id=456, 1026.83624pt x 529.98pt>
 File: pictures/ExGoerContents.png Graphic file (type png)
 <use pictures/ExGoerContents.png>
 Package pdftex.def Info: pictures/ExGoerContents.png  used on input line 16.
@@ -1892,7 +1901,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [13]
 
 [14]
-<pictures/userGuidance_Icons.png, id=603, 350.9913pt x 211.0284pt>
+<pictures/userGuidance_Icons.png, id=602, 350.9913pt x 211.0284pt>
 File: pictures/userGuidance_Icons.png Graphic file (type png)
 <use pictures/userGuidance_Icons.png>
 Package pdftex.def Info: pictures/userGuidance_Icons.png  used on input line 97.
@@ -1900,12 +1909,12 @@ Package pdftex.def Info: pictures/userGuidance_Icons.png  used on input line 97.
 
 
 [15]
-<pictures/unityPrefabs.png, id=618, 833.1125pt x 723.70375pt>
+<pictures/unityPrefabs.png, id=616, 833.1125pt x 723.70375pt>
 File: pictures/unityPrefabs.png Graphic file (type png)
 <use pictures/unityPrefabs.png>
 Package pdftex.def Info: pictures/unityPrefabs.png  used on input line 117.
 (pdftex.def)             Requested size: 237.2735pt x 206.1031pt.
-<pictures/modularApproach.png, id=621, 2072.74374pt x 652.4375pt>
+<pictures/modularApproach.png, id=619, 2072.74374pt x 652.4375pt>
 File: pictures/modularApproach.png Graphic file (type png)
 <use pictures/modularApproach.png>
 Package pdftex.def Info: pictures/modularApproach.png  used on input line 128.
@@ -1923,17 +1932,17 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [17 <./pictures/unityPrefabs.png (PNG copy)>]
 
 [18{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./pictures/modularApproach.png (PNG copy)>]
-<pictures/DDAScreen.png, id=649, 725.71124pt x 447.17062pt>
+<pictures/DDAScreen.png, id=648, 725.71124pt x 447.17062pt>
 File: pictures/DDAScreen.png Graphic file (type png)
 <use pictures/DDAScreen.png>
 Package pdftex.def Info: pictures/DDAScreen.png  used on input line 149.
 (pdftex.def)             Requested size: 130.49982pt x 80.41217pt.
-<pictures/fovScreen.png, id=651, 728.7225pt x 444.15938pt>
+<pictures/fovScreen.png, id=650, 728.7225pt x 444.15938pt>
 File: pictures/fovScreen.png Graphic file (type png)
 <use pictures/fovScreen.png>
 Package pdftex.def Info: pictures/fovScreen.png  used on input line 150.
 (pdftex.def)             Requested size: 130.49982pt x 79.53859pt.
-<pictures/RotationScreen.png, id=652, 730.98094pt x 444.15938pt>
+<pictures/RotationScreen.png, id=651, 730.98094pt x 444.15938pt>
 File: pictures/RotationScreen.png Graphic file (type png)
 <use pictures/RotationScreen.png>
 Package pdftex.def Info: pictures/RotationScreen.png  used on input line 151.
@@ -1992,7 +2001,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [25]
-<pictures/feedbackloop.pdf, id=791, 448.84181pt x 145.10905pt>
+<pictures/feedbackloop.pdf, id=790, 448.84181pt x 145.10905pt>
 File: pictures/feedbackloop.pdf Graphic file (type pdf)
 <use pictures/feedbackloop.pdf>
 Package pdftex.def Info: pictures/feedbackloop.pdf  used on input line 43.
@@ -2039,7 +2048,7 @@ Overfull \hbox (19.68243pt too wide) in paragraph at lines 128--129
 
 
 [31]
-<pictures/PointOfView.PNG, id=964, 980.16188pt x 357.58594pt>
+<pictures/PointOfView.PNG, id=963, 980.16188pt x 357.58594pt>
 File: pictures/PointOfView.PNG Graphic file (type png)
 <use pictures/PointOfView.PNG>
 Package pdftex.def Info: pictures/PointOfView.PNG  used on input line 139.
@@ -2052,7 +2061,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [32 <./pictures/PointOfView.PNG>]
 
 [33]
-<pictures/CueMatrix.PNG, id=999, 865.43324pt x 516.7305pt>
+<pictures/CueMatrix.PNG, id=998, 865.43324pt x 516.7305pt>
 File: pictures/CueMatrix.PNG Graphic file (type png)
 <use pictures/CueMatrix.PNG>
 Package pdftex.def Info: pictures/CueMatrix.PNG  used on input line 162.
@@ -2077,7 +2086,7 @@ Overfull \hbox (0.56703pt too wide) in paragraph at lines 267--267
 [36]
 
 [37{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-<pictures/Oka.PNG, id=1141, 810.02625pt x 588.69937pt>
+<pictures/Oka.PNG, id=1140, 810.02625pt x 588.69937pt>
 File: pictures/Oka.PNG Graphic file (type png)
 <use pictures/Oka.PNG>
 Package pdftex.def Info: pictures/Oka.PNG  used on input line 311.
@@ -2085,7 +2094,7 @@ Package pdftex.def Info: pictures/Oka.PNG  used on input line 311.
 
 
 [38]
-<pictures/Barioni.png, id=1158, 515.67656pt x 414.04688pt>
+<pictures/Barioni.png, id=1157, 515.67656pt x 414.04688pt>
 File: pictures/Barioni.png Graphic file (type png)
 <use pictures/Barioni.png>
 Package pdftex.def Info: pictures/Barioni.png  used on input line 323.
@@ -2096,7 +2105,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [39 <./pictures/Oka.PNG>]
-<pictures/Shiro.png, id=1177, 387.69844pt x 496.10344pt>
+<pictures/Shiro.png, id=1176, 387.69844pt x 496.10344pt>
 File: pictures/Shiro.png Graphic file (type png)
 <use pictures/Shiro.png>
 Package pdftex.def Info: pictures/Shiro.png  used on input line 336.
@@ -2104,7 +2113,7 @@ Package pdftex.def Info: pictures/Shiro.png  used on input line 336.
 
 
 [40 <./pictures/Barioni.png>]
-<pictures/Vidal.png, id=1191, 523.9575pt x 372.64218pt>
+<pictures/Vidal.png, id=1190, 523.9575pt x 372.64218pt>
 File: pictures/Vidal.png Graphic file (type png)
 <use pictures/Vidal.png>
 Package pdftex.def Info: pictures/Vidal.png  used on input line 348.
@@ -2125,7 +2134,7 @@ Underfull \vbox (badness 1968) has occurred while \output is active []
 
 
 [43]
-<pictures/CueHistogram.PNG, id=1233, 420.3705pt x 336.0555pt>
+<pictures/CueHistogram.PNG, id=1232, 420.3705pt x 336.0555pt>
 File: pictures/CueHistogram.PNG Graphic file (type png)
 <use pictures/CueHistogram.PNG>
 Package pdftex.def Info: pictures/CueHistogram.PNG  used on input line 378.
@@ -2166,22 +2175,22 @@ Class scrreprt Warning: Redefinition of \@makechapterhead detected.
 (scrreprt)              KOMA-Script and will not work with a coming version,
 (scrreprt)              that will remove this deprecated code.
 
-<pictures/pelvisReg.png, id=1307, 718.685pt x 843.15pt>
+<pictures/pelvisReg.png, id=1306, 718.685pt x 843.15pt>
 File: pictures/pelvisReg.png Graphic file (type png)
 <use pictures/pelvisReg.png>
 Package pdftex.def Info: pictures/pelvisReg.png  used on input line 6.
 (pdftex.def)             Requested size: 117.97476pt x 138.41054pt.
-<pictures/pelvisRegSide.png, id=1308, 337.26pt x 949.5475pt>
+<pictures/pelvisRegSide.png, id=1307, 337.26pt x 949.5475pt>
 File: pictures/pelvisRegSide.png Graphic file (type png)
 <use pictures/pelvisRegSide.png>
 Package pdftex.def Info: pictures/pelvisRegSide.png  used on input line 6.
 (pdftex.def)             Requested size: 49.16132pt x 138.41054pt.
-<pictures/footReg.png, id=1309, 711.65875pt x 829.0975pt>
+<pictures/footReg.png, id=1308, 711.65875pt x 829.0975pt>
 File: pictures/footReg.png Graphic file (type png)
 <use pictures/footReg.png>
 Package pdftex.def Info: pictures/footReg.png  used on input line 8.
 (pdftex.def)             Requested size: 118.79771pt x 138.41054pt.
-<pictures/footRegSide.png, id=1310, 258.9675pt x 970.62625pt>
+<pictures/footRegSide.png, id=1309, 258.9675pt x 970.62625pt>
 File: pictures/footRegSide.png Graphic file (type png)
 <use pictures/footRegSide.png>
 Package pdftex.def Info: pictures/footRegSide.png  used on input line 8.
@@ -2189,7 +2198,7 @@ Package pdftex.def Info: pictures/footRegSide.png  used on input line 8.
 
 
 [49 <./pictures/pelvisReg.png> <./pictures/pelvisRegSide.png> <./pictures/footReg.png> <./pictures/footRegSide.png>]
-<pictures/Gizmos.png, id=1348, 1927.2pt x 1927.2pt>
+<pictures/Gizmos.png, id=1347, 1927.2pt x 1927.2pt>
 File: pictures/Gizmos.png Graphic file (type png)
 <use pictures/Gizmos.png>
 Package pdftex.def Info: pictures/Gizmos.png  used on input line 29.
@@ -2204,32 +2213,32 @@ Underfull \vbox (badness 4927) has occurred while \output is active []
 [51 <./pictures/Gizmos.png>]
 
 [52]
-<pictures/pushupPelvis.PNG, id=1381, 287.57437pt x 297.36093pt>
+<pictures/pushupPelvis.PNG, id=1380, 287.57437pt x 297.36093pt>
 File: pictures/pushupPelvis.PNG Graphic file (type png)
 <use pictures/pushupPelvis.PNG>
 Package pdftex.def Info: pictures/pushupPelvis.PNG  used on input line 65.
 (pdftex.def)             Requested size: 61.19101pt x 63.27373pt.
-<pictures/pushupRegistered.PNG, id=1382, 298.86656pt x 312.41719pt>
+<pictures/pushupRegistered.PNG, id=1381, 298.86656pt x 312.41719pt>
 File: pictures/pushupRegistered.PNG Graphic file (type png)
 <use pictures/pushupRegistered.PNG>
 Package pdftex.def Info: pictures/pushupRegistered.PNG  used on input line 66.
 (pdftex.def)             Requested size: 60.52925pt x 63.27373pt.
-<pictures/dipsPelvis.PNG, id=1383, 249.18094pt x 530.73282pt>
+<pictures/dipsPelvis.PNG, id=1382, 249.18094pt x 530.73282pt>
 File: pictures/dipsPelvis.PNG Graphic file (type png)
 <use pictures/dipsPelvis.PNG>
 Package pdftex.def Info: pictures/dipsPelvis.PNG  used on input line 67.
 (pdftex.def)             Requested size: 50.12807pt x 106.77367pt.
-<pictures/dipsRegistered.PNG, id=1384, 295.85532pt x 614.295pt>
+<pictures/dipsRegistered.PNG, id=1383, 295.85532pt x 614.295pt>
 File: pictures/dipsRegistered.PNG Graphic file (type png)
 <use pictures/dipsRegistered.PNG>
 Package pdftex.def Info: pictures/dipsRegistered.PNG  used on input line 68.
 (pdftex.def)             Requested size: 51.42332pt x 106.77367pt.
-<pictures/jumpFeet.PNG, id=1385, 358.33875pt x 452.4403pt>
+<pictures/jumpFeet.PNG, id=1384, 358.33875pt x 452.4403pt>
 File: pictures/jumpFeet.PNG Graphic file (type png)
 <use pictures/jumpFeet.PNG>
 Package pdftex.def Info: pictures/jumpFeet.PNG  used on input line 69.
 (pdftex.def)             Requested size: 84.56502pt x 106.77367pt.
-<pictures/jumpPelvis.PNG, id=1386, 359.09157pt x 435.87843pt>
+<pictures/jumpPelvis.PNG, id=1385, 359.09157pt x 435.87843pt>
 File: pictures/jumpPelvis.PNG Graphic file (type png)
 <use pictures/jumpPelvis.PNG>
 Package pdftex.def Info: pictures/jumpPelvis.PNG  used on input line 70.
@@ -2271,7 +2280,7 @@ Class scrreprt Warning: Redefinition of \@makechapterhead detected.
 
 
 [57]
-<pictures/skeleton_E_occ.png, id=1455, 592.33058pt x 476.13176pt>
+<pictures/skeleton_E_occ.png, id=1454, 592.33058pt x 476.13176pt>
 File: pictures/skeleton_E_occ.png Graphic file (type png)
 <use pictures/skeleton_E_occ.png>
 Package pdftex.def Info: pictures/skeleton_E_occ.png  used on input line 16.
@@ -2279,17 +2288,17 @@ Package pdftex.def Info: pictures/skeleton_E_occ.png  used on input line 16.
 
 
 [58 <./pictures/skeleton_E_occ.png>]
-<pictures/projection_feedback.png, id=1491, 1027.84pt x 578.16pt>
+<pictures/projection_feedback.png, id=1490, 1027.84pt x 578.16pt>
 File: pictures/projection_feedback.png Graphic file (type png)
 <use pictures/projection_feedback.png>
 Package pdftex.def Info: pictures/projection_feedback.png  used on input line 32.
 (pdftex.def)             Requested size: 193.77356pt x 108.9958pt.
-<pictures/projection_feedback_arrow.png, id=1492, 1027.84pt x 578.16pt>
+<pictures/projection_feedback_arrow.png, id=1491, 1027.84pt x 578.16pt>
 File: pictures/projection_feedback_arrow.png Graphic file (type png)
 <use pictures/projection_feedback_arrow.png>
 Package pdftex.def Info: pictures/projection_feedback_arrow.png  used on input line 33.
 (pdftex.def)             Requested size: 193.77356pt x 108.9958pt.
-<pictures/projection_normal.png, id=1496, 1027.84pt x 423.5825pt>
+<pictures/projection_normal.png, id=1495, 1027.84pt x 423.5825pt>
 File: pictures/projection_normal.png Graphic file (type png)
 <use pictures/projection_normal.png>
 Package pdftex.def Info: pictures/projection_normal.png  used on input line 44.
@@ -2300,12 +2309,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [59 <./pictures/projection_feedback.png> <./pictures/projection_feedback_arrow.png>]
-<pictures/feedbackFront.png, id=1518, 825.0825pt x 963.6pt>
+<pictures/feedbackFront.png, id=1517, 825.0825pt x 963.6pt>
 File: pictures/feedbackFront.png Graphic file (type png)
 <use pictures/feedbackFront.png>
 Package pdftex.def Info: pictures/feedbackFront.png  used on input line 56.
 (pdftex.def)             Requested size: 193.77356pt x 226.299pt.
-<pictures/feedbackSide.png, id=1519, 825.0825pt x 1027.84pt>
+<pictures/feedbackSide.png, id=1518, 825.0825pt x 1027.84pt>
 File: pictures/feedbackSide.png Graphic file (type png)
 <use pictures/feedbackSide.png>
 Package pdftex.def Info: pictures/feedbackSide.png  used on input line 57.
@@ -2315,7 +2324,7 @@ Package pdftex.def Info: pictures/feedbackSide.png  used on input line 57.
 [60 <./pictures/projection_normal.png>]
 
 [61 <./pictures/feedbackFront.png> <./pictures/feedbackSide.png>]
-<pictures/eigenvector.png, id=1551, 230.66174pt x 165.61874pt>
+<pictures/eigenvector.png, id=1550, 230.66174pt x 165.61874pt>
 File: pictures/eigenvector.png Graphic file (type png)
 <use pictures/eigenvector.png>
 Package pdftex.def Info: pictures/eigenvector.png  used on input line 83.
@@ -2332,32 +2341,32 @@ Underfull \vbox (badness 6001) has occurred while \output is active []
 [64]
 
 [65]
-<pictures/bench.png, id=1598, 199.34476pt x 223.43475pt>
+<pictures/bench.png, id=1597, 199.34476pt x 223.43475pt>
 File: pictures/bench.png Graphic file (type png)
 <use pictures/bench.png>
 Package pdftex.def Info: pictures/bench.png  used on input line 127.
 (pdftex.def)             Requested size: 71.17842pt x 79.77844pt.
-<pictures/curlA.png, id=1599, 159.59625pt x 220.4235pt>
+<pictures/curlA.png, id=1598, 159.59625pt x 220.4235pt>
 File: pictures/curlA.png Graphic file (type png)
 <use pictures/curlA.png>
 Package pdftex.def Info: pictures/curlA.png  used on input line 128.
 (pdftex.def)             Requested size: 55.363pt x 76.46324pt.
-<pictures/lateral.png, id=1600, 230.66174pt x 165.61874pt>
+<pictures/lateral.png, id=1599, 230.66174pt x 165.61874pt>
 File: pictures/lateral.png Graphic file (type png)
 <use pictures/lateral.png>
 Package pdftex.def Info: pictures/lateral.png  used on input line 129.
 (pdftex.def)             Requested size: 71.17842pt x 51.10625pt.
-<pictures/shoulder.png, id=1601, 191.5155pt x 215.00325pt>
+<pictures/shoulder.png, id=1600, 191.5155pt x 215.00325pt>
 File: pictures/shoulder.png Graphic file (type png)
 <use pictures/shoulder.png>
 Package pdftex.def Info: pictures/shoulder.png  used on input line 130.
 (pdftex.def)             Requested size: 71.17842pt x 79.91083pt.
-<pictures/rows.png, id=1602, 157.7895pt x 181.27725pt>
+<pictures/rows.png, id=1601, 157.7895pt x 181.27725pt>
 File: pictures/rows.png Graphic file (type png)
 <use pictures/rows.png>
 Package pdftex.def Info: pictures/rows.png  used on input line 131.
 (pdftex.def)             Requested size: 71.17842pt x 81.77316pt.
-<pictures/curlB.png, id=1603, 172.84575pt x 206.57175pt>
+<pictures/curlB.png, id=1602, 172.84575pt x 206.57175pt>
 File: pictures/curlB.png Graphic file (type png)
 <use pictures/curlB.png>
 Package pdftex.def Info: pictures/curlB.png  used on input line 132.
@@ -2372,52 +2381,52 @@ Underfull \vbox (badness 2042) has occurred while \output is active []
 [67]
 
 [68]
-<pictures/transverseBench.png, id=1669, 245.718pt x 244.9953pt>
+<pictures/transverseBench.png, id=1668, 245.718pt x 244.9953pt>
 File: pictures/transverseBench.png Graphic file (type png)
 <use pictures/transverseBench.png>
 Package pdftex.def Info: pictures/transverseBench.png  used on input line 190.
 (pdftex.def)             Requested size: 94.9106pt x 94.63188pt.
-<pictures/transverseSquat.png, id=1670, 245.718pt x 244.9953pt>
+<pictures/transverseSquat.png, id=1669, 245.718pt x 244.9953pt>
 File: pictures/transverseSquat.png Graphic file (type png)
 <use pictures/transverseSquat.png>
 Package pdftex.def Info: pictures/transverseSquat.png  used on input line 191.
 (pdftex.def)             Requested size: 94.9106pt x 94.63188pt.
-<pictures/transverseBend.png, id=1671, 245.718pt x 244.9953pt>
+<pictures/transverseBend.png, id=1670, 245.718pt x 244.9953pt>
 File: pictures/transverseBend.png Graphic file (type png)
 <use pictures/transverseBend.png>
 Package pdftex.def Info: pictures/transverseBend.png  used on input line 192.
 (pdftex.def)             Requested size: 94.9106pt x 94.63188pt.
-<pictures/transverseStand.png, id=1672, 245.718pt x 244.9953pt>
+<pictures/transverseStand.png, id=1671, 245.718pt x 244.9953pt>
 File: pictures/transverseStand.png Graphic file (type png)
 <use pictures/transverseStand.png>
 Package pdftex.def Info: pictures/transverseStand.png  used on input line 193.
 (pdftex.def)             Requested size: 94.9106pt x 94.63188pt.
-<pictures/whitePixel.png, id=1673, 0.60225pt x 0.60225pt>
+<pictures/whitePixel.png, id=1672, 0.60225pt x 0.60225pt>
 File: pictures/whitePixel.png Graphic file (type png)
 <use pictures/whitePixel.png>
 Package pdftex.def Info: pictures/whitePixel.png  used on input line 193.
 (pdftex.def)             Requested size: 16.21367pt x 16.23175pt.
-<pictures/medianBench.png, id=1674, 244.9953pt x 245.718pt>
+<pictures/medianBench.png, id=1673, 244.9953pt x 245.718pt>
 File: pictures/medianBench.png Graphic file (type png)
 <use pictures/medianBench.png>
 Package pdftex.def Info: pictures/medianBench.png  used on input line 194.
 (pdftex.def)             Requested size: 94.9106pt x 95.18849pt.
-<pictures/medianSquat.png, id=1675, 244.9953pt x 245.718pt>
+<pictures/medianSquat.png, id=1674, 244.9953pt x 245.718pt>
 File: pictures/medianSquat.png Graphic file (type png)
 <use pictures/medianSquat.png>
 Package pdftex.def Info: pictures/medianSquat.png  used on input line 195.
 (pdftex.def)             Requested size: 94.9106pt x 95.18849pt.
-<pictures/medianBend.png, id=1676, 244.9953pt x 245.718pt>
+<pictures/medianBend.png, id=1675, 244.9953pt x 245.718pt>
 File: pictures/medianBend.png Graphic file (type png)
 <use pictures/medianBend.png>
 Package pdftex.def Info: pictures/medianBend.png  used on input line 196.
 (pdftex.def)             Requested size: 94.9106pt x 95.18849pt.
-<pictures/medianStand.png, id=1677, 244.9953pt x 245.718pt>
+<pictures/medianStand.png, id=1676, 244.9953pt x 245.718pt>
 File: pictures/medianStand.png Graphic file (type png)
 <use pictures/medianStand.png>
 Package pdftex.def Info: pictures/medianStand.png  used on input line 197.
 (pdftex.def)             Requested size: 94.9106pt x 95.18849pt.
-<pictures/scale.png, id=1678, 36.135pt x 204.765pt>
+<pictures/scale.png, id=1677, 36.135pt x 204.765pt>
 File: pictures/scale.png Graphic file (type png)
 <use pictures/scale.png>
 Package pdftex.def Info: pictures/scale.png  used on input line 197.
@@ -2433,42 +2442,42 @@ Underfull \vbox (badness 2865) has occurred while \output is active []
 
 
 [70 <./pictures/transverseBench.png> <./pictures/transverseSquat.png> <./pictures/transverseBend.png> <./pictures/transverseStand.png> <./pictures/whitePixel.png> <./pictures/medianBench.png> <./pictures/medianSquat.png> <./pictures/medianBend.png> <./pictures/medianStand.png> <./pictures/scale.png>]
-<pictures/kwonSequence1.png, id=1746, 89.133pt x 221.628pt>
+<pictures/kwonSequence1.png, id=1745, 89.133pt x 221.628pt>
 File: pictures/kwonSequence1.png Graphic file (type png)
 <use pictures/kwonSequence1.png>
 Package pdftex.def Info: pictures/kwonSequence1.png  used on input line 225.
 (pdftex.def)             Requested size: 43.49994pt x 108.1658pt.
-<pictures/kwonSequence2.png, id=1747, 99.9735pt x 221.02576pt>
+<pictures/kwonSequence2.png, id=1746, 99.9735pt x 221.02576pt>
 File: pictures/kwonSequence2.png Graphic file (type png)
 <use pictures/kwonSequence2.png>
 Package pdftex.def Info: pictures/kwonSequence2.png  used on input line 226.
 (pdftex.def)             Requested size: 47.45229pt x 104.90738pt.
-<pictures/kwonSequence3.png, id=1748, 101.178pt x 221.02576pt>
+<pictures/kwonSequence3.png, id=1747, 101.178pt x 221.02576pt>
 File: pictures/kwonSequence3.png Graphic file (type png)
 <use pictures/kwonSequence3.png>
 Package pdftex.def Info: pictures/kwonSequence3.png  used on input line 227.
 (pdftex.def)             Requested size: 47.45229pt x 103.65952pt.
-<pictures/kwonSequence4.png, id=1749, 101.178pt x 226.446pt>
+<pictures/kwonSequence4.png, id=1748, 101.178pt x 226.446pt>
 File: pictures/kwonSequence4.png Graphic file (type png)
 <use pictures/kwonSequence4.png>
 Package pdftex.def Info: pictures/kwonSequence4.png  used on input line 228.
 (pdftex.def)             Requested size: 47.45229pt x 106.20157pt.
-<pictures/kwonSequence5.png, id=1750, 105.996pt x 224.037pt>
+<pictures/kwonSequence5.png, id=1749, 105.996pt x 224.037pt>
 File: pictures/kwonSequence5.png Graphic file (type png)
 <use pictures/kwonSequence5.png>
 Package pdftex.def Info: pictures/kwonSequence5.png  used on input line 229.
 (pdftex.def)             Requested size: 47.45229pt x 100.29951pt.
-<pictures/kwonSequence6.png, id=1751, 103.587pt x 230.0595pt>
+<pictures/kwonSequence6.png, id=1750, 103.587pt x 230.0595pt>
 File: pictures/kwonSequence6.png Graphic file (type png)
 <use pictures/kwonSequence6.png>
 Package pdftex.def Info: pictures/kwonSequence6.png  used on input line 230.
 (pdftex.def)             Requested size: 47.45229pt x 105.38634pt.
-<pictures/kwonSequence7.png, id=1752, 106.59825pt x 224.037pt>
+<pictures/kwonSequence7.png, id=1751, 106.59825pt x 224.037pt>
 File: pictures/kwonSequence7.png Graphic file (type png)
 <use pictures/kwonSequence7.png>
 Package pdftex.def Info: pictures/kwonSequence7.png  used on input line 231.
 (pdftex.def)             Requested size: 47.45229pt x 99.72862pt.
-<pictures/kwonSequence8.png, id=1753, 102.98476pt x 224.037pt>
+<pictures/kwonSequence8.png, id=1752, 102.98476pt x 224.037pt>
 File: pictures/kwonSequence8.png Graphic file (type png)
 <use pictures/kwonSequence8.png>
 Package pdftex.def Info: pictures/kwonSequence8.png  used on input line 232.
@@ -2477,42 +2486,42 @@ Package pdftex.def Info: pictures/kwonSequence8.png  used on input line 232.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pictures/jmoSequence1.png, id=1755, 109.6095pt x 221.02576pt>
+<pictures/jmoSequence1.png, id=1754, 109.6095pt x 221.02576pt>
 File: pictures/jmoSequence1.png Graphic file (type png)
 <use pictures/jmoSequence1.png>
 Package pdftex.def Info: pictures/jmoSequence1.png  used on input line 239.
 (pdftex.def)             Requested size: 43.49994pt x 87.71735pt.
-<pictures/jmoSequence2.png, id=1756, 131.2905pt x 228.855pt>
+<pictures/jmoSequence2.png, id=1755, 131.2905pt x 228.855pt>
 File: pictures/jmoSequence2.png Graphic file (type png)
 <use pictures/jmoSequence2.png>
 Package pdftex.def Info: pictures/jmoSequence2.png  used on input line 240.
 (pdftex.def)             Requested size: 47.45229pt x 82.7125pt.
-<pictures/jmoSequence3.png, id=1757, 115.632pt x 211.38976pt>
+<pictures/jmoSequence3.png, id=1756, 115.632pt x 211.38976pt>
 File: pictures/jmoSequence3.png Graphic file (type png)
 <use pictures/jmoSequence3.png>
 Package pdftex.def Info: pictures/jmoSequence3.png  used on input line 241.
 (pdftex.def)             Requested size: 47.45229pt x 86.74776pt.
-<pictures/jmoSequence4.png, id=1758, 97.5645pt x 211.38976pt>
+<pictures/jmoSequence4.png, id=1757, 97.5645pt x 211.38976pt>
 File: pictures/jmoSequence4.png Graphic file (type png)
 <use pictures/jmoSequence4.png>
 Package pdftex.def Info: pictures/jmoSequence4.png  used on input line 242.
 (pdftex.def)             Requested size: 39.54759pt x 85.68655pt.
-<pictures/jmoSequence5.png, id=1759, 133.09724pt x 229.45724pt>
+<pictures/jmoSequence5.png, id=1758, 133.09724pt x 229.45724pt>
 File: pictures/jmoSequence5.png Graphic file (type png)
 <use pictures/jmoSequence5.png>
 Package pdftex.def Info: pictures/jmoSequence5.png  used on input line 243.
 (pdftex.def)             Requested size: 47.45229pt x 81.80624pt.
-<pictures/jmoSequence6.png, id=1760, 126.4725pt x 224.037pt>
+<pictures/jmoSequence6.png, id=1759, 126.4725pt x 224.037pt>
 File: pictures/jmoSequence6.png Graphic file (type png)
 <use pictures/jmoSequence6.png>
 Package pdftex.def Info: pictures/jmoSequence6.png  used on input line 244.
 (pdftex.def)             Requested size: 47.45229pt x 84.05809pt.
-<pictures/jmoSequence7.png, id=1761, 124.66576pt x 221.628pt>
+<pictures/jmoSequence7.png, id=1760, 124.66576pt x 221.628pt>
 File: pictures/jmoSequence7.png Graphic file (type png)
 <use pictures/jmoSequence7.png>
 Package pdftex.def Info: pictures/jmoSequence7.png  used on input line 245.
 (pdftex.def)             Requested size: 47.45229pt x 84.35815pt.
-<pictures/jmoSequence8.png, id=1762, 125.268pt x 222.8325pt>
+<pictures/jmoSequence8.png, id=1761, 125.268pt x 222.8325pt>
 File: pictures/jmoSequence8.png Graphic file (type png)
 <use pictures/jmoSequence8.png>
 Package pdftex.def Info: pictures/jmoSequence8.png  used on input line 246.
@@ -2520,42 +2529,42 @@ Package pdftex.def Info: pictures/jmoSequence8.png  used on input line 246.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pictures/bicepsSequence1.png, id=1765, 107.2005pt x 211.992pt>
+<pictures/bicepsSequence1.png, id=1764, 107.2005pt x 211.992pt>
 File: pictures/bicepsSequence1.png Graphic file (type png)
 <use pictures/bicepsSequence1.png>
 Package pdftex.def Info: pictures/bicepsSequence1.png  used on input line 253.
 (pdftex.def)             Requested size: 45.47913pt x 89.93527pt.
-<pictures/bicepsSequence2.png, id=1766, 118.041pt x 213.79875pt>
+<pictures/bicepsSequence2.png, id=1765, 118.041pt x 213.79875pt>
 File: pictures/bicepsSequence2.png Graphic file (type png)
 <use pictures/bicepsSequence2.png>
 Package pdftex.def Info: pictures/bicepsSequence2.png  used on input line 254.
 (pdftex.def)             Requested size: 51.41066pt x 93.11588pt.
-<pictures/bicepsSequence3.png, id=1767, 118.64325pt x 221.02576pt>
+<pictures/bicepsSequence3.png, id=1766, 118.64325pt x 221.02576pt>
 File: pictures/bicepsSequence3.png Graphic file (type png)
 <use pictures/bicepsSequence3.png>
 Package pdftex.def Info: pictures/bicepsSequence3.png  used on input line 255.
 (pdftex.def)             Requested size: 49.43147pt x 92.08821pt.
-<pictures/bicepsSequence4.png, id=1768, 121.6545pt x 223.43475pt>
+<pictures/bicepsSequence4.png, id=1767, 121.6545pt x 223.43475pt>
 File: pictures/bicepsSequence4.png Graphic file (type png)
 <use pictures/bicepsSequence4.png>
 Package pdftex.def Info: pictures/bicepsSequence4.png  used on input line 256.
 (pdftex.def)             Requested size: 49.43147pt x 90.78719pt.
-<pictures/bicepsSequence5.png, id=1769, 117.43875pt x 227.04825pt>
+<pictures/bicepsSequence5.png, id=1768, 117.43875pt x 227.04825pt>
 File: pictures/bicepsSequence5.png Graphic file (type png)
 <use pictures/bicepsSequence5.png>
 Package pdftex.def Info: pictures/bicepsSequence5.png  used on input line 257.
 (pdftex.def)             Requested size: 47.45229pt x 91.73923pt.
-<pictures/bicepsSequence6.png, id=1770, 112.62074pt x 228.855pt>
+<pictures/bicepsSequence6.png, id=1769, 112.62074pt x 228.855pt>
 File: pictures/bicepsSequence6.png Graphic file (type png)
 <use pictures/bicepsSequence6.png>
 Package pdftex.def Info: pictures/bicepsSequence6.png  used on input line 258.
 (pdftex.def)             Requested size: 45.47913pt x 92.41687pt.
-<pictures/bicepsSequence7.png, id=1771, 106.59825pt x 227.6505pt>
+<pictures/bicepsSequence7.png, id=1770, 106.59825pt x 227.6505pt>
 File: pictures/bicepsSequence7.png Graphic file (type png)
 <use pictures/bicepsSequence7.png>
 Package pdftex.def Info: pictures/bicepsSequence7.png  used on input line 259.
 (pdftex.def)             Requested size: 43.49994pt x 92.89615pt.
-<pictures/bicepsSequence8.png, id=1772, 100.57574pt x 222.8325pt>
+<pictures/bicepsSequence8.png, id=1771, 100.57574pt x 222.8325pt>
 File: pictures/bicepsSequence8.png Graphic file (type png)
 <use pictures/bicepsSequence8.png>
 Package pdftex.def Info: pictures/bicepsSequence8.png  used on input line 260.
@@ -2609,12 +2618,12 @@ Class scrreprt Warning: Redefinition of \@makechapterhead detected.
 
 
 ]
-<pictures/ExocentricAR.jpg, id=1859, 3918.64pt x 2204.235pt>
+<pictures/ExocentricAR.jpg, id=1858, 3918.64pt x 2204.235pt>
 File: pictures/ExocentricAR.jpg Graphic file (type jpg)
 <use pictures/ExocentricAR.jpg>
 Package pdftex.def Info: pictures/ExocentricAR.jpg  used on input line 16.
 (pdftex.def)             Requested size: 193.77356pt x 108.97375pt.
-<pictures/EgocentricAR.jpg, id=1860, 3918.64pt x 2204.235pt>
+<pictures/EgocentricAR.jpg, id=1859, 3918.64pt x 2204.235pt>
 File: pictures/EgocentricAR.jpg Graphic file (type jpg)
 <use pictures/EgocentricAR.jpg>
 Package pdftex.def Info: pictures/EgocentricAR.jpg  used on input line 17.
@@ -2629,38 +2638,38 @@ Underfull \vbox (badness 1107) has occurred while \output is active []
 [77]
 
 [78]
-<pictures/HoloLensScreenshot.jpg, id=1935, 3918.64pt x 2204.235pt>
+<pictures/HoloLensScreenshot.jpg, id=1934, 3918.64pt x 2204.235pt>
 File: pictures/HoloLensScreenshot.jpg Graphic file (type jpg)
 <use pictures/HoloLensScreenshot.jpg>
 Package pdftex.def Info: pictures/HoloLensScreenshot.jpg  used on input line 52.
 (pdftex.def)             Requested size: 395.45181pt x 222.4208pt.
  Excluding 'comment' comment.
-<pictures/Standing.png, id=1942, 237.88875pt x 432.11438pt>
+<pictures/Standing.png, id=1941, 237.88875pt x 432.11438pt>
 File: pictures/Standing.png Graphic file (type png)
 <use pictures/Standing.png>
 Package pdftex.def Info: pictures/Standing.png  used on input line 71.
 (pdftex.def)             Requested size: 51.41066pt x 93.3841pt.
-<pictures/JumpingJack.png, id=1943, 371.88937pt x 584.93532pt>
+<pictures/JumpingJack.png, id=1942, 371.88937pt x 584.93532pt>
 File: pictures/JumpingJack.png Graphic file (type png)
 <use pictures/JumpingJack.png>
 Package pdftex.def Info: pictures/JumpingJack.png  used on input line 72.
 (pdftex.def)             Requested size: 59.31535pt x 93.28809pt.
-<pictures/Plank.png, id=1944, 286.82156pt x 342.5297pt>
+<pictures/Plank.png, id=1943, 286.82156pt x 342.5297pt>
 File: pictures/Plank.png Graphic file (type png)
 <use pictures/Plank.png>
 Package pdftex.def Info: pictures/Plank.png  used on input line 73.
 (pdftex.def)             Requested size: 59.31535pt x 70.83577pt.
-<pictures/Squat.png, id=1945, 274.02374pt x 362.85562pt>
+<pictures/Squat.png, id=1944, 274.02374pt x 362.85562pt>
 File: pictures/Squat.png Graphic file (type png)
 <use pictures/Squat.png>
 Package pdftex.def Info: pictures/Squat.png  used on input line 74.
 (pdftex.def)             Requested size: 59.31535pt x 78.54396pt.
-<pictures/TorsoRotation.png, id=1946, 279.29344pt x 508.90125pt>
+<pictures/TorsoRotation.png, id=1945, 279.29344pt x 508.90125pt>
 File: pictures/TorsoRotation.png Graphic file (type png)
 <use pictures/TorsoRotation.png>
 Package pdftex.def Info: pictures/TorsoRotation.png  used on input line 75.
 (pdftex.def)             Requested size: 51.41066pt x 93.67157pt.
-<pictures/WarriorII.png, id=1947, 529.98pt x 593.21625pt>
+<pictures/WarriorII.png, id=1946, 529.98pt x 593.21625pt>
 File: pictures/WarriorII.png Graphic file (type png)
 <use pictures/WarriorII.png>
 Package pdftex.def Info: pictures/WarriorII.png  used on input line 76.
@@ -2671,7 +2680,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [79 <./pictures/HoloLensScreenshot.jpg>]
-<pictures/avatarPos.png, id=1962, 1927.2pt x 1084.05pt>
+<pictures/avatarPos.png, id=1961, 1927.2pt x 1084.05pt>
 File: pictures/avatarPos.png Graphic file (type png)
 <use pictures/avatarPos.png>
 Package pdftex.def Info: pictures/avatarPos.png  used on input line 90.
@@ -2682,7 +2691,7 @@ Underfull \vbox (badness 1194) has occurred while \output is active []
 
 
 [80 <./pictures/Standing.png> <./pictures/JumpingJack.png> <./pictures/Plank.png> <./pictures/Squat.png> <./pictures/TorsoRotation.png> <./pictures/WarriorII.png>]
-<pictures/gridRound.png, id=1988, 1927.2pt x 980.66376pt>
+<pictures/gridRound.png, id=1987, 1927.2pt x 980.66376pt>
 File: pictures/gridRound.png Graphic file (type png)
 <use pictures/gridRound.png>
 Package pdftex.def Info: pictures/gridRound.png  used on input line 102.
@@ -2694,7 +2703,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [81 <./pictures/avatarPos.png>]
-<pictures/floorPos.png, id=2004, 1927.2pt x 1084.05pt>
+<pictures/floorPos.png, id=2003, 1927.2pt x 1084.05pt>
 File: pictures/floorPos.png Graphic file (type png)
 <use pictures/floorPos.png>
 Package pdftex.def Info: pictures/floorPos.png  used on input line 114.
@@ -2915,25 +2924,34 @@ Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50360 strings out of 473207
- 977954 string characters out of 5720461
- 2224071 words of memory out of 5000000
- 71523 multiletter control sequences out of 15000+600000
+ 50362 strings out of 473207
+ 978046 string characters out of 5720461
+ 2224208 words of memory out of 5000000
+ 71525 multiletter control sequences out of 15000+600000
  733555 words of font info for 527 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,14n,131p,10905b,3121s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/bookman/ubkli8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (130 pages, 18243681 bytes).
+Output written on main.pdf (130 pages, 18243626 bytes).
 PDF statistics:
- 3172 PDF objects out of 3580 (max. 8388607)
- 2799 compressed objects within 28 object streams
+ 3171 PDF objects out of 3580 (max. 8388607)
+ 2798 compressed objects within 28 object streams
  631 named destinations out of 1000 (max. 500000)
  84682 words of extra memory for PDF output out of 89155 (max. 10000000)
 
