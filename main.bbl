@@ -143,7 +143,7 @@
   approaches to gain more benefits of these technologies development.%
     }
     \verb{doi}
-    \verb https://doi.org/10.1016/j.ssaho.2023.100532
+    \verb 10.1016/j.ssaho.2023.100532
     \endverb
     \field{issn}{2590-2911}
     \field{number}{1}
@@ -314,6 +314,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{A}
     \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1080/741942069
+    \endverb
     \field{number}{2}
     \field{pages}{207\bibrangedash 221}
     \field{title}{Contextual dependencies during perceptual-motor skill
@@ -478,7 +481,6 @@
     \verb 10.1155/2021/7061623
     \endverb
     \field{number}{1}
-    \field{pages}{7061623}
     \field{title}{Virtual reality as pedagogical tool to enhance experiential
   learning: a systematic literature review}
     \field{volume}{2021}
@@ -1961,9 +1963,6 @@
     \field{pages}{388}
     \field{title}{Towards an Optimal Display of Superimposed Avatars for Motor
   Feedback}
-    \verb{url}
-    \verb https://doi.org/10.1007/s42979-025-03904-7
-    \endverb
     \field{volume}{6}
     \field{journaltitle}{SN Computer Science}
     \field{year}{2025}
@@ -2006,6 +2005,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{D}
     \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1007/s10055-025-01108-1
+    \endverb
     \field{number}{1}
     \field{pages}{1\bibrangedash 11}
     \field{title}{SkillAR: omnipresent in-situ feedback for motor skill
@@ -2447,7 +2449,7 @@
   acquisition, and archiving of curricular resources.%
     }
     \verb{doi}
-    \verb https://doi.org/10.1016/j.cag.2003.10.013
+    \verb 10.1016/j.cag.2003.10.013
     \endverb
     \field{issn}{0097-8493}
     \field{number}{1}
@@ -2481,7 +2483,7 @@
     \field{sortinit}{F}
     \field{sortinithash}{F}
     \verb{doi}
-    \verb https://doi.org/10.2312/cgvc.20181211
+    \verb 10.2312/cgvc.20181211
     \endverb
     \field{pages}{91\bibrangedash 101}
     \field{title}{Towards a survey of interactive visualization for education}
@@ -2715,13 +2717,13 @@
   \entry{godden1975context}{article}{}{}
     \name{author}{2}{}{%
       {{hash=GDR}{%
-         family={GODDEN},
+         family={Godden},
          familyi={G\bibinitperiod},
          given={D.\bibnamedelima R.},
          giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
       {{hash=BAD}{%
-         family={BADDELEY},
+         family={Baddeley},
          familyi={B\bibinitperiod},
          given={A.\bibnamedelima D.},
          giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
@@ -2743,20 +2745,12 @@
   memory.%
     }
     \verb{doi}
-    \verb https://doi.org/10.1111/j.2044-8295.1975.tb01468.x
-    \endverb
-    \verb{eprint}
-    \verb https://bpspsychub.onlinelibrary.wiley.com/doi/pdf/10.1111/j.2044-829
-    \verb 5.1975.tb01468.x
+    \verb 10.1111/j.2044-8295.1975.tb01468.x
     \endverb
     \field{number}{3}
     \field{pages}{325\bibrangedash 331}
-    \field{title}{CONTEXT-DEPENDENT MEMORY IN TWO NATURAL ENVIRONMENTS: ON LAND
-  AND UNDERWATER}
-    \verb{url}
-    \verb https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/j.2044-829
-    \verb 5.1975.tb01468.x
-    \endverb
+    \field{title}{Context-Dependent Memory in Two Natural Environments: On Land
+  and Underwater}
     \field{volume}{66}
     \field{journaltitle}{British Journal of Psychology}
     \field{year}{1975}
@@ -3546,6 +3540,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{I}
     \field{sortinithash}{I}
+    \verb{doi}
+    \verb 10.2312/egve.20181330
+    \endverb
     \field{title}{{AR based Self-sports Learning System using Decayed Dynamic
   Time Warping Algorithm}}
     \field{journaltitle}{Eurographics Symposium on Virtual Environments (2018)}
@@ -3580,7 +3577,7 @@
     \field{sortinit}{I}
     \field{sortinithash}{I}
     \verb{doi}
-    \verb https://doi.org/10.1109/VR.2019.8798196
+    \verb 10.1109/VR.2019.8798196
     \endverb
     \field{title}{{A Real-Time Projection System for Golf Training using
   Virtual Shadow}}
@@ -3715,6 +3712,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{K}
     \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.58459/icce.2013.1014
+    \endverb
     \field{pages}{483\bibrangedash 486}
     \field{title}{Integration of Blender 3D in basic computer graphics course}
     \field{journaltitle}{Proceedings of the 21st International Conference on
@@ -4163,7 +4163,7 @@
   movements.}%
     }
     \verb{doi}
-    \verb https://doi.org/10.1145/3132272.3134119
+    \verb 10.1145/3132272.3134119
     \endverb
     \field{pages}{270\bibrangedash 279}
     \field{title}{{ClimbVis - Investigating In-situ Visualizations for
@@ -4292,6 +4292,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{L}
     \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1017/CBO9780511815355
+    \endverb
     \field{series}{Learning in Doing: Social, Cognitive and Computational
   Perspectives}
     \field{title}{Situated Learning: Legitimate Peripheral Participation}
@@ -4952,6 +4955,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{M}
     \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1007/s11423-025-10449-2
+    \endverb
     \field{pages}{1\bibrangedash 41}
     \field{title}{Virtual virtuoso: a systematic literature review of immersive
   learning environments for psychomotor skill development}
@@ -5349,17 +5355,11 @@
     \verb{doi}
     \verb 10.1080/17434440.2021.1927704
     \endverb
-    \verb{eprint}
-    \verb https://doi.org/10.1080/17434440.2021.1927704
-    \endverb
     \field{note}{PMID: 33960257}
     \field{number}{6}
     \field{pages}{513\bibrangedash 522}
     \field{title}{Differentiation among bio- and augmented- feedback in
   technologically assisted rehabilitation}
-    \verb{url}
-    \verb https://doi.org/10.1080/17434440.2021.1927704
-    \endverb
     \field{volume}{18}
     \field{journaltitle}{Expert Review of Medical Devices}
     \field{year}{2021}
@@ -5808,9 +5808,6 @@
     \verb 10.1073/pnas.97.10.5592
     \endverb
     \field{title}{{Why are angles misperceived?}}
-    \verb{url}
-    \verb https://doi.org/10.1073/pnas.97.10.5592
-    \endverb
     \field{journaltitle}{Proceedings of the National Academy of Sciences of the
   United States of America}
     \field{year}{2000}
@@ -5853,9 +5850,6 @@
     \field{pages}{1\bibrangedash 14}
     \field{title}{Optimizing colormaps with consideration for color vision
   deficiency to enable accurate interpretation of scientific data}
-    \verb{url}
-    \verb https://doi.org/10.1371/journal.pone.0199239
-    \endverb
     \field{volume}{13}
     \field{journaltitle}{PLOS ONE}
     \field{month}{08}
@@ -5912,7 +5906,7 @@
     \field{sortinit}{O}
     \field{sortinithash}{O}
     \verb{doi}
-    \verb https://doi.org/10.1117/12.2591035
+    \verb 10.1117/12.2591035
     \endverb
     \field{title}{{A Real Time Feedback System of Strength Training With Motion
   Capture and Head Mounted Display}}
@@ -6520,6 +6514,9 @@
     \field{sortinithash}{Q}
     \field{booktitle}{Augmented Reality, Virtual Reality, and Computer
   Graphics}
+    \verb{doi}
+    \verb 10.1007/978-3-319-60928-7_14
+    \endverb
     \field{isbn}{978-3-319-60928-7}
     \field{pages}{166\bibrangedash 174}
     \field{title}{Assistance System for Rehabilitation and Valuation of Motor
@@ -6769,6 +6766,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{R}
     \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1007/s00426-011-0388-6
+    \endverb
     \field{pages}{812\bibrangedash 820}
     \field{title}{Context-dependent motor skill and the role of practice}
     \field{volume}{76}
@@ -7206,6 +7206,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.6342/NTU201603740
+    \endverb
     \field{issn}{1975-9339}
     \field{number}{1}
     \field{pages}{31\bibrangedash 40}
@@ -7250,6 +7253,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1145/3290607.3312779
+    \endverb
     \field{title}{{InterPoser: Visualizing Interpolated Movements for
   Bouldering Training}}
     \field{journaltitle}{2019 IEEE Conference on Virtual Reality and 3D User
@@ -7311,15 +7317,11 @@
     }
     \field{booktitle}{Learning Strategies}
     \verb{doi}
-    \verb https://doi.org/10.1016/B978-0-12-526650-5.50009-5
+    \verb 10.1016/B978-0-12-526650-5.50009-5
     \endverb
     \field{isbn}{978-0-12-526650-5}
     \field{pages}{79\bibrangedash 106}
     \field{title}{Motor Skills and Learning Strategies}
-    \verb{url}
-    \verb https://www.sciencedirect.com/science/article/pii/B978012526650550009
-    \verb 5
-    \endverb
     \field{year}{1978}
   \endentry
 
@@ -7411,18 +7413,11 @@
     \verb{doi}
     \verb 10.1115/1.4049809
     \endverb
-    \verb{eprint}
-    \verb https://asmedigitalcollection.asme.org/biomechanical/article-pdf/143/
-    \verb 5/054501/6642024/bio\_143\_05\_054501.pdf
-    \endverb
     \field{issn}{0148-0731}
     \field{number}{5}
     \field{pages}{054501}
     \field{title}{Knee Angles After Crosstalk Correction With Principal
   Component Analysis in Gait and Cycling}
-    \verb{url}
-    \verb https://doi.org/10.1115/1.4049809
-    \endverb
     \field{volume}{143}
     \field{journaltitle}{Journal of Biomechanical Engineering}
     \field{month}{02}
@@ -7453,6 +7448,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.3758/BF03196157
+    \endverb
     \field{pages}{203\bibrangedash 220}
     \field{title}{Environmental context-dependent memory: A review and
   meta-analysis}
@@ -7504,7 +7502,7 @@
   them.}%
     }
     \verb{doi}
-    \verb https://doi.org/10.48550/arXiv.1403.2877
+    \verb 10.48550/arXiv.1403.2877
     \endverb
     \field{title}{{A survey of dimensionality reduction techniques}}
     \field{journaltitle}{ArXiv14032877 Cs Q-Bio Stat}
@@ -7551,7 +7549,7 @@
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \verb{doi}
-    \verb https://doi.org/10.1145/2856767.2856773
+    \verb 10.1145/2856767.2856773
     \endverb
     \field{title}{{SleeveAR: Augmented Reality for Rehabilitation using
   Realtime Feedback}}
@@ -7647,9 +7645,6 @@
     \field{isbn}{9781450359702}
     \field{pages}{1–15}
     \field{title}{What is Mixed Reality?}
-    \verb{url}
-    \verb https://doi.org/10.1145/3290605.3300767
-    \endverb
     \list{location}{1}{%
       {New York, NY, USA}%
     }
@@ -7913,16 +7908,13 @@
   coordination pattern during acquisition also optimized transfer performance.%
     }
     \verb{doi}
-    \verb https://doi.org/10.1016/S0167-9457(97)00020-1
+    \verb 10.1016/S0167-9457(97)00020-1
     \endverb
     \field{issn}{0167-9457}
     \field{number}{6}
     \field{pages}{749\bibrangedash 785}
     \field{title}{Interlimb coordination: Learning and transfer under different
   feedback conditions}
-    \verb{url}
-    \verb https://www.sciencedirect.com/science/article/pii/S0167945797000201
-    \endverb
     \field{volume}{16}
     \field{journaltitle}{Human Movement Science}
     \field{year}{1997}
@@ -9310,6 +9302,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{W}
     \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.3758/BF03197140
+    \endverb
     \field{pages}{361\bibrangedash 370}
     \field{title}{Contextual dependencies in motor skills}
     \field{volume}{19}
@@ -9377,7 +9372,7 @@
   and issues for future research.%
     }
     \verb{doi}
-    \verb https://doi.org/10.1016/j.compedu.2012.10.024
+    \verb 10.1016/j.compedu.2012.10.024
     \endverb
     \field{issn}{0360-1315}
     \field{pages}{41\bibrangedash 49}

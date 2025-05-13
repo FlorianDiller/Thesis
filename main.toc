@@ -1,6 +1,6 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Publications}{2}{section*.5}%
+\contentsline {section}{\numberline {1.1}Publications}{3}{section*.5}%
 \contentsline {section}{\numberline {1.2}Remarks}{3}{section*.6}%
 \contentsline {chapter}{\numberline {2}Educational Motivation }{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Experiential Learning }{5}{section*.8}%
@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {3.6.3}Students}{20}{section*.29}%
 \contentsline {section}{\numberline {3.7}Conclusion}{21}{section*.30}%
 \contentsline {section}{\numberline {3.8}Future Work}{22}{section*.31}%
-\contentsline {chapter}{\numberline {4}Visual Cue Based Corrective Feedback for Motor Skill Training in Mixed Reality}{23}{chapter.4}%
+\contentsline {chapter}{\numberline {4}An Overview of Visual Feedback for Motor Skill Learning in MR}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Related Work}{24}{section*.33}%
 \contentsline {section}{\numberline {4.2}Organization of this Chapter}{25}{section*.34}%
 \contentsline {section}{\numberline {4.3}Background and Terminology }{26}{section*.35}%
@@ -39,10 +39,10 @@
 \contentsline {subsection}{\numberline {4.8.1}Findings}{45}{section*.66}%
 \contentsline {subsection}{\numberline {4.8.2}Limitations}{46}{section*.67}%
 \contentsline {subsection}{\numberline {4.8.3}Open Questions }{46}{section*.68}%
-\contentsline {chapter}{\numberline {5}Registration of Superimposed Avatars }{49}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Informative Registration of Superimposed Avatars }{49}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Related Work }{49}{section*.71}%
 \contentsline {section}{\numberline {5.2}Methodology }{50}{section*.72}%
-\contentsline {section}{\numberline {5.3}Conclusion}{54}{section*.80}%
+\contentsline {section}{\numberline {5.3}Conclusion}{55}{section*.80}%
 \contentsline {chapter}{\numberline {6}Automatic Viewpoint Selection for Interactive Motor Feedback Using PCA}{57}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Related Work }{57}{section*.82}%
 \contentsline {section}{\numberline {6.2}Methodology }{59}{section*.84}%
@@ -61,7 +61,7 @@
 \contentsline {subsection}{\numberline {6.4.3}Viewpoint Comparison }{71}{section*.103}%
 \contentsline {section}{\numberline {6.5}Insights and Discussion}{73}{section*.107}%
 \contentsline {section}{\numberline {6.6}Conclusion}{74}{section*.109}%
-\contentsline {chapter}{\numberline {7}Omnipresent In-Situ Feedback for Motor Skill Training using AR }{75}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Omnipresent In-Situ Feedback for Motor Skill Training using AR}{75}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Point of View in Motor Feedback}{76}{section*.111}%
 \contentsline {section}{\numberline {7.2}Common Visual Feedback Technologies}{77}{section*.113}%
 \contentsline {section}{\numberline {7.3}Related Work}{77}{section*.114}%
@@ -87,6 +87,6 @@
 \contentsline {section}{\numberline {8.1}Research Questions }{91}{section*.141}%
 \contentsline {section}{\numberline {8.2}Future Work}{92}{section*.142}%
 \contentsline {chapter}{\nonumberline Bibliography}{93}{chapter*.143}%
-\contentsline {chapter}{List of Figures}{109}{section*.145}%
-\contentsline {chapter}{List of Tables}{111}{section*.145}%
-\contentsline {chapter}{List of Abbreviations}{113}{section*.145}%
+\contentsline {chapter}{List of Figures}{109}{section*.144}%
+\contentsline {chapter}{List of Tables}{111}{section*.144}%
+\contentsline {chapter}{List of Abbreviations}{113}{section*.144}%
