@@ -86,7 +86,7 @@
 \contentsline {chapter}{\numberline {8}Final Conclusion}{91}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Research Questions }{91}{section*.141}%
 \contentsline {section}{\numberline {8.2}Future Work}{92}{section*.142}%
-\contentsline {chapter}{\nonumberline Bibliography}{93}{chapter*.143}%
-\contentsline {chapter}{List of Figures}{109}{section*.144}%
-\contentsline {chapter}{List of Tables}{111}{section*.144}%
-\contentsline {chapter}{List of Abbreviations}{113}{section*.144}%
+\contentsline {chapter}{\nonumberline Bibliography}{95}{chapter*.143}%
+\contentsline {chapter}{List of Figures}{111}{section*.144}%
+\contentsline {chapter}{List of Tables}{113}{section*.144}%
+\contentsline {chapter}{List of Abbreviations}{115}{section*.144}%
