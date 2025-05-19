@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.29)  19 MAY 2025 12:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.29)  19 MAY 2025 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1604,7 +1604,7 @@ Package scrbase Info: activating english \tablename on input line 134.
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 22.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 28.
  (c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
@@ -2889,18 +2889,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50293 strings out of 473207
- 976372 string characters out of 5720461
+ 50302 strings out of 473207
+ 976444 string characters out of 5720461
  2223356 words of memory out of 5000000
  71461 multiletter control sequences out of 15000+600000
- 723999 words of font info for 524 fonts, out of 8000000 for 9000
+ 724416 words of font info for 529 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,14n,131p,10905b,3123s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/bookman/ubkli8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (132 pages, 18024198 bytes).
+Output written on main.pdf (132 pages, 18020432 bytes).
 PDF statistics:
  3400 PDF objects out of 3580 (max. 8388607)
  3032 compressed objects within 31 object streams
  632 named destinations out of 1000 (max. 500000)
- 80064 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 83648 words of extra memory for PDF output out of 89155 (max. 10000000)
 
