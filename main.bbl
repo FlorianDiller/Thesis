@@ -2017,7 +2017,7 @@
     \field{year}{2025}
   \endentry
 
-  \entry{diller2024holistic}{article}{}{}
+  \entry{diller2024holistic}{inproceedings}{}{}
     \name{author}{5}{}{%
       {{hash=DF}{%
          family={Diller},
@@ -2026,7 +2026,7 @@
          giveni={F\bibinitperiod},
       }}%
       {{hash=PF}{%
-         family={P{\"u}schel},
+         family={Püschel},
          familyi={P\bibinitperiod},
          given={Fabian},
          giveni={F\bibinitperiod},
@@ -2038,7 +2038,7 @@
          giveni={J\bibinitperiod},
       }}%
       {{hash=BK}{%
-         family={B{\"o}hm},
+         family={Böhm},
          familyi={B\bibinitperiod},
          given={Klaus},
          giveni={K\bibinitperiod},
@@ -2059,9 +2059,12 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{D}
     \field{sortinithash}{D}
+    \field{booktitle}{Eurographics 2024 - Education Papers}
     \verb{doi}
     \verb 10.2312/eged.20241002
     \endverb
+    \field{isbn}{978-3-03868-238-7}
+    \field{issn}{1017-4656}
     \field{title}{Holistic Approach to Modular Open Educational Resources for
   Computer Graphics}
     \field{year}{2024}
@@ -2105,22 +2108,22 @@
     \field{year}{2022}
   \endentry
 
-  \entry{diller2024automatic}{article}{}{}
+  \entry{diller2024automatic}{inproceedings}{}{}
     \name{author}{3}{}{%
       {{hash=DF}{%
-         family={Diller.},
+         family={Diller},
          familyi={D\bibinitperiod},
          given={Florian},
          giveni={F\bibinitperiod},
       }}%
       {{hash=WA}{%
-         family={Wiebel.},
+         family={Wiebel},
          familyi={W\bibinitperiod},
          given={Alexander},
          giveni={A\bibinitperiod},
       }}%
       {{hash=SG}{%
-         family={Scheuermann.},
+         family={Scheuermann},
          familyi={S\bibinitperiod},
          given={Gerik},
          giveni={G\bibinitperiod},
@@ -2132,7 +2135,7 @@
     \list{publisher}{1}{%
       {SciTePress}%
     }
-    \strng{namehash}{DF+2}
+    \strng{namehash}{DF+1}
     \strng{fullhash}{DFWASG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
