@@ -61,10 +61,6 @@ Skill acquisition starts in the \emph{cognitive} stage, where the learner tries 
 In the \emph{associative} stage the learner will construct the actions to be done from minor movements (subroutines) and the information gathered during the cognitive stage.
 The final stage is the \emph{autonomous} stage. Herein the learner has fully internalized the movement. The cognitive capacity needed for the movement is minimal in this stage. Thus, additional information can be accessed or processed while making use of the skill. The efficiency and performance of the activity enacted still increase in this stage.
 
-Once the learners have internalized an action, they can revisit stages to improve and 'relearn' their movements~\cite{huber2013AEP}. As stated by Fitts and Posner~\cite{fitts1967HPe} the transitions between stages are not always clear. Nevertheless, it will be useful in the survey at hand to relate the skill level of the target group to the feedback given.
-
-For more general information regarding skill learning and further related learning models, see \autoref{chap:concepts}.
-
 \begin{table}[th]
 \caption[Fitts and Posner's~\cite{fitts1967HPe} stages of skill learning.]{Fitts and Posner's~\cite{fitts1967HPe} stages of skill learning as applied to motor learning. Presentation based on~\cite{huber2013AEP}.\label{table:1}}
 \begin{tabular}{ |p{2.2cm}||p{2.6cm}|p{5.2cm}|p{2.2cm}|  }
@@ -82,6 +78,10 @@ For more general information regarding skill learning and further related learni
 \end{tabular}
 \label{table:stages}
 \end{table}
+
+Once the learners have internalized an action, they can revisit stages to improve and 'relearn' their movements~\cite{huber2013AEP}. As stated by Fitts and Posner~\cite{fitts1967HPe} the transitions between stages are not always clear. Nevertheless, it will be useful in the survey at hand to relate the skill level of the target group to the feedback given.
+
+For more general information regarding skill learning and further related learning models, see \autoref{chap:concepts}.
 
 \subsection{Instructor or Agent\label{sec:instructor}}
 In Fitts and Posner's work~\cite{fitts1967HPe} discussed above, instructors play a central role. They transfer knowledge to the learner and decide what input is suitable at a given moment. In most \acrshort{mr} systems, a machine substitutes the instructor as illustrated in \autoref{fig:feedback}. This means that feedback systems have to be designed carefully with the user in mind (participatory design)~\cite{davies2003vrf}. Oftentimes health care professionals are included in this process~\cite{hilton2011dem}.
@@ -301,24 +301,24 @@ The data provided by the motion of a body can be used to create \textit{graphs} 
 One way of defining movements is by observing the angles at the joints between two bones. These \textit{limb angles} can consequently also be used to provide feedback to the user on how to correct the movement or in what way to move next (see \eg\ Debarba et al.~\cite{debarba2018arv}).
 
 
-
-
-
-\section{Exemplary Discussion \label{sec:exemplary}}
-In the following discussion, we will point out examples to explain certain features that are either widely spread among the surveyed literature or have rare occurrences. In other words, we provide a collection of \textit{representative} and \textit{exceptional} examples. This will help the reader understand the composition of the body of literature we are analyzing and will complement the overview provided by \autoref{table:2}.
-\begin{figure}[h!t]
+\begin{figure}[th]
     \centering
     \includegraphics[width=0.6\linewidth]{pictures/Oka.PNG}
     \caption[Example of a color-coded skeleton.]{Color-coded skeleton: The skeleton visualizes where to correct the movement. Image from~\cite{oka2021rtf}.\label{fig:Oka}}
 \end{figure}
 
+
+
+\section{Exemplary Discussion \label{sec:exemplary}}
+In the following discussion, we will point out examples to explain certain features that are either widely spread among the surveyed literature or have rare occurrences. In other words, we provide a collection of \textit{representative} and \textit{exceptional} examples. This will help the reader understand the composition of the body of literature we are analyzing and will complement the overview provided by \autoref{table:2}.
+
+
 \subsection{Representative Examples}
 The work of Oka et al.~\cite{oka2021rtf} utilizes \emph{color coding} in their visualization to provide feedback to users through \emph{\acrshort{vr} glasses}. Users are shown color-coded cues indicating if any of their limbs need correction for an ideal execution of the exercise. The \emph{real time} feedback provided is supplemented by \emph{textual} cues and training metadata. The visualization of an abstracted skeleton as an avatar (see \autoref{fig:Oka}) is oftentimes utilized in the analyzed literature (see for example Furukawa et al.~\cite{furukawa2018dar} or Escalona et al.~\cite{escalona2020eva}).
 
-
 Ikeda et al.~\cite{ikeda2018arb} likewise present a research attempt to visualize motion feedback using \emph{\acrshort{vr} glasses}. Users can watch their body (as an avatar) from a \emph{third person} perspective. This enables them to gather information about the intended movement correction of the \emph{whole body}. It is possible to get the feedback in \emph{real time} as well as a \emph{playback} after the exercise. This work addresses the matching of actual and target movement with dynamic time warping. The matching of time discrepant executions is a challenge many real-time or playback feedback solutions have to face. The exocentric perspective in combination with \acrshort{vr} is a setup often found throughout the literature surveyed. Further examples can be found in the work of Hoang et al.~\cite{hoang2016orp} and Ware et al.~\cite{ware2020wo2}.
 
-\begin{figure}[h!t]
+\begin{figure}[tb]
     \centering
     \includegraphics[width=0.6\linewidth]{pictures/Barioni.png}
     \caption[Transparent avatar for motion feedback.]{An opaque avatar shows the actual pose, while a transparent target avatar depicts the target pose, which is to be taken. Image from~\cite{barioni2019bvr}.\label{fig:Barioni}}
@@ -331,7 +331,7 @@ Oshita et al.~\cite{oshita2018sts} use \emph{opaque target avatars} to provide m
 
 \subsection{Exceptional Examples}
 A rehabilitation-oriented approach is presented by Debarba et al.~\cite{debarba2018arv}. With an \emph{optical see-through} \acrshort{hmd} they visualize realistic-looking bones of the clients. The \acrshort{hmd} is worn by the \emph{instructors}, who get \emph{real-time} feedback on how far the limb is bent by an angular indicator at the joint. The realistic rendering of bones is unique since it is often more legible to have abstract movement metaphors. Debarba et al. combine these realistic skeleton bones with a simple visualization of the \emph{limb angle}. This solution was chosen as an exceptional example due to the special circumstances of a rehabilitation setting in combination with the instructor as a feedback receiver.
-\begin{figure}[h!t]
+\begin{figure}[bt]
     \centering
     \includegraphics[height=0.4\linewidth]{pictures/Shiro.png}
     \caption[Synthesized frame between expert and beginner.]{Video frame synthesized by interpolating between user and expert pose. The upper slide bar represents the degree of expertise used for the interpolation. The lower slide bar controls the current frame of the playback. Image from~\cite{shiro2019ipv}.\label{fig:Shiro}}
@@ -343,7 +343,7 @@ The work of Shiro et al.~\cite{shiro2019ipv} represents another innovative attem
 Vidal et al.~\cite{vidal2020blo} use a \emph{projection}-based approach to visualize the movement of the trunk. Lights attached to the body show the position of the trunk on the floor or walls of the room. The correct position is represented by a mark in the room. The users need to move to match this mark with the projected crosshair (see \autoref{fig:Vidal}). This \emph{abstract} approach, which works in \emph{real-time}, represents a singularity in the literature we analyzed.
 
 Another approach utilizing \emph{projection} is presented by Kosmalla et al.~\cite{kosmalla2017cvi}. A projector displays an image on a climbing wall visualizing either the \emph{end position} of the next motion or an instructor performing the \emph{upcoming} movement. The attempt to project the feedback onto the training equipment is seen a few times throughout the literature. It is the scale and the virtual instructor on the wall that make this approach unique.
-\begin{figure}[h!bt]
+\begin{figure}[tb]
     \centering
     \includegraphics[width=0.6\linewidth]{pictures/Vidal.png}
     \caption[Projection-based \acrshort{mr} for body parts that are hard to see.]{Projection-based \acrshort{mr} for body parts that are hard to see. Assuming a correct movement execution the projected crosshair matches the marking on the floor. Image from~\cite{vidal2020blo}.\label{fig:Vidal}}
@@ -373,7 +373,7 @@ When considering the connection between the visual cues and the learning stages,
 
 \textbf{\emph{Visual Cues:}} The most popular visual cues were \emph{end position} and \emph{opaque target avatar} as seen in \autoref{fig:CueHistogram}. The directional cues like \emph{arrows} and \emph{rubber bands} are seldom used throughout literature. The literature appears to prefer a positional approach.
 
-\begin{figure}[thb]
+\begin{figure}[bt]
     \centering
     \includegraphics[width=0.8\linewidth]{pictures/CueHistogram.PNG}
     \caption{Occurrence of different visual cues in the selected literature.\label{fig:CueHistogram}}

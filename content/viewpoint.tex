@@ -9,14 +9,14 @@ As demonstrated by Bouwmans et al.~\cite{bouwmans2018arpca}, robust \acrshort{pc
 
 Several studies have explored approaches to viewpoint selection for human actions or movements. For example, Rudoy et al.~\cite{rudoy2011vsh} developed a method to generate a three-dimensional volume from several successive frames to select the best physical camera for television broadcasts and similar applications. Whereas Kiciroglu et al.~\cite{kiciroglu2020amc} proposed an algorithm predicting pose estimation accuracy. As a result, a drone was navigated to the calculated optimal view point. Shi et al.~\cite{shi2012ksb} introduced an algorithm to determine the best viewpoint using \emph{Kinematics Significance Based Saliency}, which rotates figures and objects to show their most protuding features.
 
-Wang et al.~\cite{wang2019asw} utilized information theory and deep reinforcement learning to select a single viewpoint for action sequences. Simiarly, Choi et al.~\cite{choi2012rav} extracted key frames from motion data to create a sequence of stick figures representing the initial motion data.
-
-\begin{figure}[t!h]
+\begin{figure}[t!b]
 	\centering
 	\includegraphics[width=0.6\linewidth]{pictures/skeleton_E_occ.png}
 	\caption[Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}.]{Measure for the self-occlusion of the skeleton by Ishara et al.~\cite{ishara2015mra}: \acrlong{jmo}.}
 	\label{fig:jmo}
 \end{figure}
+
+Wang et al.~\cite{wang2019asw} utilized information theory and deep reinforcement learning to select a single viewpoint for action sequences. Simiarly, Choi et al.~\cite{choi2012rav} extracted key frames from motion data to create a sequence of stick figures representing the initial motion data.
 
 Ishara et al.~\cite{ishara2015mra} calculated the optimal camera position for robot navigation using a camera mounted on top of the robot. Their approach involves calculating the so-called \emph{\acrfull{jmo}}, which considers the angle \(\alpha\) between two joints and the viewpoint, as shown in \autoref{fig:jmo}. The angles \(\alpha_{nm}\) between joints \(n\) and \(m\) are summed and normalized, where \(n,m \in N\) and \(n \neq m\), with \(N\) representing the number of joints. This approach results in \(\frac{N!}{2(N-2)!}\) calculations of \(\alpha\)~\cite{charalambides2002enumerative} and could therefore be computationally expensive. 
 
@@ -39,7 +39,7 @@ To facilitate a user-friendly and intuitive viewpoint selection, several things 
 \subsection{Perspective Considerations \label{sec:considerations}}
 In the literature, concrete general rules for generating good perspectives are lacking. However, based on user preferences and logical argumentation several criteria and hints can be extracted to determine what facilitates a good viewpoint.
 
-\begin{figure}[t!h]
+\begin{figure}[bt]
 	\centering
 	\includegraphics[width=\linewidth]{pictures/projection_normal.png}
 	\caption[Illustrating the importance of viewpoint selection.]{Illustrating the importance of viewpoint selection: Three \emph{different} joint angles produce \emph{identical} shadows when projected onto the ground, implying they appear identical from an overhead perspective. Inspired by Nundy et al.~\cite{nundy2000wam}.}
@@ -185,7 +185,7 @@ The calculated viewpoints were evaluated using the benchmark presented by Dutaga
 
 In \autoref{eq:vse}, \(GD_m\) represents the geodesic distance of the potential viewpoint to each user-chosen viewpoint \(m \in M\). The variable $M$ represents the total number of participants (i.e., the number of viewpoints to consider). The viewpoints are expected to be on a sphere (viewpoint sphere) around the focused object. The radius of said sphere (i.e. the distance of each viewpoint to the focused object) is represented by $r$. To visualize the user-selected viewpoints, the viewpoint vectors were projected on the median and transverse planes. Subsequently, we plotted the \acrshort{vse} by comparing each direction around the center as a potential viewpoint. As a result, the \emph{\acrshort{vse}} is displayed angle-wise in the median and frontal plane around the body using the Viridis colormap~\cite{viridis} in \autoref{fig:colorMaps}. Here, blue areas represent a low \acrshort{vse} and therefore, an overall low distance to the user-selected view directions. In contrast, view directions that were avoided by the participants are shown by yellow areas.
 
-\begin{figure*}[ht]
+\begin{figure*}[t]
 	\centering
 	\subfloat[\centering Bench Press]{\includegraphics[width=0.24\linewidth]{pictures/transverseBench.png}}
 	\subfloat[\centering Squat]{\includegraphics[width=0.24\linewidth]{pictures/transverseSquat.png}}
@@ -217,8 +217,6 @@ As can be seen in \autoref{fig:kwonSequence}, the algorithm of Kwon et al. seeme
 \textbf{Ours:}
 Our algorithm consistently transitioned between an optimal viewpoint for the neutral position and the contracted position with deviations, as illustrated in \autoref{fig:bicepsSequence}. When feedback was present, it was displayed clearly and with a perceivably emphasized. However, during some exercises, the rapid exercise execution caused a conflict between the neutral and the feedback-optimized viewpoint. This resulted in quick camera movements, which some users perceived as irritating.
 
-\subsection{Viewpoint Comparison \label{sec:results:comparison}}
-\autoref{tab:comparison} shows the user choice distribution of the viewpoint comparison. Our algorithm was most prevalent with 35.04~\% of votes, the isometric-like position was chosen second most with 32.48~\%, followed by Kwon et al.~\cite{kwon2020ocp} with 17.52~\% and lastly \acrshort{jmo}~\cite{ishara2015mra} with 14.96~\%.
 
 \begin{figure*}[h!]
 	\centering
@@ -262,12 +260,18 @@ Our algorithm consistently transitioned between an optimal viewpoint for the neu
 	\label{fig:bicepsSequence}
 \end{figure*}
 
+\subsection{Viewpoint Comparison \label{sec:results:comparison}}
+
+\autoref{tab:comparison} shows the user choice distribution of the viewpoint comparison. Our algorithm was most prevalent with 35.04~\% of votes, the isometric-like position was chosen second most with 32.48~\%, followed by Kwon et al.~\cite{kwon2020ocp} with 17.52~\% and lastly \acrshort{jmo}~\cite{ishara2015mra} with 14.96~\%.
+
 Occasionally camera positions from behind were provided by the methods of Kwon et al.~\cite{kwon2020ocp} and Ishara et al.~\cite{ishara2015mra}. Additionally, they produced an unsteady camera movement, because they jumped between far-distant viewpoints and generally, had merely a limited amount of viewpoints available. In contrast, the static isometric-like viewpoint produced surprisingly good results, although it lacked an adaptation for movement or feedback. The primary advantage of the isometric-like viewpoint over the other methods was its stability. Our method provided an adequate view of the neutral positions of the exercises. Furthermore, it produced a continuous camera movement toward a feedback-oriented viewpoint with increasing deviation. However, the camera movement showing the bench press and bent-over row exercises was occasionally rapid.
 
 \section{Insights and Discussion\label{sec:insights}}
 Looking at \autoref{fig:colorMaps}, it becomes evident that the participants preferred a frontal view direction. This aligns with the statement made by Zusne~\cite{zusne1970vpf}, that humans desire frontal views (see \autoref{sec:considerations}), and verifies these requirements for our application. Additionally, it was observed that participants preferred a viewpoint from slightly above.
 
-\begin{table}[h]
+Our algorithm performs significantly less well for some specific exercises. This can be attributed to the consistently smooth, though occasionally rapid, camera movement. In particular, the camera moved rapidly during the bench press and bent-over row exercises. As stated in \autoref{sec:methViewCalc}, our algorithm generally prevents inconsistent camera movement, though rapid camera motions may still occasionally occur.
+
+\begin{table}[b]
 	\centering
 	\caption[Results of user study evaluation view selection methods.]{\label{tab:comparison}Results of user study. Distribution of viewpoint selection methods chosen by the participants.}%
 	\begin{tabular}{@{}l|llllll|l@{}}
@@ -281,8 +285,6 @@ Looking at \autoref{fig:colorMaps}, it becomes evident that the participants pre
 		\bottomrule
 	\end{tabular}
 \end{table}
-
-Our algorithm performs significantly less well for some specific exercises. This can be attributed to the consistently smooth, though occasionally rapid, camera movement. In particular, the camera moved rapidly during the bench press and bent-over row exercises. As stated in \autoref{sec:methViewCalc}, our algorithm generally prevents inconsistent camera movement, though rapid camera motions may still occasionally occur.
 
 The most prevalent statement made by the participants regarded camera movement consistency. Specifically, users were irritated by movements that were too rapid or erratic. This observation matches similar findings by Assa et al.~\cite{assa2008moh} concerning camera paths. Additionally, many participants indicated that having multiple camera perspectives would help them to understand the poses and feedback. This is especially interesting for future work and when applying suggested methods. Additionally, some users desired the option to select no method, as they felt none of the suggested perspectives were adequate. This implies that there are possible improvements to our algorithm and that human viewpoint preferences might need further assessment. Lastly, some users struggled to interpret poses without relation to the environment. Primarily, this concerned the bench press exercise, where a virtual bench might help users interpret the avatar posture. Therefore, incorporating the surrounding environment could facilitate understanding, especially for exercises involving equipment such as weights, benches, and pull-up bars. However, additionally rendered equipment could occlude the avatar or visual cues and therefore hinder the perception of the provided feedback.
 

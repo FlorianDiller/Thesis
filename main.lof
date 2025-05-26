@@ -14,9 +14,9 @@
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Rotation}}}{19}{subfigure.5.3}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of the human-machine feedback loop based on~\blx@tocontentsinit {0}\cite {morone2021dab}.}}{26}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of an exocentric and egocentric perspective.}}{32}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of an exocentric and egocentric perspective.}}{33}{figure.caption.46}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Examples of visual cues used in the literature.}}{34}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Example of a color-coded skeleton.}}{39}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Example of a color-coded skeleton.}}{39}{figure.caption.56}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Transparent avatar for motion feedback.}}{40}{figure.caption.59}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Synthesized frame between expert and beginner.}}{41}{figure.caption.61}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Projection-based \acrshort {mr} for body parts that are hard to see.}}{42}{figure.caption.62}%
@@ -55,12 +55,12 @@
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Squat}}}{70}{subfigure.7.6}%
 \contentsline {subfigure}{\numberline {(g)}{\ignorespaces {\centering Bent-down}}}{70}{subfigure.7.7}%
 \contentsline {subfigure}{\numberline {(h)}{\ignorespaces {\centering Stand}}}{70}{subfigure.7.8}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Image sequence optimized by Kwon et al.~\blx@tocontentsinit {0}\cite {kwon2020ocp}.}}{72}{figure.caption.104}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Image sequence optimized by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}.}}{72}{figure.caption.105}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Image sequence optimized by our method.}}{72}{figure.caption.106}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Image sequence optimized by Kwon et al.~\blx@tocontentsinit {0}\cite {kwon2020ocp}.}}{72}{figure.caption.103}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Image sequence optimized by Ishara et al.~\blx@tocontentsinit {0}\cite {ishara2015mra}.}}{72}{figure.caption.104}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Image sequence optimized by our method.}}{72}{figure.caption.105}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Examples of exocentric and egocentric motion feedback in \acrshort {ar}.}}{76}{figure.caption.112}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot of the egocentric motor feedback provided by SkillAR via \acrshort {hmd}.}}{79}{figure.caption.117}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Screenshot of the motor feedback provided by SkillAR via \acrshort {hmd}.}}{79}{figure.caption.117}%
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Example exercises with deviations as described in \autoref {sec:design}.}}{80}{figure.caption.119}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Standing}}}{80}{subfigure.3.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Jumping\\Jack}}}{80}{subfigure.3.2}%
@@ -70,6 +70,6 @@
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {\centering Warrior II}}}{80}{subfigure.3.6}%
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Positioning of the feedback avatar.}}{81}{figure.caption.121}%
 \contentsline {figure}{\numberline {7.5}{\ignorespaces Spatial stabilization of the feedback positioning.}}{82}{figure.caption.122}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Top-down mode visualizing exercises when looking down.}}{82}{figure.caption.123}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Top-down mode visualizing exercises when looking down.}}{83}{figure.caption.123}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
